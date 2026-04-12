@@ -3,14 +3,38 @@
     {
       "id": "cough",
       "name": "咳嗽",
-      "aliases": ["咳", "乾咳", "有痰", "咳不停", "一直咳", "咳嗽不停", "夜咳"],
+      "aliases": [
+        "咳",
+        "乾咳",
+        "有痰",
+        "咳不停",
+        "一直咳",
+        "咳嗽不停",
+        "夜咳"
+      ],
       "causes": [
         {
           "id": "cough_bacteria",
           "category": "細菌感染",
           "description": "細菌感染氣管或呼吸道",
-          "pathogens": ["葡萄球菌", "A型鏈球菌", "肺炎鏈球菌", "流感嗜血桿菌", "肺炎披衣菌", "黴漿菌", "金黃色葡萄球菌", "卡他莫拉菌", "克雷伯氏菌", "綠膿桿菌"],
-          "bodyParts": ["氣管", "支氣管", "肺泡", "肺"],
+          "pathogens": [
+            "葡萄球菌",
+            "A型鏈球菌",
+            "肺炎鏈球菌",
+            "流感嗜血桿菌",
+            "肺炎披衣菌",
+            "黴漿菌",
+            "金黃色葡萄球菌",
+            "卡他莫拉菌",
+            "克雷伯氏菌",
+            "綠膿桿菌"
+          ],
+          "bodyParts": [
+            "氣管",
+            "支氣管",
+            "肺泡",
+            "肺"
+          ],
           "treatmentNotes": "腎上腺 + 氣管周圍肌肉 + Piezo1",
           "notes": "Check 懸壅垂、扁桃腺、頸部淋巴結、食道、甲狀腺等。病毒細菌在人體內1天之後常常會進入脊髓。"
         },
@@ -18,8 +42,27 @@
           "id": "cough_virus",
           "category": "病毒感染",
           "description": "病毒感染呼吸系統",
-          "pathogens": ["鼻病毒", "腺病毒", "A型流感 H3N2", "A型流感 H1N1", "H5N1", "B型流感", "Covid", "副流行感冒病毒", "呼吸道融合病毒(RSV)", "克沙其病毒", "腸病毒"],
-          "bodyParts": ["呼吸系統", "喉嚨", "扁桃腺", "神經系統", "肺", "支氣管"],
+          "pathogens": [
+            "鼻病毒",
+            "腺病毒",
+            "A型流感 H3N2",
+            "A型流感 H1N1",
+            "H5N1",
+            "B型流感",
+            "Covid",
+            "副流行感冒病毒",
+            "呼吸道融合病毒(RSV)",
+            "克沙其病毒",
+            "腸病毒"
+          ],
+          "bodyParts": [
+            "呼吸系統",
+            "喉嚨",
+            "扁桃腺",
+            "神經系統",
+            "肺",
+            "支氣管"
+          ],
           "treatmentNotes": "確認感染部位，加上發炎4訊號（愛滅炎、發炎激素、去發炎、DEXA）",
           "notes": "2025主要流行流感A H3N2 與 H1N1。病毒感染後常進入脊髓，需 check 脊髓、脊髓液、周遭肌肉筋膜。"
         },
@@ -27,8 +70,19 @@
           "id": "cough_allergy",
           "category": "過敏",
           "description": "過敏原刺激呼吸道引發咳嗽",
-          "pathogens": ["灰塵", "塵蟎", "溫度與濕度差距大", "煙霧", "花粉", "貓狗毛"],
-          "bodyParts": ["支氣管", "氣管", "肺泡"],
+          "pathogens": [
+            "灰塵",
+            "塵蟎",
+            "溫度與濕度差距大",
+            "煙霧",
+            "花粉",
+            "貓狗毛"
+          ],
+          "bodyParts": [
+            "支氣管",
+            "氣管",
+            "肺泡"
+          ],
           "treatmentNotes": "腎上腺 + Piezo1 + 部位 + 發炎訊號組合。固定時間發作要加上腎上腺。",
           "notes": "沒有其他感染源，且過敏症狀在特定時間出現（早上起床、下午、晚上入眠前）時，加腎上腺 + Piezo1。"
         },
@@ -37,7 +91,11 @@
           "category": "氣喘",
           "description": "支氣管與肺泡內肌肉發炎或黏液堆積",
           "pathogens": [],
-          "bodyParts": ["支氣管", "肺泡", "支氣管內的肌肉"],
+          "bodyParts": [
+            "支氣管",
+            "肺泡",
+            "支氣管內的肌肉"
+          ],
           "treatmentNotes": "治療支氣管 & 肺泡，支氣管內的肌肉發炎，清除黏液",
           "notes": "卡在支氣管跟肺泡內的黏液也可能是喘的原因。"
         },
@@ -45,8 +103,14 @@
           "id": "cough_mycoplasma",
           "category": "黴漿菌感染",
           "description": "肺炎黴漿菌感染引發持續性咳嗽",
-          "pathogens": ["肺炎黴漿菌 (Mycoplasma pneumoniae)"],
-          "bodyParts": ["肺", "支氣管", "上呼吸道"],
+          "pathogens": [
+            "肺炎黴漿菌 (Mycoplasma pneumoniae)"
+          ],
+          "bodyParts": [
+            "肺",
+            "支氣管",
+            "上呼吸道"
+          ],
           "treatmentNotes": "針對肺部與支氣管感染部位治療，加上發炎4訊號",
           "notes": "2026年春季仍在流行。又稱「走路的肺炎」，特徵為久咳不癒、乾咳。"
         }
@@ -55,14 +119,24 @@
     {
       "id": "night_cough",
       "name": "半夜咳嗽",
-      "aliases": ["夜咳", "睡覺咳", "半夜咳", "晚上咳"],
+      "aliases": [
+        "夜咳",
+        "睡覺咳",
+        "半夜咳",
+        "晚上咳"
+      ],
       "causes": [
         {
           "id": "night_cough_main",
           "category": "過敏與腎上腺",
           "description": "夜間腎上腺素下降導致症狀加劇",
           "pathogens": [],
-          "bodyParts": ["氣管", "支氣管", "肺泡", "腎上腺"],
+          "bodyParts": [
+            "氣管",
+            "支氣管",
+            "肺泡",
+            "腎上腺"
+          ],
           "treatmentNotes": "針對氣管、支氣管、肺泡，加上腎上腺、PIEZO1、發炎整套，還有寫上「溫度&濕度差距大」或其他可能過敏原因",
           "notes": ""
         }
@@ -71,14 +145,24 @@
     {
       "id": "nasal_congestion",
       "name": "鼻塞",
-      "aliases": ["鼻子塞", "鼻塞住", "鼻不通", "鼻子不通", "塞住"],
+      "aliases": [
+        "鼻子塞",
+        "鼻塞住",
+        "鼻不通",
+        "鼻子不通",
+        "塞住"
+      ],
       "causes": [
         {
           "id": "nasal_inflammation",
           "category": "發炎",
           "description": "鼻黏膜與腺樣體發炎",
           "pathogens": [],
-          "bodyParts": ["鼻腔", "鼻黏膜", "腺樣體"],
+          "bodyParts": [
+            "鼻腔",
+            "鼻黏膜",
+            "腺樣體"
+          ],
           "treatmentNotes": "鼻竇可以從圖中的區域抓，看哪裡有發炎",
           "notes": "鼻子要抓三個部位：鼻腔、鼻黏膜、腺樣體。"
         },
@@ -86,8 +170,19 @@
           "id": "nasal_sinusitis",
           "category": "鼻竇炎",
           "description": "鼻竇感染發炎",
-          "pathogens": ["A型鏈球菌", "肺炎鏈球菌", "流感嗜血桿菌", "金黃色葡萄球菌"],
-          "bodyParts": ["鼻竇", "額竇", "上頜竇", "篩竇", "蝶竇"],
+          "pathogens": [
+            "A型鏈球菌",
+            "肺炎鏈球菌",
+            "流感嗜血桿菌",
+            "金黃色葡萄球菌"
+          ],
+          "bodyParts": [
+            "鼻竇",
+            "額竇",
+            "上頜竇",
+            "篩竇",
+            "蝶竇"
+          ],
           "treatmentNotes": "抓鼻竇的位置一個個治療（額頭也有鼻竇）",
           "notes": ""
         },
@@ -95,8 +190,21 @@
           "id": "nasal_allergy",
           "category": "過敏",
           "description": "過敏原引發鼻腔反應",
-          "pathogens": ["灰塵", "塵蟎", "煙霧", "花粉", "冷熱溫差", "貓狗毛", "布料", "光線"],
-          "bodyParts": ["鼻腔", "鼻黏膜", "腺樣體"],
+          "pathogens": [
+            "灰塵",
+            "塵蟎",
+            "煙霧",
+            "花粉",
+            "冷熱溫差",
+            "貓狗毛",
+            "布料",
+            "光線"
+          ],
+          "bodyParts": [
+            "鼻腔",
+            "鼻黏膜",
+            "腺樣體"
+          ],
           "treatmentNotes": "固定時間發作加腎上腺。治療過敏原 + 腎上腺 + 部位 + 發炎訊號組合",
           "notes": "鼻子通常在一定的時間有問題（一早起來、下午午飯之後），要加上腎上腺做測試。"
         }
@@ -105,14 +213,28 @@
     {
       "id": "headache",
       "name": "頭痛",
-      "aliases": ["頭疼", "頭好痛", "偏頭痛", "頭脹"],
+      "aliases": [
+        "頭疼",
+        "頭好痛",
+        "偏頭痛",
+        "頭脹"
+      ],
       "causes": [
         {
           "id": "headache_bacteria",
           "category": "細菌感染",
           "description": "鼻竇、腦部或呼吸系統細菌感染",
-          "pathogens": ["A型鏈球菌", "肺炎鏈球菌", "流感嗜血桿菌", "金黃色葡萄球菌"],
-          "bodyParts": ["鼻竇", "腦", "呼吸系統"],
+          "pathogens": [
+            "A型鏈球菌",
+            "肺炎鏈球菌",
+            "流感嗜血桿菌",
+            "金黃色葡萄球菌"
+          ],
+          "bodyParts": [
+            "鼻竇",
+            "腦",
+            "呼吸系統"
+          ],
           "treatmentNotes": "Check 所有鼻竇、腦、呼吸系統是否有細菌感染",
           "notes": ""
         },
@@ -121,7 +243,10 @@
           "category": "血管發炎",
           "description": "腦部血管發炎引發頭痛",
           "pathogens": [],
-          "bodyParts": ["腦血管", "血管"],
+          "bodyParts": [
+            "腦血管",
+            "血管"
+          ],
           "treatmentNotes": "Check 血管發炎，加上發炎4訊號",
           "notes": ""
         }
@@ -130,14 +255,24 @@
     {
       "id": "insomnia",
       "name": "睡不好",
-      "aliases": ["失眠", "睡不著", "睡眠不好", "難入睡", "睡眠品質差", "淺眠"],
+      "aliases": [
+        "失眠",
+        "睡不著",
+        "睡眠不好",
+        "難入睡",
+        "睡眠品質差",
+        "淺眠"
+      ],
       "causes": [
         {
           "id": "insomnia_safety",
           "category": "心理情緒",
           "description": "環境破壞安全感需求",
           "pathogens": [],
-          "bodyParts": ["杏仁核", "松果體"],
+          "bodyParts": [
+            "杏仁核",
+            "松果體"
+          ],
           "treatmentNotes": "處理「自身目前處於的環境破壞了安全感的需求」+ 杏仁核+發炎+血清素 + 松果體+發炎+血清素+褪黑激素",
           "notes": ""
         },
@@ -146,7 +281,10 @@
           "category": "松果體發炎",
           "description": "松果體發炎影響血清素與褪黑激素",
           "pathogens": [],
-          "bodyParts": ["松果體", "杏仁核"],
+          "bodyParts": [
+            "松果體",
+            "杏仁核"
+          ],
           "treatmentNotes": "松果體 + 發炎4訊號 + 血清素 + 褪黑激素，全放一起治療",
           "notes": ""
         }
@@ -155,14 +293,25 @@
     {
       "id": "wake_at_night",
       "name": "半夜會醒",
-      "aliases": ["半夜醒來", "凌晨醒", "3點醒", "4點醒", "睡到一半醒", "固定時間醒"],
+      "aliases": [
+        "半夜醒來",
+        "凌晨醒",
+        "3點醒",
+        "4點醒",
+        "睡到一半醒",
+        "固定時間醒"
+      ],
       "causes": [
         {
           "id": "wake_hhv7",
           "category": "病毒感染",
           "description": "HHV7 引發腎上腺素異常",
-          "pathogens": ["Human herpesvirus 7 (HHV7)"],
-          "bodyParts": ["腎上腺"],
+          "pathogens": [
+            "Human herpesvirus 7 (HHV7)"
+          ],
+          "bodyParts": [
+            "腎上腺"
+          ],
           "treatmentNotes": "睡覺3-4點會醒，HHV7 引發，針對腎上腺素治療",
           "notes": ""
         },
@@ -170,8 +319,12 @@
           "id": "wake_emf",
           "category": "過敏",
           "description": "對特定時段的電磁場敏感",
-          "pathogens": ["electromagnetic field"],
-          "bodyParts": ["腦"],
+          "pathogens": [
+            "electromagnetic field"
+          ],
+          "bodyParts": [
+            "腦"
+          ],
           "treatmentNotes": "這是一種「過敏」現象，腦子在那時候針對較弱的 electromagnetic field 敏感",
           "notes": "身體哪裡發炎比較久的地方，可能在每天特定時間發作。"
         },
@@ -180,7 +333,11 @@
           "category": "腎上腺",
           "description": "腎上腺素與神經傳導物質失衡",
           "pathogens": [],
-          "bodyParts": ["腎上腺", "松果體", "杏仁核"],
+          "bodyParts": [
+            "腎上腺",
+            "松果體",
+            "杏仁核"
+          ],
           "treatmentNotes": "腎上腺素 + 松果體 + 血清素 + 褪黑激素 + 杏仁核",
           "notes": ""
         }
@@ -189,14 +346,21 @@
     {
       "id": "hot_wake",
       "name": "半夜熱醒",
-      "aliases": ["睡覺很熱", "熱醒", "體溫調節", "夜間盜汗"],
+      "aliases": [
+        "睡覺很熱",
+        "熱醒",
+        "體溫調節",
+        "夜間盜汗"
+      ],
       "causes": [
         {
           "id": "hot_trpv",
           "category": "蛋白異常",
           "description": "大腦內 TRPV 蛋白異常影響體溫調節",
           "pathogens": [],
-          "bodyParts": ["大腦"],
+          "bodyParts": [
+            "大腦"
+          ],
           "treatmentNotes": "大腦內的 TRPV1 或 TRPV3 蛋白異常。甲狀腺荷爾蒙 Triiodothyronine 過敏。甲狀腺本身免疫系統問題。",
           "notes": "腎上腺過度疲乏，皮質醇(Cortisol)。抓腦幹一路下來整個脊椎神經走到皮膚，加上 TRPV3。"
         }
@@ -205,14 +369,26 @@
     {
       "id": "leg_sore",
       "name": "腳痠",
-      "aliases": ["腿痠", "腳酸", "腿酸", "大腿痠", "小腿痠", "腿無力"],
+      "aliases": [
+        "腿痠",
+        "腳酸",
+        "腿酸",
+        "大腿痠",
+        "小腿痠",
+        "腿無力"
+      ],
       "causes": [
         {
           "id": "leg_inflammation",
           "category": "發炎",
           "description": "骨頭或肌肉發炎，通常源自腰臀問題",
           "pathogens": [],
-          "bodyParts": ["骨頭", "肌肉", "腰部", "臀部"],
+          "bodyParts": [
+            "骨頭",
+            "肌肉",
+            "腰部",
+            "臀部"
+          ],
           "treatmentNotes": "發炎四訊號 + SDE止痛藥 + 消炎止痛藥。找骨頭位置看有沒有發炎，或肌肉部位是否有發炎。",
           "notes": "通常腿痠是因為腰跟臀部的問題。抓腰部脊椎的神經延伸到大腿前面酸痛的地方。"
         },
@@ -221,7 +397,12 @@
           "category": "神經",
           "description": "交感神經與副交感神經問題",
           "pathogens": [],
-          "bodyParts": ["交感神經T10-L2", "副交感神經S2-S4", "子宮", "膀胱"],
+          "bodyParts": [
+            "交感神經T10-L2",
+            "副交感神經S2-S4",
+            "子宮",
+            "膀胱"
+          ],
           "treatmentNotes": "交感神經 T10 到 L2 + 副交感神經 S2 到 S4 + 子宮跟膀胱，搭配起來找感染以及發炎",
           "notes": ""
         }
@@ -230,14 +411,21 @@
     {
       "id": "leg_wake",
       "name": "大腿半夜痠醒",
-      "aliases": ["半夜腿痠", "睡覺腿痠"],
+      "aliases": [
+        "半夜腿痠",
+        "睡覺腿痠"
+      ],
       "causes": [
         {
           "id": "leg_wake_adrenal",
           "category": "腎上腺與神經",
           "description": "腎上腺素與薦椎神經及生理時鐘相關",
           "pathogens": [],
-          "bodyParts": ["腎上腺", "薦椎神經", "大腿神經"],
+          "bodyParts": [
+            "腎上腺",
+            "薦椎神經",
+            "大腿神經"
+          ],
           "treatmentNotes": "腎上腺素 + 薦椎神經（一路連結到大腿神經）+ 生理時鐘 (circadian rhythm)",
           "notes": ""
         }
@@ -246,14 +434,25 @@
     {
       "id": "fever",
       "name": "發燒",
-      "aliases": ["發熱", "體溫高", "燒起來", "高燒", "低燒"],
+      "aliases": [
+        "發熱",
+        "體溫高",
+        "燒起來",
+        "高燒",
+        "低燒"
+      ],
       "causes": [
         {
           "id": "fever_main",
           "category": "全身發炎",
           "description": "全身神經、動脈靜脈、延腦發炎",
           "pathogens": [],
-          "bodyParts": ["全身神經", "動脈", "靜脈", "延腦"],
+          "bodyParts": [
+            "全身神經",
+            "動脈",
+            "靜脈",
+            "延腦"
+          ],
           "treatmentNotes": "發炎四訊號加上感染源治療上述部位。",
           "notes": "即使感染移除後，症狀可能持續1-2天，因為免疫系統需要完成整個循環，T cells 轉成 memory T cells 需要此過程。"
         }
@@ -262,14 +461,37 @@
     {
       "id": "gi_infection",
       "name": "腸胃不舒服",
-      "aliases": ["拉肚子", "腹瀉", "腸胃炎", "肚子痛", "腸胃道感染", "上吐下瀉", "嘔吐", "胃痛"],
+      "aliases": [
+        "拉肚子",
+        "腹瀉",
+        "腸胃炎",
+        "肚子痛",
+        "腸胃道感染",
+        "上吐下瀉",
+        "嘔吐",
+        "胃痛"
+      ],
       "causes": [
         {
           "id": "gi_bacteria",
           "category": "細菌感染",
           "description": "細菌性腸炎，攝入遭病菌污染的食物或飲水",
-          "pathogens": ["腸炎弧菌", "沙門氏桿菌", "病原性大腸桿菌", "金黃色葡萄球菌", "仙人掌桿菌", "霍亂弧菌", "副傷寒桿菌", "蠟樣芽孢桿菌", "胃幽門螺旋桿菌"],
-          "bodyParts": ["腸道", "大腸", "胃"],
+          "pathogens": [
+            "腸炎弧菌",
+            "沙門氏桿菌",
+            "病原性大腸桿菌",
+            "金黃色葡萄球菌",
+            "仙人掌桿菌",
+            "霍亂弧菌",
+            "副傷寒桿菌",
+            "蠟樣芽孢桿菌",
+            "胃幽門螺旋桿菌"
+          ],
+          "bodyParts": [
+            "腸道",
+            "大腸",
+            "胃"
+          ],
           "treatmentNotes": "抓食物本身（通常帶著細菌），抓腸道，加上中樞神經、腦、脊椎連接到腦的脊髓",
           "notes": "也檢查大腸 gut。"
         },
@@ -277,8 +499,14 @@
           "id": "gi_virus",
           "category": "病毒感染",
           "description": "病毒性腸胃炎",
-          "pathogens": ["諾羅病毒", "輪狀病毒"],
-          "bodyParts": ["腸道", "胃"],
+          "pathogens": [
+            "諾羅病毒",
+            "輪狀病毒"
+          ],
+          "bodyParts": [
+            "腸道",
+            "胃"
+          ],
           "treatmentNotes": "同細菌感染處理方式",
           "notes": "2026年春季諾羅病毒大流行，佔腹瀉就診 >80%。2-3月為好發月份，傳染力強，低病毒量即可致病，潛伏期約10-50小時。"
         },
@@ -286,8 +514,19 @@
           "id": "gi_food_poisoning",
           "category": "食物中毒",
           "description": "食物帶有病菌導致中毒",
-          "pathogens": ["沙門氏桿菌", "腸炎弧菌", "病原性大腸桿菌", "金黃色葡萄球菌", "仙人掌桿菌"],
-          "bodyParts": ["腸道", "中樞神經", "腦", "脊髓"],
+          "pathogens": [
+            "沙門氏桿菌",
+            "腸炎弧菌",
+            "病原性大腸桿菌",
+            "金黃色葡萄球菌",
+            "仙人掌桿菌"
+          ],
+          "bodyParts": [
+            "腸道",
+            "中樞神經",
+            "腦",
+            "脊髓"
+          ],
           "treatmentNotes": "抓食物本身，通常帶著細菌，抓腸道，然後加上中樞神經、腦、脊椎連接到腦的脊髓",
           "notes": ""
         }
@@ -296,14 +535,38 @@
     {
       "id": "uti",
       "name": "尿道發炎",
-      "aliases": ["膀胱發炎", "尿道感染", "泌尿道感染", "尿尿痛", "頻尿", "尿道炎", "膀胱炎"],
+      "aliases": [
+        "膀胱發炎",
+        "尿道感染",
+        "泌尿道感染",
+        "尿尿痛",
+        "頻尿",
+        "尿道炎",
+        "膀胱炎"
+      ],
       "causes": [
         {
           "id": "uti_bacteria",
           "category": "細菌感染",
           "description": "泌尿道細菌感染",
-          "pathogens": ["大腸桿菌", "克雷白氏桿菌", "腐生性葡萄球菌", "綠膿桿菌", "糞腸球菌", "變形桿菌", "金黃色葡萄球菌", "披衣菌", "黴漿菌", "白色念珠菌", "尿素分解脲原體", "淋病雙球菌"],
-          "bodyParts": ["尿道", "膀胱"],
+          "pathogens": [
+            "大腸桿菌",
+            "克雷白氏桿菌",
+            "腐生性葡萄球菌",
+            "綠膿桿菌",
+            "糞腸球菌",
+            "變形桿菌",
+            "金黃色葡萄球菌",
+            "披衣菌",
+            "黴漿菌",
+            "白色念珠菌",
+            "尿素分解脲原體",
+            "淋病雙球菌"
+          ],
+          "bodyParts": [
+            "尿道",
+            "膀胱"
+          ],
           "treatmentNotes": "針對感染部位加上發炎4訊號治療",
           "notes": ""
         }
@@ -312,14 +575,26 @@
     {
       "id": "gum_inflammation",
       "name": "牙齦發炎",
-      "aliases": ["牙齦腫", "牙齦痛", "牙周病", "牙齦出血", "牙齦腫痛"],
+      "aliases": [
+        "牙齦腫",
+        "牙齦痛",
+        "牙周病",
+        "牙齦出血",
+        "牙齦腫痛"
+      ],
       "causes": [
         {
           "id": "gum_bacteria",
           "category": "細菌感染",
           "description": "口腔內牙齦卟啉單胞菌導致牙周病",
-          "pathogens": ["牙齦卟啉單胞菌", "牙周細菌"],
-          "bodyParts": ["牙齦", "牙根"],
+          "pathogens": [
+            "牙齦卟啉單胞菌",
+            "牙周細菌"
+          ],
+          "bodyParts": [
+            "牙齦",
+            "牙根"
+          ],
           "treatmentNotes": "往深層的牙齦、神經、血管、甚至到鼻竇邊緣。有時候是在血液裡面、牙齒內部的血液。",
           "notes": "從牙齦、神經、血管找感染物，測試病毒、細菌、黴菌、寄生蟲。有時候不一定有感染物，可能只是純粹發炎。"
         },
@@ -328,7 +603,9 @@
           "category": "荷爾蒙",
           "description": "懷孕導致的妊娠牙周病",
           "pathogens": [],
-          "bodyParts": ["牙齦"],
+          "bodyParts": [
+            "牙齦"
+          ],
           "treatmentNotes": "血液中的黃體素高或是雌激素導致",
           "notes": "如果懷孕，那可能是妊娠牙周病。"
         }
@@ -337,14 +614,22 @@
     {
       "id": "jaw_pain",
       "name": "下顎壓會痛",
-      "aliases": ["下巴痛", "下顎痛", "顎關節痛"],
+      "aliases": [
+        "下巴痛",
+        "下顎痛",
+        "顎關節痛"
+      ],
       "causes": [
         {
           "id": "jaw_virus",
           "category": "感染",
           "description": "病毒感染或牙齦內部神經感染",
           "pathogens": [],
-          "bodyParts": ["下顎", "牙齦", "神經"],
+          "bodyParts": [
+            "下顎",
+            "牙齦",
+            "神經"
+          ],
           "treatmentNotes": "Check 病毒感染，牙齦內部神經是否有感染",
           "notes": ""
         }
@@ -353,14 +638,22 @@
     {
       "id": "snoring",
       "name": "打呼",
-      "aliases": ["打鼾", "睡覺打呼", "鼾聲"],
+      "aliases": [
+        "打鼾",
+        "睡覺打呼",
+        "鼾聲"
+      ],
       "causes": [
         {
           "id": "snoring_co2",
           "category": "過敏",
           "description": "對 CO2 過敏",
-          "pathogens": ["CO2"],
-          "bodyParts": ["鼻腔"],
+          "pathogens": [
+            "CO2"
+          ],
+          "bodyParts": [
+            "鼻腔"
+          ],
           "treatmentNotes": "治療鼻腔 + 腎上腺",
           "notes": "另外就是鼻腔睡眠期間腎上腺素不足導致鼻腔內腫脹。舌根退化可用 anti-age 治療。"
         }
@@ -369,14 +662,22 @@
     {
       "id": "throat_itch",
       "name": "喉嚨癢",
-      "aliases": ["喉嚨搔癢", "喉嚨不舒服", "睡覺喉嚨癢", "喉嚨乾癢"],
+      "aliases": [
+        "喉嚨搔癢",
+        "喉嚨不舒服",
+        "睡覺喉嚨癢",
+        "喉嚨乾癢"
+      ],
       "causes": [
         {
           "id": "throat_itch_main",
           "category": "腎上腺相關",
           "description": "腎上腺素不足導致喉嚨敏感",
           "pathogens": [],
-          "bodyParts": ["喉嚨", "腎上腺"],
+          "bodyParts": [
+            "喉嚨",
+            "腎上腺"
+          ],
           "treatmentNotes": "腎上腺 + 喉嚨 + Piezo1",
           "notes": ""
         }
@@ -385,14 +686,23 @@
     {
       "id": "wheezing",
       "name": "喘",
-      "aliases": ["氣喘", "呼吸困難", "喘不過氣", "會喘"],
+      "aliases": [
+        "氣喘",
+        "呼吸困難",
+        "喘不過氣",
+        "會喘"
+      ],
       "causes": [
         {
           "id": "wheezing_main",
           "category": "支氣管發炎",
           "description": "支氣管與肺泡內肌肉發炎或黏液堆積",
           "pathogens": [],
-          "bodyParts": ["支氣管", "肺泡", "支氣管內的肌肉"],
+          "bodyParts": [
+            "支氣管",
+            "肺泡",
+            "支氣管內的肌肉"
+          ],
           "treatmentNotes": "治療支氣管 & 肺泡，支氣管內的肌肉發炎。清除卡在支氣管跟肺泡內的黏液。",
           "notes": ""
         }
@@ -401,14 +711,21 @@
     {
       "id": "cold_signs",
       "name": "感冒跡象",
-      "aliases": ["感冒", "著涼", "快感冒", "感冒症狀"],
+      "aliases": [
+        "感冒",
+        "著涼",
+        "快感冒",
+        "感冒症狀"
+      ],
       "causes": [
         {
           "id": "cold_allergy",
           "category": "過敏",
           "description": "過敏反應類似感冒",
           "pathogens": [],
-          "bodyParts": ["上呼吸道"],
+          "bodyParts": [
+            "上呼吸道"
+          ],
           "treatmentNotes": "測試各種過敏原",
           "notes": "有感冒跡象：過敏、細菌、病毒、黴菌感染與氣喘都有可能。"
         },
@@ -416,8 +733,25 @@
           "id": "cold_bacteria",
           "category": "細菌感染",
           "description": "常見上呼吸道細菌感染",
-          "pathogens": ["A型鏈球菌", "肺炎鏈球菌", "流感嗜血桿菌", "肺炎披衣菌", "黴漿菌", "腐生葡萄球菌", "金黃色葡萄球菌", "卡他莫拉菌", "白喉桿菌", "克雷伯氏菌", "綠膿桿菌"],
-          "bodyParts": ["咽", "喉", "鼻", "鼻竇"],
+          "pathogens": [
+            "A型鏈球菌",
+            "肺炎鏈球菌",
+            "流感嗜血桿菌",
+            "肺炎披衣菌",
+            "黴漿菌",
+            "腐生葡萄球菌",
+            "金黃色葡萄球菌",
+            "卡他莫拉菌",
+            "白喉桿菌",
+            "克雷伯氏菌",
+            "綠膿桿菌"
+          ],
+          "bodyParts": [
+            "咽",
+            "喉",
+            "鼻",
+            "鼻竇"
+          ],
           "treatmentNotes": "Check 上呼吸道各部位（上咽、中咽、下咽、喉、鼻、鼻竇）",
           "notes": ""
         },
@@ -425,8 +759,21 @@
           "id": "cold_virus",
           "category": "病毒感染",
           "description": "常見呼吸道病毒感染",
-          "pathogens": ["鼻病毒", "腺病毒", "A型流感 H3N2", "A型流感 H1N1", "B型流感", "Covid XFG (Stratus)", "H7N7 新型A型流感", "副流行感冒病毒", "呼吸道融合病毒(RSV)"],
-          "bodyParts": ["上呼吸道", "下呼吸道"],
+          "pathogens": [
+            "鼻病毒",
+            "腺病毒",
+            "A型流感 H3N2",
+            "A型流感 H1N1",
+            "B型流感",
+            "Covid XFG (Stratus)",
+            "H7N7 新型A型流感",
+            "副流行感冒病毒",
+            "呼吸道融合病毒(RSV)"
+          ],
+          "bodyParts": [
+            "上呼吸道",
+            "下呼吸道"
+          ],
           "treatmentNotes": "確認感染部位與病毒類型",
           "notes": "上呼吸道：咽、喉、鼻、鼻竇。下呼吸道：氣管、支氣管、細支氣管、肺、肺葉、肺泡。2026年主流：COVID XFG (Stratus)、流感A H3N2/H1N1、台灣首例本土H7N7禽傳人。"
         },
@@ -435,7 +782,9 @@
           "category": "黴菌感染",
           "description": "黴菌感染呼吸道",
           "pathogens": [],
-          "bodyParts": ["呼吸系統"],
+          "bodyParts": [
+            "呼吸系統"
+          ],
           "treatmentNotes": "確認有沒有黴菌感染發炎",
           "notes": ""
         }
@@ -444,14 +793,22 @@
     {
       "id": "cortisol_high",
       "name": "可體松過高",
-      "aliases": ["皮質醇高", "cortisol", "壓力荷爾蒙"],
+      "aliases": [
+        "皮質醇高",
+        "cortisol",
+        "壓力荷爾蒙"
+      ],
       "causes": [
         {
           "id": "cortisol_hpa",
           "category": "內分泌",
           "description": "HPA軸異常",
           "pathogens": [],
-          "bodyParts": ["下視丘", "腦下垂體", "腎上腺皮質"],
+          "bodyParts": [
+            "下視丘",
+            "腦下垂體",
+            "腎上腺皮質"
+          ],
           "treatmentNotes": "下視丘 + 腦下垂體 + CRH + ACTH + 腎上腺皮質",
           "notes": ""
         }
@@ -460,14 +817,29 @@
     {
       "id": "song_in_head",
       "name": "腦中有歌在轉",
-      "aliases": ["洗腦歌", "腦中旋律", "耳蟲"],
+      "aliases": [
+        "洗腦歌",
+        "腦中旋律",
+        "耳蟲"
+      ],
       "causes": [
         {
           "id": "song_brain",
           "category": "腦部發炎",
           "description": "松果體、杏仁核及多處腦部結構發炎",
           "pathogens": [],
-          "bodyParts": ["松果體", "杏仁核", "腦內基底", "腦下垂體", "腦髓液", "中腦", "腦血管", "神經", "脊髓", "中樞神經"],
+          "bodyParts": [
+            "松果體",
+            "杏仁核",
+            "腦內基底",
+            "腦下垂體",
+            "腦髓液",
+            "中腦",
+            "腦血管",
+            "神經",
+            "脊髓",
+            "中樞神經"
+          ],
           "treatmentNotes": "松果體發炎 + 杏仁核發炎 + 腦內基底（尾狀核、殼核、蒼白球）+ 腦下垂體 + 腦髓液 + 中腦（大腦腳、四疊體、中腦導水管、紅核、腳間窩）+ 腦周遭肌肉筋膜 + 腦血管 + 神經 + 脊髓 + 中樞神經發炎 + 大腦附近的肌肉",
           "notes": "也可能是 Covid 病毒影響腦部。確認腦的各個部位有沒有感染，確認有沒有黴菌感染、寄生蟲（豬帶絛蟲幼蟲）。大腦附近肌肉包括：咀嚼肌、顏面表情肌、頭長肌、斜方肌、豎脊肌群、眼外肌、頸長肌、枕骨下肌群、胸鎖乳突肌、頭夾肌和上斜方肌。"
         }
@@ -476,14 +848,32 @@
     {
       "id": "skin_issue",
       "name": "皮膚問題",
-      "aliases": ["皮膚癢", "疹子", "皮膚紅", "皮膚發炎", "皮膚過敏"],
+      "aliases": [
+        "皮膚癢",
+        "疹子",
+        "皮膚紅",
+        "皮膚發炎",
+        "皮膚過敏"
+      ],
       "causes": [
         {
           "id": "skin_bacteria",
           "category": "皮膚菌群",
           "description": "皮膚表面細菌或真菌感染",
-          "pathogens": ["表皮葡萄球菌", "金黃色葡萄球菌", "沃氏葡萄球菌", "化膿性鏈球菌", "緩症鏈球菌", "痤瘡丙酸桿菌", "棒狀桿菌屬", "乙酸鈣不動桿菌", "綠膿桿菌"],
-          "bodyParts": ["皮膚"],
+          "pathogens": [
+            "表皮葡萄球菌",
+            "金黃色葡萄球菌",
+            "沃氏葡萄球菌",
+            "化膿性鏈球菌",
+            "緩症鏈球菌",
+            "痤瘡丙酸桿菌",
+            "棒狀桿菌屬",
+            "乙酸鈣不動桿菌",
+            "綠膿桿菌"
+          ],
+          "bodyParts": [
+            "皮膚"
+          ],
           "treatmentNotes": "針對感染部位加上發炎4訊號",
           "notes": "其他如破傷風梭菌、產氣莢膜梭菌。"
         },
@@ -492,7 +882,9 @@
           "category": "自體免疫",
           "description": "免疫系統攻擊皮膚組織",
           "pathogens": [],
-          "bodyParts": ["皮膚"],
+          "bodyParts": [
+            "皮膚"
+          ],
           "treatmentNotes": "ID(+) + 介素20 + 雙氫青蒿素",
           "notes": "如牛皮癬、紅斑性狼瘡等。"
         }
@@ -501,14 +893,21 @@
     {
       "id": "joint_pain",
       "name": "關節炎",
-      "aliases": ["關節痛", "關節發炎", "關節腫", "退化性關節炎"],
+      "aliases": [
+        "關節痛",
+        "關節發炎",
+        "關節腫",
+        "退化性關節炎"
+      ],
       "causes": [
         {
           "id": "joint_autoimmune",
           "category": "自體免疫",
           "description": "免疫系統攻擊關節組織導致發炎",
           "pathogens": [],
-          "bodyParts": ["關節"],
+          "bodyParts": [
+            "關節"
+          ],
           "treatmentNotes": "ID + ID(+) + 介素20 + 雙氫青蒿素。可以用抗老化那套保養預防退化性關節炎。",
           "notes": "關節炎是發炎，跟退化沒有直接關係，是免疫系統的問題。所謂的磨損絕大部分都是免疫系統攻擊導致發炎先，發炎的同時免疫系統會去攻擊跟破壞組織。"
         }
@@ -517,14 +916,27 @@
     {
       "id": "vaginal_itch",
       "name": "陰道搔癢",
-      "aliases": ["私密處癢", "下面癢", "陰部搔癢"],
+      "aliases": [
+        "私密處癢",
+        "下面癢",
+        "陰部搔癢"
+      ],
       "causes": [
         {
           "id": "vaginal_infection",
           "category": "感染",
           "description": "陰道菌群失衡或感染",
-          "pathogens": ["白色念珠菌", "陰道加德諾菌", "陰道滴蟲"],
-          "bodyParts": ["陰道", "會陰橫肌", "球海綿體肌", "陰唇繫帶"],
+          "pathogens": [
+            "白色念珠菌",
+            "陰道加德諾菌",
+            "陰道滴蟲"
+          ],
+          "bodyParts": [
+            "陰道",
+            "會陰橫肌",
+            "球海綿體肌",
+            "陰唇繫帶"
+          ],
           "treatmentNotes": "乳桿菌可以抑制致病微生物生長。針對感染部位治療。",
           "notes": "乳桿菌可以抑制梭樣類桿菌、大腸桿菌、陰道加德諾菌、動彎桿菌、淋球菌、厭氧消化鏈球菌、金黃色葡萄球菌等。"
         }
@@ -533,14 +945,23 @@
     {
       "id": "mastitis",
       "name": "乳腺炎",
-      "aliases": ["胸部痛", "乳房發炎", "乳腺發炎"],
+      "aliases": [
+        "胸部痛",
+        "乳房發炎",
+        "乳腺發炎"
+      ],
       "causes": [
         {
           "id": "mastitis_bacteria",
           "category": "細菌感染",
           "description": "細菌感染乳腺",
-          "pathogens": ["金黃色葡萄球菌", "表皮葡萄球菌"],
-          "bodyParts": ["乳腺"],
+          "pathogens": [
+            "金黃色葡萄球菌",
+            "表皮葡萄球菌"
+          ],
+          "bodyParts": [
+            "乳腺"
+          ],
           "treatmentNotes": "Check 金黃色葡萄球菌和表皮葡萄球菌感染",
           "notes": ""
         }
@@ -549,14 +970,19 @@
     {
       "id": "lactose_intolerance",
       "name": "乳糖不耐",
-      "aliases": ["喝牛奶拉肚子", "乳糖不耐症"],
+      "aliases": [
+        "喝牛奶拉肚子",
+        "乳糖不耐症"
+      ],
       "causes": [
         {
           "id": "lactose_allergy",
           "category": "過敏",
           "description": "對鮮奶過敏或腸道菌群對乳糖反應",
           "pathogens": [],
-          "bodyParts": ["腸道"],
+          "bodyParts": [
+            "腸道"
+          ],
           "treatmentNotes": "可能對鮮奶過敏，腸道菌針對乳糖",
           "notes": ""
         }
@@ -565,14 +991,21 @@
     {
       "id": "nutrient_deficiency",
       "name": "營養缺乏",
-      "aliases": ["缺鉀", "缺鈣", "缺鎂", "維生素過敏"],
+      "aliases": [
+        "缺鉀",
+        "缺鈣",
+        "缺鎂",
+        "維生素過敏"
+      ],
       "causes": [
         {
           "id": "nutrient_allergy",
           "category": "過敏",
           "description": "對維生素或礦物質過敏導致無法正常攝取",
           "pathogens": [],
-          "bodyParts": ["血液"],
+          "bodyParts": [
+            "血液"
+          ],
           "treatmentNotes": "血液內缺乏鉀、鈣、鎂可能是因為過敏。如果對某種維生素及礦物質過敏而無法透過食物或 supplement 攝取，會有過敏反應及情緒影響。",
           "notes": "有許多症狀是因為某種物質的缺乏，但並非完全是因為沒有攝取足夠。"
         }
@@ -581,14 +1014,26 @@
     {
       "id": "pertussis",
       "name": "百日咳",
-      "aliases": ["咳嗽百日", "劇烈咳嗽", "陣發性咳嗽", "whooping cough", "咳到吐"],
+      "aliases": [
+        "咳嗽百日",
+        "劇烈咳嗽",
+        "陣發性咳嗽",
+        "whooping cough",
+        "咳到吐"
+      ],
       "causes": [
         {
           "id": "pertussis_bacteria",
           "category": "細菌感染",
           "description": "百日咳桿菌感染呼吸道，引發劇烈陣發性咳嗽",
-          "pathogens": ["百日咳桿菌 (Bordetella pertussis)"],
-          "bodyParts": ["上呼吸道", "氣管", "支氣管"],
+          "pathogens": [
+            "百日咳桿菌 (Bordetella pertussis)"
+          ],
+          "bodyParts": [
+            "上呼吸道",
+            "氣管",
+            "支氣管"
+          ],
           "treatmentNotes": "針對上呼吸道與氣管感染部位，加上發炎4訊號治療",
           "notes": "2026年台灣疫情創6年新高。特徵為陣發性劇烈咳嗽伴隨吸氣性哮聲，咳嗽可持續數週至數月。嬰幼兒及未完成疫苗接種者風險最高。"
         }
@@ -597,14 +1042,27 @@
     {
       "id": "measles",
       "name": "麻疹",
-      "aliases": ["出疹", "紅疹發燒", "全身紅疹", "麻疹病毒"],
+      "aliases": [
+        "出疹",
+        "紅疹發燒",
+        "全身紅疹",
+        "麻疹病毒"
+      ],
       "causes": [
         {
           "id": "measles_virus",
           "category": "病毒感染",
           "description": "麻疹病毒經飛沫傳播，引發發燒、紅疹及呼吸道症狀",
-          "pathogens": ["麻疹病毒"],
-          "bodyParts": ["全身", "呼吸道", "皮膚", "淋巴結", "眼睛"],
+          "pathogens": [
+            "麻疹病毒"
+          ],
+          "bodyParts": [
+            "全身",
+            "呼吸道",
+            "皮膚",
+            "淋巴結",
+            "眼睛"
+          ],
           "treatmentNotes": "支持性治療為主。針對發炎部位加上發炎4訊號。確認呼吸道、皮膚、淋巴結狀態。",
           "notes": "2026年台灣多例境外移入（越南），引發2起本土群聚。傳染力極強，可經空氣傳播。典型症狀：發燒、咳嗽、流鼻水、結膜炎，之後出現全身紅疹。"
         }
@@ -613,14 +1071,24 @@
     {
       "id": "mpox",
       "name": "猴痘",
-      "aliases": ["Mpox", "皮疹水泡", "猴痘病毒"],
+      "aliases": [
+        "Mpox",
+        "皮疹水泡",
+        "猴痘病毒"
+      ],
       "causes": [
         {
           "id": "mpox_virus",
           "category": "病毒感染",
           "description": "猴痘病毒感染，引發皮膚病灶與全身症狀",
-          "pathogens": ["猴痘病毒 (Monkeypox virus, Ib clade)"],
-          "bodyParts": ["皮膚", "淋巴結", "呼吸道"],
+          "pathogens": [
+            "猴痘病毒 (Monkeypox virus, Ib clade)"
+          ],
+          "bodyParts": [
+            "皮膚",
+            "淋巴結",
+            "呼吸道"
+          ],
           "treatmentNotes": "針對皮膚病灶與淋巴結發炎治療，加上發炎4訊號",
           "notes": "2026年非洲持續流行（Ib clade），台灣列入監測。症狀：發燒、頭痛、肌肉痛、淋巴結腫大，之後出現皮疹（斑疹→丘疹→水泡→膿疱→結痂）。主要透過密切接觸傳播。"
         }
@@ -629,14 +1097,24 @@
     {
       "id": "nipah",
       "name": "立百病毒感染",
-      "aliases": ["立百病毒", "Nipah", "尼帕病毒"],
+      "aliases": [
+        "立百病毒",
+        "Nipah",
+        "尼帕病毒"
+      ],
       "causes": [
         {
           "id": "nipah_virus",
           "category": "病毒感染",
           "description": "立百病毒感染，可引發腦炎及嚴重呼吸道疾病",
-          "pathogens": ["立百病毒 (Nipah virus)"],
-          "bodyParts": ["腦", "呼吸系統", "神經系統"],
+          "pathogens": [
+            "立百病毒 (Nipah virus)"
+          ],
+          "bodyParts": [
+            "腦",
+            "呼吸系統",
+            "神經系統"
+          ],
           "treatmentNotes": "針對腦部與呼吸系統感染部位治療。確認腦部各部位及神經系統狀態。",
           "notes": "2026年4月台灣列為第五類法定傳染病。自然宿主為果蝠，可經豬隻等中間宿主傳人。致死率40-70%。症狀：發燒、頭痛、嗜睡、意識混亂、呼吸困難。印度及孟加拉近年持續爆發。"
         }
@@ -645,14 +1123,26 @@
     {
       "id": "mycoplasma_pneumonia",
       "name": "黴漿菌肺炎",
-      "aliases": ["黴漿菌", "走路的肺炎", "久咳不癒", "黴漿菌感染", "非典型肺炎"],
+      "aliases": [
+        "黴漿菌",
+        "走路的肺炎",
+        "久咳不癒",
+        "黴漿菌感染",
+        "非典型肺炎"
+      ],
       "causes": [
         {
           "id": "mycoplasma_infection",
           "category": "細菌感染",
           "description": "肺炎黴漿菌感染肺部，引發持續性乾咳",
-          "pathogens": ["肺炎黴漿菌 (Mycoplasma pneumoniae)"],
-          "bodyParts": ["肺", "支氣管", "上呼吸道"],
+          "pathogens": [
+            "肺炎黴漿菌 (Mycoplasma pneumoniae)"
+          ],
+          "bodyParts": [
+            "肺",
+            "支氣管",
+            "上呼吸道"
+          ],
           "treatmentNotes": "針對肺部與支氣管感染部位治療，加上發炎4訊號",
           "notes": "2026年春季仍在流行。又稱「走路的肺炎」，患者常可正常活動但久咳不癒。特徵：持續性乾咳（可達3-4週）、低燒、頭痛、喉嚨痛。好發於學齡兒童及青少年。"
         }
@@ -661,36 +1151,2025 @@
     {
       "id": "dengue",
       "name": "登革熱",
-      "aliases": ["骨痛熱", "斷骨熱", "蚊子叮", "登革病毒"],
+      "aliases": [
+        "骨痛熱",
+        "斷骨熱",
+        "蚊子叮",
+        "登革病毒"
+      ],
       "causes": [
         {
           "id": "dengue_virus",
           "category": "病毒感染",
           "description": "登革病毒經埃及斑蚊或白線斑蚊叮咬傳播",
-          "pathogens": ["登革病毒（第1-4型）"],
-          "bodyParts": ["血管", "血小板", "全身", "肝臟", "淋巴結"],
+          "pathogens": [
+            "登革病毒（第1-4型）"
+          ],
+          "bodyParts": [
+            "血管",
+            "血小板",
+            "全身",
+            "肝臟",
+            "淋巴結"
+          ],
           "treatmentNotes": "支持性治療為主。監測血小板與出血傾向。針對血管與全身發炎治療。",
           "notes": "2026年境外移入風險升高。症狀：突發高燒、劇烈頭痛、後眼窩痛、肌肉關節痛、皮疹。嚴重者可能出血或休克（登革出血熱）。預防重點：防蚊。"
+        }
+      ]
+    },
+    {
+      "id": "sore_throat",
+      "name": "喉嚨痛",
+      "aliases": [
+        "喉嚨痛",
+        "喉痛",
+        "吞嚥痛",
+        "吞口水痛",
+        "喉嚨發炎",
+        "咽喉痛",
+        "喉嚨腫"
+      ],
+      "causes": [
+        {
+          "id": "sore_throat_virus",
+          "category": "病毒感染",
+          "description": "病毒感染咽喉黏膜引發發炎疼痛",
+          "pathogens": [
+            "鼻病毒",
+            "腺病毒",
+            "A型流感",
+            "B型流感",
+            "Covid",
+            "EB病毒",
+            "克沙其病毒",
+            "副流行感冒病毒"
+          ],
+          "bodyParts": [
+            "咽喉",
+            "扁桃腺",
+            "懸壅垂",
+            "上呼吸道"
+          ],
+          "treatmentNotes": "確認感染部位，加上發炎4訊號",
+          "notes": "最常見的喉嚨痛原因。通常伴隨感冒症狀如流鼻水、咳嗽。"
+        },
+        {
+          "id": "sore_throat_bacteria",
+          "category": "細菌感染",
+          "description": "細菌感染咽喉，常見A型鏈球菌",
+          "pathogens": [
+            "A型鏈球菌",
+            "肺炎鏈球菌",
+            "金黃色葡萄球菌",
+            "流感嗜血桿菌",
+            "白喉桿菌"
+          ],
+          "bodyParts": [
+            "咽喉",
+            "扁桃腺",
+            "頸部淋巴結"
+          ],
+          "treatmentNotes": "Check 扁桃腺、頸部淋巴結、咽喉黏膜，加上發炎4訊號",
+          "notes": "A型鏈球菌咽喉炎若不治療可能引發風濕熱。高燒、扁桃腺化膿、頸部淋巴結腫大為典型表現。"
+        },
+        {
+          "id": "sore_throat_reflux",
+          "category": "胃酸逆流",
+          "description": "胃酸逆流刺激咽喉黏膜",
+          "pathogens": [],
+          "bodyParts": [
+            "咽喉",
+            "食道",
+            "賁門"
+          ],
+          "treatmentNotes": "Check 食道與賁門，治療胃酸逆流根本原因",
+          "notes": "慢性喉嚨痛且無明顯感染跡象時，考慮胃食道逆流（咽喉逆流）。"
+        },
+        {
+          "id": "sore_throat_allergy",
+          "category": "過敏",
+          "description": "過敏引發鼻涕倒流刺激咽喉",
+          "pathogens": [
+            "灰塵",
+            "塵蟎",
+            "花粉",
+            "乾燥空氣"
+          ],
+          "bodyParts": [
+            "咽喉",
+            "鼻腔"
+          ],
+          "treatmentNotes": "腎上腺 + 過敏原 + 部位 + 發炎訊號",
+          "notes": "鼻涕倒流持續刺激咽喉後壁造成慢性喉嚨痛。"
+        }
+      ]
+    },
+    {
+      "id": "tonsillitis",
+      "name": "扁桃腺發炎",
+      "aliases": [
+        "扁桃腺腫",
+        "扁桃腺化膿",
+        "扁桃腺痛",
+        "扁桃體發炎",
+        "tonsil"
+      ],
+      "causes": [
+        {
+          "id": "tonsillitis_bacteria",
+          "category": "細菌感染",
+          "description": "細菌感染扁桃腺引發化膿性發炎",
+          "pathogens": [
+            "A型鏈球菌",
+            "金黃色葡萄球菌",
+            "流感嗜血桿菌",
+            "肺炎鏈球菌"
+          ],
+          "bodyParts": [
+            "扁桃腺",
+            "咽喉",
+            "頸部淋巴結"
+          ],
+          "treatmentNotes": "針對扁桃腺感染部位，加上發炎4訊號。Check 頸部淋巴結。",
+          "notes": "化膿性扁桃腺炎常伴高燒、吞嚥困難、口臭。反覆發作需評估是否手術。"
+        },
+        {
+          "id": "tonsillitis_virus",
+          "category": "病毒感染",
+          "description": "病毒感染扁桃腺",
+          "pathogens": [
+            "EB病毒",
+            "腺病毒",
+            "A型流感",
+            "克沙其病毒",
+            "腸病毒"
+          ],
+          "bodyParts": [
+            "扁桃腺",
+            "咽喉"
+          ],
+          "treatmentNotes": "確認病毒類型，支持性治療加發炎4訊號",
+          "notes": "EB病毒感染可引發傳染性單核球症，扁桃腺極度腫大。"
+        }
+      ]
+    },
+    {
+      "id": "hoarseness",
+      "name": "聲音沙啞",
+      "aliases": [
+        "沙啞",
+        "失聲",
+        "聲帶發炎",
+        "講話沒聲音",
+        "燒聲",
+        "聲音變了"
+      ],
+      "causes": [
+        {
+          "id": "hoarseness_overuse",
+          "category": "過度使用",
+          "description": "聲帶過度使用導致發炎或長繭",
+          "pathogens": [],
+          "bodyParts": [
+            "聲帶",
+            "喉"
+          ],
+          "treatmentNotes": "聲帶發炎4訊號治療，休息聲帶",
+          "notes": "常見於教師、歌手、業務等需大量說話的職業。"
+        },
+        {
+          "id": "hoarseness_infection",
+          "category": "感染",
+          "description": "病毒或細菌感染喉部",
+          "pathogens": [
+            "鼻病毒",
+            "A型流感",
+            "副流行感冒病毒",
+            "A型鏈球菌"
+          ],
+          "bodyParts": [
+            "喉",
+            "聲帶",
+            "氣管"
+          ],
+          "treatmentNotes": "Check 喉部與聲帶感染，加上發炎4訊號",
+          "notes": "感冒後常見的聲音沙啞，通常1-2週可恢復。"
+        },
+        {
+          "id": "hoarseness_reflux",
+          "category": "胃酸逆流",
+          "description": "胃酸逆流刺激聲帶",
+          "pathogens": [],
+          "bodyParts": [
+            "聲帶",
+            "喉",
+            "食道"
+          ],
+          "treatmentNotes": "治療胃食道逆流，保護聲帶黏膜",
+          "notes": "長期聲音沙啞但無感冒，需考慮咽喉逆流。"
+        }
+      ]
+    },
+    {
+      "id": "runny_nose",
+      "name": "流鼻水",
+      "aliases": [
+        "鼻水",
+        "流鼻涕",
+        "鼻涕",
+        "一直流鼻水",
+        "清鼻涕",
+        "黃鼻涕"
+      ],
+      "causes": [
+        {
+          "id": "runny_nose_virus",
+          "category": "病毒感染",
+          "description": "病毒感染鼻腔黏膜",
+          "pathogens": [
+            "鼻病毒",
+            "腺病毒",
+            "A型流感",
+            "B型流感",
+            "副流行感冒病毒",
+            "RSV"
+          ],
+          "bodyParts": [
+            "鼻腔",
+            "鼻黏膜"
+          ],
+          "treatmentNotes": "確認感染部位，加上發炎4訊號",
+          "notes": "初期為清澈鼻涕，感染加重後可能轉為黃綠色。"
+        },
+        {
+          "id": "runny_nose_allergy",
+          "category": "過敏",
+          "description": "過敏原刺激鼻腔黏膜大量分泌",
+          "pathogens": [
+            "灰塵",
+            "塵蟎",
+            "花粉",
+            "冷空氣",
+            "貓狗毛"
+          ],
+          "bodyParts": [
+            "鼻腔",
+            "鼻黏膜",
+            "腺樣體"
+          ],
+          "treatmentNotes": "腎上腺 + 過敏原 + 鼻腔 + 發炎訊號",
+          "notes": "過敏性鼻炎的鼻涕通常為清澈水狀，伴隨打噴嚏、鼻癢。固定時間發作加腎上腺。"
+        },
+        {
+          "id": "runny_nose_sinusitis",
+          "category": "鼻竇炎",
+          "description": "鼻竇感染導致黃綠色分泌物",
+          "pathogens": [
+            "肺炎鏈球菌",
+            "流感嗜血桿菌",
+            "金黃色葡萄球菌"
+          ],
+          "bodyParts": [
+            "鼻竇",
+            "鼻腔"
+          ],
+          "treatmentNotes": "抓鼻竇各位置治療，加上發炎4訊號",
+          "notes": "黃綠色膿鼻涕、臉部脹痛為鼻竇炎特徵。"
+        }
+      ]
+    },
+    {
+      "id": "sneezing",
+      "name": "打噴嚏",
+      "aliases": [
+        "噴嚏",
+        "一直打噴嚏",
+        "連續噴嚏",
+        "哈啾"
+      ],
+      "causes": [
+        {
+          "id": "sneezing_allergy",
+          "category": "過敏",
+          "description": "過敏原刺激鼻腔引發噴嚏反射",
+          "pathogens": [
+            "灰塵",
+            "塵蟎",
+            "花粉",
+            "冷空氣",
+            "煙霧",
+            "香水"
+          ],
+          "bodyParts": [
+            "鼻腔",
+            "鼻黏膜"
+          ],
+          "treatmentNotes": "腎上腺 + 過敏原 + 鼻腔 + Piezo1 + 發炎訊號",
+          "notes": "晨起連續打噴嚏常為過敏性鼻炎。"
+        },
+        {
+          "id": "sneezing_virus",
+          "category": "病毒感染",
+          "description": "病毒感染鼻腔初期症狀",
+          "pathogens": [
+            "鼻病毒",
+            "腺病毒",
+            "A型流感"
+          ],
+          "bodyParts": [
+            "鼻腔",
+            "上呼吸道"
+          ],
+          "treatmentNotes": "確認感染源，加上發炎4訊號",
+          "notes": "感冒初期常見症狀之一。"
+        }
+      ]
+    },
+    {
+      "id": "post_nasal_drip",
+      "name": "鼻涕倒流",
+      "aliases": [
+        "鼻水倒流",
+        "喉嚨有痰",
+        "清喉嚨",
+        "一直清喉嚨"
+      ],
+      "causes": [
+        {
+          "id": "pnd_sinusitis",
+          "category": "鼻竇炎",
+          "description": "鼻竇分泌物往後流入咽喉",
+          "pathogens": [
+            "肺炎鏈球菌",
+            "流感嗜血桿菌",
+            "金黃色葡萄球菌"
+          ],
+          "bodyParts": [
+            "鼻竇",
+            "咽喉後壁",
+            "鼻腔"
+          ],
+          "treatmentNotes": "治療鼻竇感染，加上發炎4訊號",
+          "notes": "常引發慢性咳嗽、喉嚨痛、口臭。"
+        },
+        {
+          "id": "pnd_allergy",
+          "category": "過敏",
+          "description": "過敏性鼻炎分泌物增加倒流",
+          "pathogens": [
+            "灰塵",
+            "塵蟎",
+            "花粉"
+          ],
+          "bodyParts": [
+            "鼻腔",
+            "咽喉"
+          ],
+          "treatmentNotes": "腎上腺 + 過敏原 + 鼻腔 + 咽喉",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ear_pain",
+      "name": "耳朵痛",
+      "aliases": [
+        "耳痛",
+        "耳朵發炎",
+        "中耳炎",
+        "外耳炎",
+        "耳朵腫"
+      ],
+      "causes": [
+        {
+          "id": "ear_otitis_media",
+          "category": "中耳炎",
+          "description": "中耳腔感染發炎，常繼發於上呼吸道感染",
+          "pathogens": [
+            "肺炎鏈球菌",
+            "流感嗜血桿菌",
+            "金黃色葡萄球菌",
+            "A型鏈球菌"
+          ],
+          "bodyParts": [
+            "中耳",
+            "耳咽管",
+            "鼓膜"
+          ],
+          "treatmentNotes": "針對中耳感染部位加上發炎4訊號",
+          "notes": "兒童因耳咽管較短較平，特別容易發生。感冒後耳朵痛需考慮中耳炎。"
+        },
+        {
+          "id": "ear_otitis_externa",
+          "category": "外耳炎",
+          "description": "外耳道皮膚感染發炎",
+          "pathogens": [
+            "綠膿桿菌",
+            "金黃色葡萄球菌",
+            "黴菌"
+          ],
+          "bodyParts": [
+            "外耳道",
+            "耳廓"
+          ],
+          "treatmentNotes": "Check 外耳道感染源，加上發炎4訊號",
+          "notes": "常見於游泳後或掏耳朵損傷。又稱游泳耳。"
+        }
+      ]
+    },
+    {
+      "id": "tinnitus",
+      "name": "耳鳴",
+      "aliases": [
+        "耳鳴聲",
+        "耳朵嗡嗡叫",
+        "耳朵有聲音",
+        "耳朵嗡嗡"
+      ],
+      "causes": [
+        {
+          "id": "tinnitus_inner_ear",
+          "category": "內耳問題",
+          "description": "內耳毛細胞受損或發炎",
+          "pathogens": [],
+          "bodyParts": [
+            "內耳",
+            "耳蝸",
+            "聽神經"
+          ],
+          "treatmentNotes": "內耳 + 耳蝸 + 聽神經，加上發炎4訊號",
+          "notes": "噪音暴露、老化、藥物（如部分抗生素）都可能造成。"
+        },
+        {
+          "id": "tinnitus_vascular",
+          "category": "血管",
+          "description": "耳部周圍血管異常產生搏動性耳鳴",
+          "pathogens": [],
+          "bodyParts": [
+            "耳部血管",
+            "頸動脈"
+          ],
+          "treatmentNotes": "Check 耳周血管，加上發炎4訊號",
+          "notes": "與心跳同步的耳鳴需排除血管問題。"
+        }
+      ]
+    },
+    {
+      "id": "red_eye",
+      "name": "眼睛紅",
+      "aliases": [
+        "紅眼",
+        "結膜炎",
+        "眼睛充血",
+        "紅眼症",
+        "眼睛發炎"
+      ],
+      "causes": [
+        {
+          "id": "red_eye_virus",
+          "category": "病毒感染",
+          "description": "病毒性結膜炎，傳染力強",
+          "pathogens": [
+            "腺病毒",
+            "腸病毒70型",
+            "克沙其病毒"
+          ],
+          "bodyParts": [
+            "結膜",
+            "眼睛"
+          ],
+          "treatmentNotes": "確認感染源，加上發炎4訊號",
+          "notes": "腺病毒為最常見原因。高度傳染性，常雙眼依序發生。"
+        },
+        {
+          "id": "red_eye_bacteria",
+          "category": "細菌感染",
+          "description": "細菌性結膜炎，有膿性分泌物",
+          "pathogens": [
+            "金黃色葡萄球菌",
+            "肺炎鏈球菌",
+            "流感嗜血桿菌"
+          ],
+          "bodyParts": [
+            "結膜",
+            "眼睛"
+          ],
+          "treatmentNotes": "針對結膜感染加上發炎4訊號",
+          "notes": "黃綠色眼屎為細菌性結膜炎特徵。"
+        },
+        {
+          "id": "red_eye_allergy",
+          "category": "過敏",
+          "description": "過敏性結膜炎",
+          "pathogens": [
+            "花粉",
+            "塵蟎",
+            "灰塵",
+            "貓狗毛"
+          ],
+          "bodyParts": [
+            "結膜",
+            "眼睛"
+          ],
+          "treatmentNotes": "腎上腺 + 過敏原 + 眼睛 + 發炎訊號",
+          "notes": "伴隨眼睛癢、流淚，常與過敏性鼻炎同時出現。"
+        }
+      ]
+    },
+    {
+      "id": "eye_itch",
+      "name": "眼睛癢",
+      "aliases": [
+        "眼癢",
+        "眼睛搔癢",
+        "眼睛不舒服",
+        "揉眼睛"
+      ],
+      "causes": [
+        {
+          "id": "eye_itch_allergy",
+          "category": "過敏",
+          "description": "過敏原刺激結膜引發搔癢",
+          "pathogens": [
+            "花粉",
+            "塵蟎",
+            "灰塵",
+            "貓狗毛",
+            "化妝品"
+          ],
+          "bodyParts": [
+            "結膜",
+            "眼睛"
+          ],
+          "treatmentNotes": "腎上腺 + 過敏原 + 眼睛 + 發炎訊號",
+          "notes": "過敏性結膜炎最主要症狀就是癢。"
+        },
+        {
+          "id": "eye_itch_dry",
+          "category": "乾眼",
+          "description": "淚液分泌不足或蒸發過快",
+          "pathogens": [],
+          "bodyParts": [
+            "淚腺",
+            "眼睛",
+            "角膜"
+          ],
+          "treatmentNotes": "Check 淚腺功能，加上發炎4訊號",
+          "notes": "長時間看螢幕、空調環境容易乾眼。"
+        }
+      ]
+    },
+    {
+      "id": "dizziness",
+      "name": "頭暈",
+      "aliases": [
+        "暈",
+        "眩暈",
+        "天旋地轉",
+        "站不穩",
+        "頭昏",
+        "頭暈目眩"
+      ],
+      "causes": [
+        {
+          "id": "dizziness_inner_ear",
+          "category": "內耳前庭",
+          "description": "內耳前庭系統異常",
+          "pathogens": [],
+          "bodyParts": [
+            "內耳",
+            "前庭",
+            "半規管"
+          ],
+          "treatmentNotes": "Check 內耳前庭系統，加上發炎4訊號",
+          "notes": "良性陣發性姿勢性眩暈（BPPV）為最常見原因，耳石脫落引起。"
+        },
+        {
+          "id": "dizziness_bp",
+          "category": "血壓",
+          "description": "血壓異常導致腦部供血不足",
+          "pathogens": [],
+          "bodyParts": [
+            "腦血管",
+            "心臟",
+            "血管"
+          ],
+          "treatmentNotes": "Check 血壓、心臟功能、腦部血流",
+          "notes": "姿勢性低血壓（起身時頭暈）很常見。"
+        },
+        {
+          "id": "dizziness_anemia",
+          "category": "貧血",
+          "description": "血紅素不足導致腦部缺氧",
+          "pathogens": [],
+          "bodyParts": [
+            "血液",
+            "腦"
+          ],
+          "treatmentNotes": "Check 鐵質、維生素B12、葉酸狀態",
+          "notes": "女性月經量大、飲食缺鐵者常見。"
+        }
+      ]
+    },
+    {
+      "id": "vertigo",
+      "name": "暈眩",
+      "aliases": [
+        "天旋地轉",
+        "旋轉感",
+        "梅尼爾",
+        "前庭問題"
+      ],
+      "causes": [
+        {
+          "id": "vertigo_bppv",
+          "category": "耳石脫落",
+          "description": "良性陣發性姿勢性眩暈，耳石脫落",
+          "pathogens": [],
+          "bodyParts": [
+            "內耳",
+            "半規管",
+            "耳石"
+          ],
+          "treatmentNotes": "Check 半規管、耳石位置",
+          "notes": "頭部姿勢改變時發作，每次持續數秒至一分鐘。可用耳石復位術治療。"
+        },
+        {
+          "id": "vertigo_meniere",
+          "category": "梅尼爾氏症",
+          "description": "內耳淋巴液異常引發反覆眩暈",
+          "pathogens": [],
+          "bodyParts": [
+            "內耳",
+            "耳蝸",
+            "前庭"
+          ],
+          "treatmentNotes": "內耳 + 前庭 + 耳蝸，加上發炎4訊號",
+          "notes": "三大特徵：眩暈、耳鳴、聽力下降。每次發作數十分鐘至數小時。"
+        },
+        {
+          "id": "vertigo_vestibular_neuritis",
+          "category": "前庭神經炎",
+          "description": "前庭神經發炎導致急性眩暈",
+          "pathogens": [
+            "單純疱疹病毒"
+          ],
+          "bodyParts": [
+            "前庭神經",
+            "內耳"
+          ],
+          "treatmentNotes": "Check 前庭神經感染與發炎",
+          "notes": "常在上呼吸道感染後發生，劇烈眩暈持續數天。"
+        }
+      ]
+    },
+    {
+      "id": "chest_tightness",
+      "name": "胸悶",
+      "aliases": [
+        "胸口悶",
+        "胸口緊",
+        "悶悶的",
+        "胸口不舒服",
+        "胸部壓迫感"
+      ],
+      "causes": [
+        {
+          "id": "chest_cardiac",
+          "category": "心臟",
+          "description": "心臟供血不足或心肌問題",
+          "pathogens": [],
+          "bodyParts": [
+            "心臟",
+            "冠狀動脈",
+            "心肌"
+          ],
+          "treatmentNotes": "Check 心臟、冠狀動脈、心肌發炎狀態",
+          "notes": "活動時加重、休息緩解，需排除心絞痛。伴隨冒冷汗、左肩痛需立即就醫。"
+        },
+        {
+          "id": "chest_respiratory",
+          "category": "呼吸道",
+          "description": "支氣管痙攣或肺部問題",
+          "pathogens": [],
+          "bodyParts": [
+            "支氣管",
+            "肺",
+            "肋膜"
+          ],
+          "treatmentNotes": "Check 支氣管與肺部狀態",
+          "notes": "氣喘、肋膜炎也可引起胸悶。"
+        },
+        {
+          "id": "chest_anxiety",
+          "category": "焦慮",
+          "description": "自律神經失調引發胸悶感",
+          "pathogens": [],
+          "bodyParts": [
+            "交感神經",
+            "心臟",
+            "胸廓"
+          ],
+          "treatmentNotes": "Check 自律神經平衡，杏仁核 + 發炎4訊號",
+          "notes": "伴隨心跳加速、呼吸急促、手腳麻等。焦慮症與恐慌發作常見症狀。"
+        }
+      ]
+    },
+    {
+      "id": "palpitation",
+      "name": "心悸",
+      "aliases": [
+        "心跳快",
+        "心臟亂跳",
+        "心跳不規則",
+        "心砰砰跳",
+        "心臟跳很快"
+      ],
+      "causes": [
+        {
+          "id": "palpitation_arrhythmia",
+          "category": "心律不整",
+          "description": "心臟電傳導系統異常",
+          "pathogens": [],
+          "bodyParts": [
+            "心臟",
+            "竇房結",
+            "房室結"
+          ],
+          "treatmentNotes": "Check 心臟電傳導系統，加上發炎4訊號",
+          "notes": "心房顫動、心室早期收縮為常見類型。"
+        },
+        {
+          "id": "palpitation_thyroid",
+          "category": "甲狀腺亢進",
+          "description": "甲狀腺激素過多加速心跳",
+          "pathogens": [],
+          "bodyParts": [
+            "甲狀腺",
+            "心臟"
+          ],
+          "treatmentNotes": "Check 甲狀腺功能",
+          "notes": "伴隨手抖、體重下降、怕熱、眼凸等症狀。"
+        },
+        {
+          "id": "palpitation_anxiety",
+          "category": "焦慮與壓力",
+          "description": "交感神經過度活化",
+          "pathogens": [],
+          "bodyParts": [
+            "交感神經",
+            "心臟",
+            "腎上腺"
+          ],
+          "treatmentNotes": "腎上腺 + 交感神經 + 杏仁核",
+          "notes": "咖啡因過量也可引發。"
+        }
+      ]
+    },
+    {
+      "id": "lower_back_pain",
+      "name": "腰痛",
+      "aliases": [
+        "腰酸",
+        "腰痠",
+        "腰背痛",
+        "閃到腰",
+        "腰椎痛",
+        "下背痛"
+      ],
+      "causes": [
+        {
+          "id": "lbp_muscle",
+          "category": "肌肉與筋膜",
+          "description": "腰部肌肉拉傷或筋膜發炎",
+          "pathogens": [],
+          "bodyParts": [
+            "腰部肌肉",
+            "腰椎",
+            "筋膜"
+          ],
+          "treatmentNotes": "發炎4訊號 + 腰部肌肉筋膜 + 止痛",
+          "notes": "最常見的腰痛原因。久坐、姿勢不良、突然用力搬重物。"
+        },
+        {
+          "id": "lbp_disc",
+          "category": "椎間盤",
+          "description": "腰椎椎間盤突出壓迫神經",
+          "pathogens": [],
+          "bodyParts": [
+            "腰椎",
+            "椎間盤",
+            "坐骨神經"
+          ],
+          "treatmentNotes": "Check 腰椎間盤、坐骨神經壓迫，加上發炎4訊號",
+          "notes": "疼痛可能放射到臀部和腿部（坐骨神經痛）。"
+        },
+        {
+          "id": "lbp_kidney",
+          "category": "腎臟",
+          "description": "腎臟感染或腎結石引發後腰痛",
+          "pathogens": [
+            "大腸桿菌",
+            "克雷白氏桿菌"
+          ],
+          "bodyParts": [
+            "腎臟",
+            "輸尿管"
+          ],
+          "treatmentNotes": "Check 腎臟感染狀態",
+          "notes": "腎結石的痛常為劇烈絞痛，伴隨血尿。腎臟感染伴發燒、頻尿。"
+        }
+      ]
+    },
+    {
+      "id": "back_pain",
+      "name": "背痛",
+      "aliases": [
+        "上背痛",
+        "膏肓痛",
+        "後背痛",
+        "背部酸痛",
+        "肩胛骨痛"
+      ],
+      "causes": [
+        {
+          "id": "back_muscle",
+          "category": "肌肉與姿勢",
+          "description": "背部肌肉緊繃或姿勢不良",
+          "pathogens": [],
+          "bodyParts": [
+            "背部肌肉",
+            "肩胛骨",
+            "胸椎",
+            "菱形肌",
+            "斜方肌"
+          ],
+          "treatmentNotes": "發炎4訊號 + 背部肌肉群 + 脊椎",
+          "notes": "長期駝背、低頭族常見。膏肓痛位於兩肩胛骨之間。"
+        },
+        {
+          "id": "back_spine",
+          "category": "脊椎",
+          "description": "胸椎或脊椎問題",
+          "pathogens": [],
+          "bodyParts": [
+            "胸椎",
+            "脊椎",
+            "椎間盤"
+          ],
+          "treatmentNotes": "Check 胸椎排列與椎間盤狀態",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "neck_shoulder_pain",
+      "name": "肩頸痠痛",
+      "aliases": [
+        "肩膀痛",
+        "脖子痛",
+        "頸痛",
+        "肩頸僵硬",
+        "脖子僵硬",
+        "落枕",
+        "肩膀酸"
+      ],
+      "causes": [
+        {
+          "id": "neck_muscle",
+          "category": "肌肉緊繃",
+          "description": "肩頸肌肉長期緊繃、姿勢不良",
+          "pathogens": [],
+          "bodyParts": [
+            "斜方肌",
+            "頸椎",
+            "肩胛提肌",
+            "胸鎖乳突肌"
+          ],
+          "treatmentNotes": "發炎4訊號 + 肩頸肌肉群 + 脊椎",
+          "notes": "低頭族、久坐辦公室族最常見的問題。"
+        },
+        {
+          "id": "neck_cervical",
+          "category": "頸椎",
+          "description": "頸椎退化或椎間盤問題",
+          "pathogens": [],
+          "bodyParts": [
+            "頸椎",
+            "椎間盤",
+            "頸部神經"
+          ],
+          "treatmentNotes": "Check 頸椎排列、椎間盤、神經壓迫",
+          "notes": "嚴重時可能壓迫神經導致手麻。"
+        }
+      ]
+    },
+    {
+      "id": "muscle_cramp",
+      "name": "抽筋",
+      "aliases": [
+        "腿抽筋",
+        "小腿抽筋",
+        "肌肉痙攣",
+        "半夜抽筋",
+        "腳抽筋"
+      ],
+      "causes": [
+        {
+          "id": "cramp_electrolyte",
+          "category": "電解質失衡",
+          "description": "鈣、鎂、鉀等電解質不足",
+          "pathogens": [],
+          "bodyParts": [
+            "肌肉",
+            "血液"
+          ],
+          "treatmentNotes": "Check 電解質平衡，補充鈣鎂鉀",
+          "notes": "夜間小腿抽筋常與缺鈣鎂有關。大量流汗後也易發生。"
+        },
+        {
+          "id": "cramp_circulation",
+          "category": "血液循環",
+          "description": "局部血液循環不良",
+          "pathogens": [],
+          "bodyParts": [
+            "血管",
+            "肌肉"
+          ],
+          "treatmentNotes": "Check 局部血液循環",
+          "notes": "久站、久坐、寒冷時較常發生。"
+        }
+      ]
+    },
+    {
+      "id": "numbness",
+      "name": "手腳麻",
+      "aliases": [
+        "手麻",
+        "腳麻",
+        "手指麻",
+        "麻木",
+        "手腳發麻",
+        "刺痛感"
+      ],
+      "causes": [
+        {
+          "id": "numbness_nerve",
+          "category": "神經壓迫",
+          "description": "周邊神經被壓迫",
+          "pathogens": [],
+          "bodyParts": [
+            "周邊神經",
+            "頸椎",
+            "腰椎",
+            "腕隧道"
+          ],
+          "treatmentNotes": "Check 神經壓迫點，加上發炎4訊號",
+          "notes": "腕隧道症候群（手麻）、頸椎壓迫（手臂麻）、腰椎壓迫（腿麻）為常見原因。"
+        },
+        {
+          "id": "numbness_circulation",
+          "category": "血液循環",
+          "description": "末梢血液循環不良",
+          "pathogens": [],
+          "bodyParts": [
+            "末梢血管",
+            "手指",
+            "腳趾"
+          ],
+          "treatmentNotes": "Check 末梢血液循環",
+          "notes": "天冷時更明顯。糖尿病患者需注意周邊神經病變。"
+        },
+        {
+          "id": "numbness_diabetes",
+          "category": "糖尿病神經病變",
+          "description": "高血糖損害周邊神經",
+          "pathogens": [],
+          "bodyParts": [
+            "周邊神經",
+            "手",
+            "腳"
+          ],
+          "treatmentNotes": "Check 血糖控制與周邊神經狀態",
+          "notes": "通常從腳趾開始，呈手套襪套分布。"
+        }
+      ]
+    },
+    {
+      "id": "fatigue",
+      "name": "疲勞倦怠",
+      "aliases": [
+        "累",
+        "好累",
+        "疲倦",
+        "沒精神",
+        "沒力氣",
+        "全身無力",
+        "容易累",
+        "倦怠"
+      ],
+      "causes": [
+        {
+          "id": "fatigue_infection",
+          "category": "感染後疲勞",
+          "description": "感染後免疫系統消耗導致疲勞",
+          "pathogens": [
+            "EB病毒",
+            "Covid",
+            "A型流感"
+          ],
+          "bodyParts": [
+            "免疫系統",
+            "全身"
+          ],
+          "treatmentNotes": "Check 殘存感染，加上發炎4訊號。Covid 長新冠需特別注意。",
+          "notes": "Long COVID 的主要症狀之一。EB病毒感染後也常見持續疲勞。"
+        },
+        {
+          "id": "fatigue_anemia",
+          "category": "貧血",
+          "description": "血紅素不足導致組織缺氧",
+          "pathogens": [],
+          "bodyParts": [
+            "血液",
+            "骨髓"
+          ],
+          "treatmentNotes": "Check 鐵質、維生素B12、葉酸",
+          "notes": "女性月經量大者常見缺鐵性貧血。"
+        },
+        {
+          "id": "fatigue_thyroid",
+          "category": "甲狀腺低下",
+          "description": "甲狀腺激素不足導致代謝下降",
+          "pathogens": [],
+          "bodyParts": [
+            "甲狀腺"
+          ],
+          "treatmentNotes": "Check 甲狀腺功能",
+          "notes": "伴隨怕冷、體重增加、便秘、皮膚乾燥。"
+        },
+        {
+          "id": "fatigue_sleep",
+          "category": "睡眠不足",
+          "description": "睡眠品質差或時間不夠",
+          "pathogens": [],
+          "bodyParts": [
+            "松果體",
+            "腎上腺"
+          ],
+          "treatmentNotes": "松果體 + 褪黑激素 + 腎上腺",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lymphadenopathy",
+      "name": "淋巴結腫大",
+      "aliases": [
+        "淋巴腫",
+        "淋巴結腫",
+        "脖子腫塊",
+        "腋下腫塊",
+        "鼠蹊腫塊"
+      ],
+      "causes": [
+        {
+          "id": "lymph_infection",
+          "category": "感染",
+          "description": "局部或全身感染引發淋巴結反應性腫大",
+          "pathogens": [
+            "A型鏈球菌",
+            "金黃色葡萄球菌",
+            "EB病毒",
+            "結核分枝桿菌"
+          ],
+          "bodyParts": [
+            "淋巴結",
+            "頸部",
+            "腋下",
+            "鼠蹊"
+          ],
+          "treatmentNotes": "找出感染源，Check 附近組織有無感染，加上發炎4訊號",
+          "notes": "感冒、牙齦發炎常引起頸部淋巴結腫大。多數為良性反應。"
+        },
+        {
+          "id": "lymph_autoimmune",
+          "category": "自體免疫",
+          "description": "免疫系統異常引發淋巴結腫大",
+          "pathogens": [],
+          "bodyParts": [
+            "淋巴結",
+            "免疫系統"
+          ],
+          "treatmentNotes": "ID(+) + 介素20 + 雙氫青蒿素",
+          "notes": "紅斑性狼瘡、類風濕性關節炎等可引發。"
+        }
+      ]
+    },
+    {
+      "id": "urticaria",
+      "name": "蕁麻疹",
+      "aliases": [
+        "風疹",
+        "起疹子",
+        "皮膚一塊一塊腫",
+        "蕁麻",
+        "風疹塊",
+        "皮膚浮腫",
+        "過敏起疹"
+      ],
+      "causes": [
+        {
+          "id": "urticaria_acute_allergy",
+          "category": "急性過敏",
+          "description": "食物、藥物或接觸過敏原引發急性蕁麻疹",
+          "pathogens": [
+            "海鮮",
+            "蛋",
+            "牛奶",
+            "堅果",
+            "NSAID藥物",
+            "抗生素",
+            "蜂毒",
+            "乳膠"
+          ],
+          "bodyParts": [
+            "皮膚",
+            "真皮層",
+            "肥大細胞"
+          ],
+          "treatmentNotes": "腎上腺 + 過敏原 + 皮膚 + 發炎訊號。找出並避免過敏原。",
+          "notes": "肥大細胞釋放組織胺，導致皮膚膨疹、搔癢。通常6週內消退。食物過敏最常見：海鮮、蛋、奶、堅果。藥物：阿斯匹靈、NSAID、抗生素。"
+        },
+        {
+          "id": "urticaria_chronic",
+          "category": "慢性自發性蕁麻疹",
+          "description": "持續超過6週的反覆蕁麻疹，多找不到明確過敏原",
+          "pathogens": [],
+          "bodyParts": [
+            "皮膚",
+            "免疫系統",
+            "肥大細胞"
+          ],
+          "treatmentNotes": "ID(+) + 介素20 + 皮膚 + 發炎4訊號。Check 自體免疫。",
+          "notes": "約50%慢性蕁麻疹與自體免疫有關（自體抗體攻擊肥大細胞上的IgE受體）。壓力、感染、荷爾蒙變化可能誘發。夜間常加重。"
+        },
+        {
+          "id": "urticaria_physical",
+          "category": "物理性蕁麻疹",
+          "description": "物理刺激（冷、熱、壓力、日光、運動）引發",
+          "pathogens": [
+            "冷",
+            "熱",
+            "陽光",
+            "壓力摩擦",
+            "流汗"
+          ],
+          "bodyParts": [
+            "皮膚"
+          ],
+          "treatmentNotes": "腎上腺 + 物理刺激因子 + 皮膚 + 發炎訊號",
+          "notes": "冷刺激型：接觸冷水或冷空氣發作。膽鹼型：運動或情緒緊張流汗時小顆膨疹。皮膚劃紋症：皮膚被劃過後膨起。"
+        },
+        {
+          "id": "urticaria_infection",
+          "category": "感染相關",
+          "description": "感染誘發免疫反應引起蕁麻疹",
+          "pathogens": [
+            "幽門螺旋桿菌",
+            "EB病毒",
+            "A型肝炎病毒",
+            "寄生蟲"
+          ],
+          "bodyParts": [
+            "皮膚",
+            "免疫系統",
+            "腸道"
+          ],
+          "treatmentNotes": "找出感染源治療，同時處理皮膚發炎",
+          "notes": "慢性蕁麻疹需篩檢幽門螺旋桿菌感染、寄生蟲感染等隱藏感染源。"
+        }
+      ]
+    },
+    {
+      "id": "eczema",
+      "name": "濕疹",
+      "aliases": [
+        "異位性皮膚炎",
+        "皮膚乾癢",
+        "脫屑",
+        "皮膚脫皮",
+        "濕疹發作"
+      ],
+      "causes": [
+        {
+          "id": "eczema_atopic",
+          "category": "異位性",
+          "description": "皮膚屏障功能異常與免疫過度反應",
+          "pathogens": [
+            "塵蟎",
+            "灰塵",
+            "花粉",
+            "貓狗毛"
+          ],
+          "bodyParts": [
+            "皮膚",
+            "表皮屏障"
+          ],
+          "treatmentNotes": "腎上腺 + 過敏原 + 皮膚 + 發炎訊號。絲聚蛋白、水通道蛋白修復皮膚屏障。",
+          "notes": "常合併過敏性鼻炎、氣喘（過敏三部曲）。好發於手肘內側、膝蓋後方。"
+        },
+        {
+          "id": "eczema_contact",
+          "category": "接觸性",
+          "description": "接觸刺激物或過敏物引發",
+          "pathogens": [
+            "鎳",
+            "乳膠",
+            "清潔劑",
+            "香料",
+            "防腐劑"
+          ],
+          "bodyParts": [
+            "皮膚"
+          ],
+          "treatmentNotes": "找出接觸過敏原，加上發炎4訊號 + 皮膚修復",
+          "notes": "接觸部位出現紅疹、水泡、脫皮。常見於手部（主婦濕疹）。"
+        }
+      ]
+    },
+    {
+      "id": "shingles",
+      "name": "帶狀疱疹",
+      "aliases": [
+        "皮蛇",
+        "飛蛇",
+        "纏腰蛇",
+        "疱疹",
+        "帶狀皰疹"
+      ],
+      "causes": [
+        {
+          "id": "shingles_vzv",
+          "category": "病毒再活化",
+          "description": "水痘帶狀疱疹病毒潛伏於神經節後再活化",
+          "pathogens": [
+            "水痘帶狀疱疹病毒 (VZV)"
+          ],
+          "bodyParts": [
+            "神經節",
+            "皮膚",
+            "脊髓神經"
+          ],
+          "treatmentNotes": "Check 神經節病毒再活化，加上發炎4訊號。針對脊髓神經到皮膚路徑治療。",
+          "notes": "沿單側皮節分布的水泡與劇烈疼痛為特徵。免疫力下降時發作（壓力、老化、疾病）。疱疹後神經痛可持續數月。50歲以上建議接種疫苗。"
+        }
+      ]
+    },
+    {
+      "id": "mouth_ulcer",
+      "name": "口腔潰瘍",
+      "aliases": [
+        "嘴破",
+        "嘴巴破",
+        "口內炎",
+        "舌頭破",
+        "嘴巴潰瘍",
+        "口瘡"
+      ],
+      "causes": [
+        {
+          "id": "mouth_ulcer_immune",
+          "category": "免疫與壓力",
+          "description": "免疫功能下降或壓力導致口腔黏膜潰瘍",
+          "pathogens": [],
+          "bodyParts": [
+            "口腔黏膜",
+            "舌頭",
+            "嘴唇內側"
+          ],
+          "treatmentNotes": "Check 免疫功能，腎上腺 + 口腔黏膜 + 發炎4訊號",
+          "notes": "壓力大、睡眠不足、營養缺乏（B群、鐵、葉酸）時容易發生。"
+        },
+        {
+          "id": "mouth_ulcer_virus",
+          "category": "病毒感染",
+          "description": "單純疱疹病毒或腸病毒引發",
+          "pathogens": [
+            "單純疱疹病毒(HSV)",
+            "克沙其病毒",
+            "腸病毒"
+          ],
+          "bodyParts": [
+            "口腔黏膜",
+            "咽喉"
+          ],
+          "treatmentNotes": "確認病毒類型，加上發炎4訊號",
+          "notes": "疱疹性口腔炎好發於幼兒。手足口病由腸病毒引起。"
+        }
+      ]
+    },
+    {
+      "id": "constipation",
+      "name": "便秘",
+      "aliases": [
+        "排便困難",
+        "大不出來",
+        "硬便",
+        "好幾天沒上",
+        "排便不順"
+      ],
+      "causes": [
+        {
+          "id": "constipation_functional",
+          "category": "功能性",
+          "description": "腸道蠕動減慢、飲食纖維不足",
+          "pathogens": [],
+          "bodyParts": [
+            "大腸",
+            "直腸",
+            "腸道肌肉"
+          ],
+          "treatmentNotes": "Check 腸道蠕動、腸道菌群平衡",
+          "notes": "水分與纖維攝取不足、久坐、忽視便意為常見原因。"
+        },
+        {
+          "id": "constipation_nerve",
+          "category": "神經",
+          "description": "自律神經失調影響腸道蠕動",
+          "pathogens": [],
+          "bodyParts": [
+            "副交感神經",
+            "腸道神經叢",
+            "大腸"
+          ],
+          "treatmentNotes": "副交感神經 + 腸道神經叢 + 發炎4訊號",
+          "notes": "甲狀腺低下也會引發便秘。"
+        }
+      ]
+    },
+    {
+      "id": "bloating",
+      "name": "脹氣",
+      "aliases": [
+        "肚子脹",
+        "脹脹的",
+        "腸胃脹氣",
+        "打嗝",
+        "放屁多",
+        "腹脹"
+      ],
+      "causes": [
+        {
+          "id": "bloating_digestion",
+          "category": "消化不良",
+          "description": "食物消化不完全產生過多氣體",
+          "pathogens": [],
+          "bodyParts": [
+            "胃",
+            "小腸",
+            "大腸"
+          ],
+          "treatmentNotes": "Check 消化酵素分泌、腸道菌群",
+          "notes": "豆類、碳酸飲料、高油食物容易產氣。吃太快吞入空氣也會。"
+        },
+        {
+          "id": "bloating_sibo",
+          "category": "腸道菌群失衡",
+          "description": "小腸細菌過度增生 (SIBO)",
+          "pathogens": [],
+          "bodyParts": [
+            "小腸",
+            "腸道菌群"
+          ],
+          "treatmentNotes": "Check 腸道菌群平衡",
+          "notes": "小腸細菌過度增生會導致慢性脹氣、腹瀉或便秘交替。"
+        }
+      ]
+    },
+    {
+      "id": "gerd",
+      "name": "胃食道逆流",
+      "aliases": [
+        "火燒心",
+        "胃酸逆流",
+        "逆流",
+        "胸口灼熱",
+        "溢酸",
+        "胃酸過多"
+      ],
+      "causes": [
+        {
+          "id": "gerd_les",
+          "category": "賁門鬆弛",
+          "description": "下食道括約肌功能不良導致胃酸逆流",
+          "pathogens": [],
+          "bodyParts": [
+            "食道",
+            "賁門",
+            "胃"
+          ],
+          "treatmentNotes": "Check 賁門功能、食道黏膜發炎狀態，加上發炎4訊號",
+          "notes": "飯後躺下、吃太飽、肥胖、懷孕時加重。長期可導致食道發炎甚至巴瑞特食道。"
+        },
+        {
+          "id": "gerd_hpylori",
+          "category": "幽門螺旋桿菌",
+          "description": "幽門螺旋桿菌感染導致胃酸分泌異常",
+          "pathogens": [
+            "胃幽門螺旋桿菌"
+          ],
+          "bodyParts": [
+            "胃",
+            "食道"
+          ],
+          "treatmentNotes": "Check 幽門螺旋桿菌感染，加上發炎4訊號",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "edema",
+      "name": "水腫",
+      "aliases": [
+        "腫脹",
+        "浮腫",
+        "腳腫",
+        "眼皮腫",
+        "腿腫",
+        "手腫"
+      ],
+      "causes": [
+        {
+          "id": "edema_kidney",
+          "category": "腎臟",
+          "description": "腎功能不良導致水分滯留",
+          "pathogens": [],
+          "bodyParts": [
+            "腎臟",
+            "下肢",
+            "眼瞼"
+          ],
+          "treatmentNotes": "Check 腎臟功能",
+          "notes": "晨起眼瞼浮腫為腎臟問題特徵之一。"
+        },
+        {
+          "id": "edema_cardiac",
+          "category": "心臟",
+          "description": "心臟幫浦功能不足導致體液滯留",
+          "pathogens": [],
+          "bodyParts": [
+            "心臟",
+            "下肢",
+            "肺"
+          ],
+          "treatmentNotes": "Check 心臟功能",
+          "notes": "下肢水腫在傍晚加重、按壓有凹陷為心因性水腫特徵。"
+        },
+        {
+          "id": "edema_lymph",
+          "category": "淋巴",
+          "description": "淋巴回流障礙",
+          "pathogens": [],
+          "bodyParts": [
+            "淋巴管",
+            "淋巴結"
+          ],
+          "treatmentNotes": "Check 淋巴循環",
+          "notes": "單側肢體水腫需考慮淋巴水腫。"
+        }
+      ]
+    },
+    {
+      "id": "anemia",
+      "name": "貧血",
+      "aliases": [
+        "臉色蒼白",
+        "缺鐵",
+        "頭暈臉白",
+        "血紅素低"
+      ],
+      "causes": [
+        {
+          "id": "anemia_iron",
+          "category": "缺鐵",
+          "description": "鐵質攝取不足或流失過多",
+          "pathogens": [],
+          "bodyParts": [
+            "血液",
+            "骨髓",
+            "腸道"
+          ],
+          "treatmentNotes": "Check 鐵質吸收、是否有慢性出血",
+          "notes": "最常見的貧血類型。月經量大、消化道出血、素食者需注意。"
+        },
+        {
+          "id": "anemia_b12",
+          "category": "維生素B12/葉酸缺乏",
+          "description": "巨母紅血球貧血",
+          "pathogens": [],
+          "bodyParts": [
+            "血液",
+            "骨髓",
+            "神經"
+          ],
+          "treatmentNotes": "Check B12與葉酸狀態",
+          "notes": "B12缺乏可合併神經症狀（手腳麻、步態不穩）。"
+        }
+      ]
+    },
+    {
+      "id": "weight_loss",
+      "name": "體重下降",
+      "aliases": [
+        "變瘦",
+        "瘦了",
+        "體重減輕",
+        "吃不胖",
+        "不明原因消瘦"
+      ],
+      "causes": [
+        {
+          "id": "weight_loss_thyroid",
+          "category": "甲狀腺亢進",
+          "description": "甲狀腺激素過多加速代謝",
+          "pathogens": [],
+          "bodyParts": [
+            "甲狀腺"
+          ],
+          "treatmentNotes": "Check 甲狀腺功能",
+          "notes": "伴隨心悸、手抖、怕熱、眼凸。"
+        },
+        {
+          "id": "weight_loss_diabetes",
+          "category": "糖尿病",
+          "description": "血糖控制不良導致體重下降",
+          "pathogens": [],
+          "bodyParts": [
+            "胰臟",
+            "血液"
+          ],
+          "treatmentNotes": "Check 血糖與胰臟功能",
+          "notes": "三多一少：多吃、多喝、多尿、體重減少。"
+        },
+        {
+          "id": "weight_loss_infection",
+          "category": "慢性感染",
+          "description": "慢性感染消耗身體能量",
+          "pathogens": [
+            "結核分枝桿菌"
+          ],
+          "bodyParts": [
+            "全身"
+          ],
+          "treatmentNotes": "找出慢性感染源",
+          "notes": "不明原因持續消瘦需排除重大疾病。"
+        }
+      ]
+    },
+    {
+      "id": "hyperhidrosis",
+      "name": "多汗",
+      "aliases": [
+        "流汗多",
+        "手汗",
+        "腳汗",
+        "盜汗",
+        "容易流汗",
+        "狂流汗"
+      ],
+      "causes": [
+        {
+          "id": "hyperhidrosis_sympathetic",
+          "category": "交感神經",
+          "description": "交感神經過度活化",
+          "pathogens": [],
+          "bodyParts": [
+            "交感神經",
+            "汗腺"
+          ],
+          "treatmentNotes": "Check 交感神經活性",
+          "notes": "原發性多汗常局部（手掌、腋下、腳底），與情緒、壓力有關。"
+        },
+        {
+          "id": "hyperhidrosis_thyroid",
+          "category": "甲狀腺亢進",
+          "description": "甲狀腺激素過多導致代謝亢進",
+          "pathogens": [],
+          "bodyParts": [
+            "甲狀腺"
+          ],
+          "treatmentNotes": "Check 甲狀腺功能",
+          "notes": "全身性多汗伴隨心悸、體重下降需檢查甲狀腺。夜間盜汗需排除感染。"
+        }
+      ]
+    },
+    {
+      "id": "dry_mouth",
+      "name": "口乾",
+      "aliases": [
+        "嘴巴乾",
+        "口渴",
+        "口乾舌燥",
+        "唾液少"
+      ],
+      "causes": [
+        {
+          "id": "dry_mouth_medication",
+          "category": "藥物副作用",
+          "description": "藥物減少唾液分泌",
+          "pathogens": [],
+          "bodyParts": [
+            "唾液腺",
+            "口腔"
+          ],
+          "treatmentNotes": "Check 使用藥物與唾液腺功能",
+          "notes": "抗組織胺、抗憂鬱藥、利尿劑、降血壓藥常見副作用。"
+        },
+        {
+          "id": "dry_mouth_sjogren",
+          "category": "乾燥症",
+          "description": "自體免疫攻擊唾液腺與淚腺",
+          "pathogens": [],
+          "bodyParts": [
+            "唾液腺",
+            "淚腺"
+          ],
+          "treatmentNotes": "ID(+) + 介素20 + 唾液腺 + 淚腺 + 發炎4訊號",
+          "notes": "修格蘭氏症候群：口乾 + 眼乾。常合併其他自體免疫疾病。"
+        },
+        {
+          "id": "dry_mouth_diabetes",
+          "category": "糖尿病",
+          "description": "高血糖導致脫水與口乾",
+          "pathogens": [],
+          "bodyParts": [
+            "唾液腺",
+            "血液"
+          ],
+          "treatmentNotes": "Check 血糖",
+          "notes": "多喝多尿伴口乾需考慮糖尿病。"
+        }
+      ]
+    },
+    {
+      "id": "nosebleed",
+      "name": "鼻血",
+      "aliases": [
+        "流鼻血",
+        "鼻出血",
+        "鼻子流血"
+      ],
+      "causes": [
+        {
+          "id": "nosebleed_local",
+          "category": "局部",
+          "description": "鼻腔黏膜乾燥或受傷出血",
+          "pathogens": [],
+          "bodyParts": [
+            "鼻腔",
+            "鼻中隔",
+            "鼻黏膜"
+          ],
+          "treatmentNotes": "Check 鼻腔黏膜狀態",
+          "notes": "挖鼻孔、空氣乾燥、鼻中隔偏曲為常見原因。多為前鼻出血（利特爾區）。"
+        },
+        {
+          "id": "nosebleed_systemic",
+          "category": "全身性",
+          "description": "高血壓或凝血功能異常",
+          "pathogens": [],
+          "bodyParts": [
+            "血管",
+            "血小板"
+          ],
+          "treatmentNotes": "Check 血壓與凝血功能",
+          "notes": "反覆或大量鼻血需排除凝血異常。服用抗凝血藥物者風險增加。"
+        }
+      ]
+    },
+    {
+      "id": "toothache",
+      "name": "牙痛",
+      "aliases": [
+        "牙齒痛",
+        "蛀牙痛",
+        "牙髓炎",
+        "牙神經痛",
+        "咬東西會痛"
+      ],
+      "causes": [
+        {
+          "id": "toothache_cavity",
+          "category": "蛀牙",
+          "description": "齲齒侵犯牙本質或牙髓",
+          "pathogens": [
+            "轉糖鏈球菌",
+            "乳酸桿菌"
+          ],
+          "bodyParts": [
+            "牙齒",
+            "牙髓",
+            "牙本質"
+          ],
+          "treatmentNotes": "Check 牙齒感染，往深層牙髓、神經找",
+          "notes": "冷熱刺激痛為早期，自發性抽痛可能已達牙髓炎。"
+        },
+        {
+          "id": "toothache_abscess",
+          "category": "牙膿瘍",
+          "description": "牙根尖或牙周膿瘍",
+          "pathogens": [
+            "厭氧菌",
+            "金黃色葡萄球菌",
+            "A型鏈球菌"
+          ],
+          "bodyParts": [
+            "牙根",
+            "牙周",
+            "下顎骨"
+          ],
+          "treatmentNotes": "Check 牙根尖與牙周感染，加上發炎4訊號",
+          "notes": "持續劇痛、牙齦腫脹、可能發燒。嚴重可能擴散至顏面蜂窩組織炎。"
+        }
+      ]
+    },
+    {
+      "id": "abdominal_distension",
+      "name": "腹脹",
+      "aliases": [
+        "肚子大",
+        "小腹凸",
+        "腹部脹大",
+        "肚子硬硬的"
+      ],
+      "causes": [
+        {
+          "id": "abd_gas",
+          "category": "脹氣",
+          "description": "腸道氣體過多",
+          "pathogens": [],
+          "bodyParts": [
+            "腸道",
+            "大腸"
+          ],
+          "treatmentNotes": "Check 腸道蠕動與菌群",
+          "notes": "與脹氣重疊但腹脹更強調整體腹部膨隆感。"
+        },
+        {
+          "id": "abd_liver",
+          "category": "肝臟",
+          "description": "肝硬化或肝病引發腹水",
+          "pathogens": [],
+          "bodyParts": [
+            "肝臟",
+            "腹膜"
+          ],
+          "treatmentNotes": "Check 肝臟功能",
+          "notes": "腹水伴下肢水腫需排除肝硬化。"
+        }
+      ]
+    },
+    {
+      "id": "poor_appetite",
+      "name": "食慾不振",
+      "aliases": [
+        "不想吃",
+        "沒食慾",
+        "吃不下",
+        "胃口差",
+        "厭食"
+      ],
+      "causes": [
+        {
+          "id": "appetite_infection",
+          "category": "感染",
+          "description": "急性感染引發食慾下降",
+          "pathogens": [],
+          "bodyParts": [
+            "胃",
+            "肝臟",
+            "全身"
+          ],
+          "treatmentNotes": "找出感染源治療",
+          "notes": "感冒、腸胃炎時常見。"
+        },
+        {
+          "id": "appetite_liver",
+          "category": "肝臟",
+          "description": "肝臟功能異常影響消化與食慾",
+          "pathogens": [
+            "B型肝炎病毒",
+            "C型肝炎病毒"
+          ],
+          "bodyParts": [
+            "肝臟",
+            "膽"
+          ],
+          "treatmentNotes": "Check 肝臟與膽功能",
+          "notes": "持續食慾不振伴疲勞、黃疸需檢查肝功能。"
+        },
+        {
+          "id": "appetite_emotion",
+          "category": "情緒",
+          "description": "壓力、焦慮或憂鬱影響食慾",
+          "pathogens": [],
+          "bodyParts": [
+            "杏仁核",
+            "下視丘"
+          ],
+          "treatmentNotes": "杏仁核 + 下視丘 + 發炎4訊號",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "hair_loss",
+      "name": "落髮",
+      "aliases": [
+        "掉頭髮",
+        "禿頭",
+        "頭髮變少",
+        "髮量減少",
+        "圓形禿",
+        "掉髮"
+      ],
+      "causes": [
+        {
+          "id": "hair_hormonal",
+          "category": "荷爾蒙",
+          "description": "雄性荷爾蒙導致毛囊萎縮",
+          "pathogens": [],
+          "bodyParts": [
+            "毛囊",
+            "頭皮"
+          ],
+          "treatmentNotes": "Check 荷爾蒙平衡（DHT）",
+          "notes": "雄性禿為最常見落髮，男女皆可發生。"
+        },
+        {
+          "id": "hair_autoimmune",
+          "category": "自體免疫",
+          "description": "免疫系統攻擊毛囊（圓形禿）",
+          "pathogens": [],
+          "bodyParts": [
+            "毛囊",
+            "免疫系統"
+          ],
+          "treatmentNotes": "ID(+) + 介素20 + 毛囊 + 發炎4訊號",
+          "notes": "圓形禿為突發性圓形脫髮區塊，常與壓力有關。"
+        },
+        {
+          "id": "hair_stress",
+          "category": "壓力與營養",
+          "description": "壓力或營養不良導致休止期掉髮",
+          "pathogens": [],
+          "bodyParts": [
+            "毛囊",
+            "血液"
+          ],
+          "treatmentNotes": "Check 鐵質、鋅、蛋白質、甲狀腺功能",
+          "notes": "產後掉髮、重大壓力事件後2-3個月開始大量落髮。甲狀腺低下也會。"
+        }
+      ]
+    },
+    {
+      "id": "nail_abnormality",
+      "name": "指甲異常",
+      "aliases": [
+        "指甲變色",
+        "指甲變厚",
+        "指甲脆裂",
+        "指甲凹陷",
+        "灰指甲"
+      ],
+      "causes": [
+        {
+          "id": "nail_fungal",
+          "category": "黴菌感染",
+          "description": "指甲真菌感染（灰指甲）",
+          "pathogens": [
+            "皮癬菌",
+            "白色念珠菌"
+          ],
+          "bodyParts": [
+            "指甲",
+            "甲床"
+          ],
+          "treatmentNotes": "Check 真菌感染，加上發炎4訊號",
+          "notes": "指甲變厚、變黃、易碎。腳趾甲比手指甲常見。"
+        },
+        {
+          "id": "nail_nutrition",
+          "category": "營養缺乏",
+          "description": "鐵、鋅等營養素缺乏",
+          "pathogens": [],
+          "bodyParts": [
+            "指甲",
+            "血液"
+          ],
+          "treatmentNotes": "Check 鐵質、鋅、生物素狀態",
+          "notes": "匙狀甲（凹陷）可能為缺鐵。指甲易裂可能缺生物素。"
+        }
+      ]
+    },
+    {
+      "id": "athletes_foot",
+      "name": "香港腳",
+      "aliases": [
+        "腳癢",
+        "腳趾癢",
+        "足癬",
+        "腳脫皮",
+        "腳底癢",
+        "腳臭"
+      ],
+      "causes": [
+        {
+          "id": "athletes_foot_fungal",
+          "category": "真菌感染",
+          "description": "皮癬菌感染足部皮膚",
+          "pathogens": [
+            "皮癬菌",
+            "紅色毛癬菌",
+            "鬚毛癬菌"
+          ],
+          "bodyParts": [
+            "足部皮膚",
+            "腳趾間"
+          ],
+          "treatmentNotes": "Check 真菌感染，加上發炎4訊號",
+          "notes": "潮濕溫暖環境易感染。趾間糜爛型、水泡型、角化型。常與灰指甲合併。"
         }
       ]
     }
   ],
   "commonPathogens": {
     "bacteria": [
-      "A型鏈球菌", "肺炎鏈球菌", "流感嗜血桿菌", "肺炎披衣菌", "黴漿菌",
-      "腐生葡萄球菌", "金黃色葡萄球菌", "卡他莫拉菌", "白喉桿菌", "克雷伯氏菌",
-      "革蘭氏陽性菌", "革蘭氏陰性菌", "乙酸鈣不動桿菌", "傷寒桿菌", "副傷寒桿菌", "綠膿桿菌",
-      "百日咳桿菌 (Bordetella pertussis)", "肺炎黴漿菌 (Mycoplasma pneumoniae)"
+      "A型鏈球菌",
+      "肺炎鏈球菌",
+      "流感嗜血桿菌",
+      "肺炎披衣菌",
+      "黴漿菌",
+      "腐生葡萄球菌",
+      "金黃色葡萄球菌",
+      "卡他莫拉菌",
+      "白喉桿菌",
+      "克雷伯氏菌",
+      "革蘭氏陽性菌",
+      "革蘭氏陰性菌",
+      "乙酸鈣不動桿菌",
+      "傷寒桿菌",
+      "副傷寒桿菌",
+      "綠膿桿菌",
+      "百日咳桿菌 (Bordetella pertussis)",
+      "肺炎黴漿菌 (Mycoplasma pneumoniae)",
+      "轉糖鏈球菌",
+      "紅色毛癬菌",
+      "鬚毛癬菌"
     ],
     "viruses": [
-      "鼻病毒", "腺病毒", "A型流感 H3N2", "A型流感 H1N1", "H5N1", "B型流感",
-      "Covid", "Covid XFG (Stratus)", "副流行感冒病毒", "克沙其病毒", "腸病毒", "腸病毒71型(EV71)",
-      "伊科病毒11型", "E-B virus", "呼吸道融合病毒(RSV)", "小兒麻痺病毒",
-      "B19微小病毒", "立百病毒 (Nipah virus)", "漢他病毒", "HHV7", "諾羅病毒", "輪狀病毒",
-      "H7N7 新型A型流感", "猴痘病毒 (Monkeypox virus)", "麻疹病毒", "登革病毒（第1-4型）"
+      "鼻病毒",
+      "腺病毒",
+      "A型流感 H3N2",
+      "A型流感 H1N1",
+      "H5N1",
+      "B型流感",
+      "Covid",
+      "Covid XFG (Stratus)",
+      "副流行感冒病毒",
+      "克沙其病毒",
+      "腸病毒",
+      "腸病毒71型(EV71)",
+      "伊科病毒11型",
+      "E-B virus",
+      "呼吸道融合病毒(RSV)",
+      "小兒麻痺病毒",
+      "B19微小病毒",
+      "立百病毒 (Nipah virus)",
+      "漢他病毒",
+      "HHV7",
+      "諾羅病毒",
+      "輪狀病毒",
+      "H7N7 新型A型流感",
+      "猴痘病毒 (Monkeypox virus)",
+      "麻疹病毒",
+      "登革病毒（第1-4型）",
+      "單純疱疹病毒(HSV)",
+      "水痘帶狀疱疹病毒 (VZV)",
+      "B型肝炎病毒",
+      "C型肝炎病毒",
+      "腸病毒70型"
     ],
-    "fungi": ["黴菌", "白色念珠菌"],
-    "parasites": ["豬帶絛蟲幼蟲", "陰道滴蟲"]
+    "fungi": [
+      "黴菌",
+      "白色念珠菌",
+      "皮癬菌"
+    ],
+    "parasites": [
+      "豬帶絛蟲幼蟲",
+      "陰道滴蟲"
+    ]
   },
   "recentOutbreaks": {
     "lastUpdated": "2026-04-12",
