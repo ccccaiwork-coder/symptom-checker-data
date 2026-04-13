@@ -1,0 +1,3870 @@
+{
+  "lastUpdated" : "2026-04-12",
+  "pathogens" : [
+    {
+      "commonSymptoms" : [
+        "發燒",
+        "咳嗽",
+        "喉嚨痛",
+        "肌肉痠痛",
+        "頭痛",
+        "疲倦"
+      ],
+      "description" : "A型流感是最常見且最具變異性的流感病毒，可感染人類、禽類及豬等多種宿主。其表面蛋白血凝素（H）和神經氨酸酶（N）的組合決定亞型分類，已知有 18 種 H 亞型和 11 種 N 亞型。A型流感每年冬季造成季節性流行，偶爾引發全球大流行。",
+      "englishName" : "Influenza A",
+      "family" : "正黏液病毒科 (Orthomyxoviridae)",
+      "id" : "influenza_a",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/11213\/11213_lores.jpg",
+      "name" : "A型流感病毒",
+      "prevention" : [
+        "每年接種流感疫苗",
+        "勤洗手",
+        "咳嗽禮節",
+        "流行期間戴口罩",
+        "避免接觸禽鳥"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "新型流感",
+            "pdm09"
+          ],
+          "description" : "2009 年全球大流行株，目前為季節性流感主要流行型別之一",
+          "id" : "h1n1",
+          "name" : "H1N1"
+        },
+        {
+          "aliases" : [
+            "香港流感"
+          ],
+          "description" : "1968 年香港流感起源株，目前為台灣冬季最常見的季節性流感型別",
+          "id" : "h3n2",
+          "name" : "H3N2"
+        },
+        {
+          "aliases" : [
+            "禽流感"
+          ],
+          "description" : "高致病性禽流感病毒，偶有禽傳人案例，致死率高",
+          "id" : "h5n1",
+          "name" : "H5N1"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "2013 年中國首度發現的禽流感病毒，可由禽類傳染給人",
+          "id" : "h7n9",
+          "name" : "H7N9"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "低致病性禽流感，台灣 2026 年出現首例禽傳人案例（鴨農）",
+          "id" : "h7n7",
+          "name" : "H7N7"
+        }
+      ],
+      "taiwanRelevance" : "每年 11 月至隔年 3 月為流行季，以 H3N2 和 H1N1 為主。2026 年出現首例本土 H7N7 禽傳人。",
+      "transmission" : [
+        "飛沫傳染",
+        "接觸傳染",
+        "氣溶膠傳染"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "發燒",
+        "咳嗽",
+        "喉嚨痛",
+        "肌肉痠痛",
+        "腹瀉（兒童較常見）"
+      ],
+      "description" : "B型流感僅感染人類，變異速度較A型慢，但仍可引起季節性流行。分為 Victoria 和 Yamagata 兩大譜系，其中 Yamagata 譜系自 2020 年後幾乎消失。",
+      "englishName" : "Influenza B",
+      "family" : "正黏液病毒科 (Orthomyxoviridae)",
+      "id" : "influenza_b",
+      "name" : "B型流感病毒",
+      "prevention" : [
+        "每年接種流感疫苗",
+        "勤洗手",
+        "咳嗽禮節"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "B\/Victoria"
+          ],
+          "description" : "目前全球唯一流行的B型流感譜系",
+          "id" : "victoria",
+          "name" : "Victoria 譜系"
+        },
+        {
+          "aliases" : [
+            "B\/Yamagata"
+          ],
+          "description" : "自 COVID-19 大流行後幾乎未再偵測到，WHO 已建議疫苗不再納入",
+          "id" : "yamagata",
+          "name" : "Yamagata 譜系"
+        }
+      ],
+      "taiwanRelevance" : "與A型流感交替流行，近年以 Victoria 譜系為主。兒童感染比例較高。",
+      "transmission" : [
+        "飛沫傳染",
+        "接觸傳染"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "多數慢性感染無症狀",
+        "疲倦",
+        "食慾不振",
+        "黃疸",
+        "右上腹痛",
+        "茶色尿"
+      ],
+      "description" : "B型肝炎病毒是一種含部分雙股 DNA 的嗜肝病毒，慢性感染可導致肝硬化及肝細胞癌。台灣曾是全球 B 肝高盛行區，自 1986 年實施新生兒全面 B 肝疫苗接種後，帶原率由 15-20% 大幅下降至 1% 以下。",
+      "englishName" : "Hepatitis B Virus (HBV)",
+      "family" : "肝去氧核醣核酸病毒科 (Hepadnaviridae)",
+      "id" : "hbv",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/10755\/10755_lores.jpg",
+      "name" : "B型肝炎病毒",
+      "prevention" : [
+        "B型肝炎疫苗接種（公費常規接種）",
+        "避免共用針具及刮鬍刀",
+        "安全性行為",
+        "母嬰垂直傳染阻斷（HBIG + 疫苗）"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "Genotype B"
+          ],
+          "description" : "台灣最常見的基因型，約佔 60%，與急性肝炎及肝細胞癌相關",
+          "id" : "hbv_b",
+          "name" : "基因型B"
+        },
+        {
+          "aliases" : [
+            "Genotype C"
+          ],
+          "description" : "台灣次常見基因型，約佔 35%，與較嚴重的肝纖維化及較高肝癌風險相關",
+          "id" : "hbv_c",
+          "name" : "基因型C"
+        },
+        {
+          "aliases" : [
+            "Genotype A"
+          ],
+          "description" : "歐美常見型別，台灣少見",
+          "id" : "hbv_a",
+          "name" : "基因型A"
+        },
+        {
+          "aliases" : [
+            "Genotype D"
+          ],
+          "description" : "地中海及中東常見型別，台灣罕見",
+          "id" : "hbv_d",
+          "name" : "基因型D"
+        }
+      ],
+      "taiwanRelevance" : "台灣 1986 年起全面新生兒 B 肝疫苗接種，為全球首個實施此政策的國家。目前 30 歲以下帶原率已降至 1% 以下，但 40 歲以上世代帶原率仍達 10-15%。B 肝相關肝癌仍為台灣重大健康議題。",
+      "transmission" : [
+        "血液傳染",
+        "性行為傳染",
+        "垂直傳染（母嬰）",
+        "共用針具"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "多數慢性感染無症狀",
+        "疲倦",
+        "食慾不振",
+        "黃疸",
+        "關節痛",
+        "腹部不適"
+      ],
+      "description" : "C型肝炎病毒為單股正義 RNA 病毒，約 70-80% 的感染者會演變為慢性感染，最終可導致肝硬化及肝癌。直接作用型抗病毒藥物（DAA）的問世使 C 肝治癒率超過 95%，台灣已訂定 2025 年消除 C 肝的國家目標。",
+      "englishName" : "Hepatitis C Virus (HCV)",
+      "family" : "黃病毒科 (Flaviviridae)",
+      "id" : "hcv",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/8153\/8153_lores.jpg",
+      "name" : "C型肝炎病毒",
+      "prevention" : [
+        "避免共用針具及刺青器具",
+        "安全性行為",
+        "醫療器材確實消毒",
+        "目前無疫苗可預防",
+        "篩檢高風險族群及早治療"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "Genotype 1"
+          ],
+          "description" : "全球及台灣最常見的基因型，台灣以 1b 亞型為主",
+          "id" : "hcv_1",
+          "name" : "基因型1"
+        },
+        {
+          "aliases" : [
+            "Genotype 2"
+          ],
+          "description" : "台灣次常見基因型，以 2a 亞型為主，對 DAA 治療反應良好",
+          "id" : "hcv_2",
+          "name" : "基因型2"
+        },
+        {
+          "aliases" : [
+            "Genotype 3"
+          ],
+          "description" : "與較嚴重的脂肪肝及較快的纖維化進展相關",
+          "id" : "hcv_3",
+          "name" : "基因型3"
+        },
+        {
+          "aliases" : [
+            "Genotype 6"
+          ],
+          "description" : "東南亞常見型別，台灣偶有境外移入個案",
+          "id" : "hcv_6",
+          "name" : "基因型6"
+        }
+      ],
+      "taiwanRelevance" : "台灣 C 肝盛行率約 2-4%，部分偏鄉社區盛行率更高。健保自 2019 年起全面給付 DAA 治療，目標 2025 年消除 C 肝。基因型以 1b 和 2a 為主。",
+      "transmission" : [
+        "血液傳染",
+        "共用針具",
+        "不安全的醫療行為",
+        "性行為傳染（風險較低）",
+        "垂直傳染（風險較低）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "發燒",
+        "喉嚨痛",
+        "頸部淋巴結腫大",
+        "疲倦",
+        "肝脾腫大",
+        "皮疹"
+      ],
+      "description" : "EB病毒（人類疱疹病毒第四型）是全球感染率最高的病毒之一，超過 90% 的成人曾被感染。初次感染可引起傳染性單核球增多症，病毒終身潛伏於B淋巴球中。EBV與多種惡性腫瘤相關，包括鼻咽癌、伯乙氏淋巴瘤及霍奇金淋巴瘤。",
+      "englishName" : "Epstein-Barr Virus (EBV)",
+      "family" : "疱疹病毒科 (Herpesviridae)",
+      "id" : "ebv",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/10234\/10234_lores.jpg",
+      "name" : "EB病毒",
+      "prevention" : [
+        "避免與急性感染者共用餐具",
+        "勤洗手",
+        "目前無疫苗可預防"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣成人血清陽性率超過 95%。EBV 與台灣高盛行率的鼻咽癌密切相關，鼻咽癌為台灣男性重要癌症之一。",
+      "transmission" : [
+        "唾液傳染（親吻、共用餐具）",
+        "飛沫傳染",
+        "血液傳染",
+        "器官移植"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "發燒",
+        "咳嗽",
+        "喉嚨痛",
+        "流鼻水",
+        "頭痛",
+        "肌肉痠痛",
+        "嗅覺或味覺異常"
+      ],
+      "description" : "嚴重急性呼吸道症候群冠狀病毒2型，2019 年底首次發現，引發全球 COVID-19 大流行。病毒持續變異，產生多種變異株。目前已從大流行轉為地方性流行。",
+      "englishName" : "SARS-CoV-2 (COVID-19)",
+      "family" : "冠狀病毒科 (Coronaviridae)",
+      "id" : "sars_cov_2",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/23591\/23591_lores.jpg",
+      "name" : "SARS-CoV-2",
+      "prevention" : [
+        "接種 COVID-19 疫苗",
+        "佩戴口罩",
+        "保持通風",
+        "勤洗手"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "Pirola"
+          ],
+          "description" : "Omicron 亞變異株，目前 ECDC 列為關注變異株（VOI）",
+          "id" : "ba286",
+          "name" : "BA.2.86"
+        },
+        {
+          "aliases" : [
+            "Stratus"
+          ],
+          "description" : "2026 年全球主流變異株，為 BA.2.86 衍生的重組株",
+          "id" : "xfg",
+          "name" : "XFG (Stratus)"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "BA.2.86 的子代，2024 年初全球流行",
+          "id" : "jn1",
+          "name" : "JN.1"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "KS.1.1 和 KP.3.3 的重組株，2024 年秋季流行",
+          "id" : "xec",
+          "name" : "XEC"
+        }
+      ],
+      "taiwanRelevance" : "2026 年以 XFG (Stratus) 為主流變異株，已轉為季節性流行模式。",
+      "transmission" : [
+        "飛沫傳染",
+        "氣溶膠傳染",
+        "接觸傳染"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "多數無症狀",
+        "生殖器疣（低危型）",
+        "子宮頸細胞異常（高危型）",
+        "口咽部病變"
+      ],
+      "description" : "人類乳突病毒已發現超過 200 種基因型，其中約 40 種可感染生殖道黏膜。依致癌風險分為低危險型和高危險型，高危險型 HPV 持續感染是子宮頸癌的必要致病因子，也與口咽癌、肛門癌及外陰癌相關。",
+      "englishName" : "Human Papillomavirus (HPV)",
+      "family" : "乳突病毒科 (Papillomaviridae)",
+      "id" : "hpv",
+      "name" : "人類乳突病毒",
+      "prevention" : [
+        "HPV 疫苗接種（9-26歲最佳）",
+        "安全性行為",
+        "定期子宮頸抹片或HPV檢測",
+        "避免多重性伴侶"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "低危型HPV",
+            "尖圭濕疣病毒"
+          ],
+          "description" : "引起約 90% 的生殖器疣（菜花）及大部分的喉乳突瘤",
+          "id" : "hpv_6_11",
+          "name" : "HPV-6\/11（低危險型）"
+        },
+        {
+          "aliases" : [
+            "高危型HPV",
+            "致癌型HPV"
+          ],
+          "description" : "HPV-16 和 HPV-18 合計引起約 70% 的子宮頸癌及大部分 HPV 相關口咽癌",
+          "id" : "hpv_16_18",
+          "name" : "HPV-16\/18（高危險型）"
+        }
+      ],
+      "taiwanRelevance" : "台灣自 2018 年起提供國中女生公費 HPV 疫苗，2025 年擴大至國中男生。子宮頸癌篩檢已轉型為 HPV 檢測為主。每年約有 1,500 例子宮頸癌新診斷。",
+      "transmission" : [
+        "性行為傳染（皮膚黏膜接觸）",
+        "垂直傳染（生產過程）",
+        "極少數經由受汙染物品傳染"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "急性期：發燒、皮疹、淋巴結腫大、咽喉痛",
+        "無症狀潛伏期（可達數年）",
+        "AIDS 期：伺機性感染、體重減輕、慢性腹瀉"
+      ],
+      "description" : "HIV 攻擊人體 CD4+ T 淋巴球，未經治療將逐漸導致免疫系統崩潰，進展為後天免疫缺乏症候群（AIDS）。現代抗反轉錄病毒療法（ART）可有效控制病毒量至測不到的程度，達到「測不到等於不傳染」（U=U）的臨床目標。",
+      "englishName" : "Human Immunodeficiency Virus (HIV)",
+      "family" : "反轉錄病毒科 (Retroviridae)",
+      "id" : "hiv",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/10860\/10860_lores.jpg",
+      "name" : "人類免疫缺陷病毒",
+      "prevention" : [
+        "安全性行為（使用保險套）",
+        "暴露前預防性投藥（PrEP）",
+        "暴露後預防性投藥（PEP）",
+        "避免共用針具",
+        "定期篩檢"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "第一型HIV"
+          ],
+          "description" : "全球最主要的流行型別，分為 M、N、O、P 四群，M 群為大流行主因",
+          "id" : "hiv_1",
+          "name" : "HIV-1"
+        },
+        {
+          "aliases" : [
+            "第二型HIV"
+          ],
+          "description" : "主要流行於西非，致病力較弱、傳播力較低，台灣極為罕見",
+          "id" : "hiv_2",
+          "name" : "HIV-2"
+        }
+      ],
+      "taiwanRelevance" : "台灣截至 2026 年累計約 4.5 萬例 HIV 感染確認，以 HIV-1 為主。健保全面給付 ART，PrEP 部分補助。近年新通報感染人數呈下降趨勢。",
+      "transmission" : [
+        "性行為傳染",
+        "血液傳染",
+        "共用針具",
+        "垂直傳染（母嬰）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "咳嗽",
+        "流鼻水",
+        "發燒",
+        "喘鳴",
+        "呼吸急促",
+        "食慾下降"
+      ],
+      "description" : "呼吸道融合病毒是嬰幼兒下呼吸道感染最常見的病因，也是老年人重症肺炎的重要病原。病毒透過融合宿主細胞膜形成多核巨細胞（合胞體）而得名，全球每年造成大量住院及死亡案例。",
+      "englishName" : "Respiratory Syncytial Virus (RSV)",
+      "family" : "肺病毒科 (Pneumoviridae)",
+      "id" : "rsv",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/2175\/2175_lores.jpg",
+      "name" : "呼吸道融合病毒",
+      "prevention" : [
+        "勤洗手",
+        "避免接觸呼吸道感染患者",
+        "Nirsevimab 單株抗體預防（嬰幼兒）",
+        "RSV 疫苗（老年人及孕婦）",
+        "保持環境通風"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "A亞型"
+          ],
+          "description" : "致病力較強的亞型，通常造成較嚴重的臨床症狀，為多數流行季的優勢株",
+          "id" : "rsv_a",
+          "name" : "RSV-A"
+        },
+        {
+          "aliases" : [
+            "B亞型"
+          ],
+          "description" : "致病力相對較溫和，與 RSV-A 交替或共同流行",
+          "id" : "rsv_b",
+          "name" : "RSV-B"
+        }
+      ],
+      "taiwanRelevance" : "台灣全年可見但以秋冬季為主要流行期。2024 年起 Nirsevimab 納入嬰幼兒建議用藥，65 歲以上長者 RSV 疫苗亦已引進。",
+      "transmission" : [
+        "飛沫傳染",
+        "接觸傳染",
+        "接觸受汙染的物體表面"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "水泡群聚（口唇或生殖器）",
+        "疼痛",
+        "搔癢",
+        "發燒（初次感染）",
+        "淋巴結腫大"
+      ],
+      "description" : "單純疱疹病毒分為 HSV-1 和 HSV-2 兩型，初次感染後終身潛伏於神經節中，可反覆活化。HSV-1 主要引起口腔疱疹，HSV-2 主要引起生殖器疱疹，但兩型均可感染任何部位。新生兒疱疹為最嚴重的臨床表現。",
+      "englishName" : "Herpes Simplex Virus (HSV)",
+      "family" : "疱疹病毒科 (Herpesviridae)",
+      "id" : "hsv",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/10230\/10230_lores.jpg",
+      "name" : "單純疱疹病毒",
+      "prevention" : [
+        "避免接觸活動性病灶",
+        "使用保險套",
+        "產前評估及必要時剖腹產",
+        "抗病毒藥物抑制療法"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "第一型單純疱疹",
+            "口腔疱疹病毒"
+          ],
+          "description" : "主要引起口唇疱疹及疱疹性齦口炎，亦可引起疱疹性腦炎",
+          "id" : "hsv_1",
+          "name" : "HSV-1"
+        },
+        {
+          "aliases" : [
+            "第二型單純疱疹",
+            "生殖器疱疹病毒"
+          ],
+          "description" : "主要引起生殖器疱疹，經由性行為傳染，復發率較 HSV-1 高",
+          "id" : "hsv_2",
+          "name" : "HSV-2"
+        }
+      ],
+      "taiwanRelevance" : "台灣 HSV-1 血清陽性率約 50-60%（逐年下降趨勢），HSV-2 約 10-15%。新生兒疱疹為通報傳染病。",
+      "transmission" : [
+        "直接接觸（皮膚黏膜接觸）",
+        "性行為傳染",
+        "垂直傳染（生產過程）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "多數無症狀",
+        "發燒",
+        "疲倦",
+        "肝功能異常",
+        "視網膜炎（免疫低下者）",
+        "聽力損失（先天性感染）"
+      ],
+      "description" : "巨細胞病毒（人類疱疹病毒第五型）為常見的潛伏感染病毒，健康成人感染多無症狀。但對免疫低下者（器官移植、HIV 感染者）可造成嚴重疾病，先天性 CMV 感染是新生兒非遺傳性感音神經性聽損的最主要原因。",
+      "englishName" : "Cytomegalovirus (CMV)",
+      "family" : "疱疹病毒科 (Herpesviridae)",
+      "id" : "cmv",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/14429\/14429_lores.jpg",
+      "name" : "巨細胞病毒",
+      "prevention" : [
+        "孕婦注意手部衛生（接觸幼兒尿布後洗手）",
+        "血品CMV篩檢",
+        "器官移植後預防性投藥",
+        "目前無核准疫苗"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣成人血清陽性率約 90%，先天性 CMV 感染發生率約 0.2-0.5%，為新生兒聽力篩檢異常的重要鑑別診斷。",
+      "transmission" : [
+        "接觸感染者體液（唾液、尿液、母乳）",
+        "性行為傳染",
+        "血液傳染",
+        "器官移植",
+        "垂直傳染（母嬰）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "低度發燒",
+        "全身性斑丘疹（從臉部開始）",
+        "耳後及頸部淋巴結腫大",
+        "關節痛（成人女性常見）"
+      ],
+      "description" : "德國麻疹對一般人症狀輕微，但孕婦於懷孕初期感染可導致先天性德國麻疹症候群（CRS），造成胎兒心臟缺損、白內障、聽力損失及智能障礙等嚴重先天異常。疫苗接種是最有效的預防手段。",
+      "englishName" : "Rubella Virus",
+      "family" : "馬托那病毒科 (Matonaviridae)",
+      "id" : "rubella",
+      "name" : "德國麻疹病毒",
+      "prevention" : [
+        "MMR 疫苗接種（公費常規接種兩劑）",
+        "育齡女性孕前確認抗體狀態",
+        "抗體陰性者於孕前補種疫苗"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣已達德國麻疹消除目標。育齡女性若無抗體證明，婚前健檢或孕前檢查時建議補種 MMR 疫苗。",
+      "transmission" : [
+        "飛沫傳染",
+        "垂直傳染（母嬰）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "高燒",
+        "頭痛",
+        "頸部僵硬",
+        "意識障礙",
+        "抽搐",
+        "肢體無力"
+      ],
+      "description" : "日本腦炎病毒主要由三斑家蚊傳播，豬為主要增幅宿主。多數感染為無症狀或輕症，但約 1\/250 感染者會發展為腦炎，致死率約 20-30%，存活者約 30-50% 留有永久性神經後遺症。",
+      "englishName" : "Japanese Encephalitis Virus (JEV)",
+      "family" : "黃病毒科 (Flaviviridae)",
+      "id" : "japanese_encephalitis",
+      "name" : "日本腦炎病毒",
+      "prevention" : [
+        "接種日本腦炎疫苗（公費常規接種）",
+        "避免黃昏及夜間在豬舍或水田附近活動",
+        "使用防蚊措施"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣每年 5-10 月為流行季，以中南部養豬縣市病例較多。公費疫苗已納入兒童常規接種（活性減毒疫苗），每年仍有約 20-40 例確診。",
+      "transmission" : [
+        "病媒蚊叮咬（三斑家蚊）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "水痘：全身性水泡疹（搔癢）",
+        "發燒",
+        "帶狀疱疹：沿皮節分布的水泡",
+        "神經痛",
+        "疲倦"
+      ],
+      "description" : "水痘帶狀疱疹病毒（人類疱疹病毒第三型）初次感染引起水痘，好發於兒童。病毒潛伏於背根神經節，免疫力下降時可再活化為帶狀疱疹（皮蛇），常見於 50 歲以上成人。帶狀疱疹後神經痛為最常見且棘手的併發症。",
+      "englishName" : "Varicella-Zoster Virus (VZV)",
+      "family" : "疱疹病毒科 (Herpesviridae)",
+      "id" : "vzv",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/1878\/1878_lores.jpg",
+      "name" : "水痘帶狀疱疹病毒",
+      "prevention" : [
+        "水痘疫苗（公費常規接種）",
+        "帶狀疱疹疫苗（50歲以上建議接種）",
+        "避免接觸水痘或帶狀疱疹患者"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣水痘疫苗自 2004 年起納入公費常規接種。帶狀疱疹疫苗（重組佐劑疫苗 Shingrix）已在台灣上市，為自費接種。每年仍有約 5 萬人次因帶狀疱疹就醫。",
+      "transmission" : [
+        "飛沫傳染",
+        "空氣傳染",
+        "直接接觸水泡液"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "高燒",
+        "頭痛",
+        "肌肉痠痛",
+        "腹痛",
+        "腎功能異常",
+        "出血傾向",
+        "呼吸困難（肺症候群）"
+      ],
+      "description" : "漢他病毒主要由鼠類排泄物（尿液、糞便、唾液）傳播給人類，可引起漢他病毒出血熱伴腎症候群（HFRS）或漢他病毒肺症候群（HPS）。潛伏期 1-5 週，發病後病程進展快，致死率依型別不同可達 1-40%。",
+      "englishName" : "Hantavirus",
+      "family" : "漢他病毒科 (Hantaviridae)",
+      "id" : "hantavirus",
+      "name" : "漢他病毒",
+      "prevention" : [
+        "環境滅鼠",
+        "避免接觸鼠類排泄物",
+        "食物妥善保存",
+        "清理鼠類汙染環境時配戴口罩手套",
+        "避免鼠類進入居住空間"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣每年約有 0-5 例漢他病毒出血熱確定病例，以港口城市及市場周邊為高風險區域。主要感染鼠種為溝鼠。",
+      "transmission" : [
+        "吸入受汙染的鼠類排泄物氣溶膠",
+        "接觸受汙染物品",
+        "鼠類咬傷"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "咬傷處異感覺",
+        "恐水（吞嚥肌痙攣）",
+        "恐風",
+        "躁動不安",
+        "麻痺",
+        "意識障礙"
+      ],
+      "description" : "狂犬病病毒經由受感染動物的唾液（咬傷、抓傷）進入人體，沿周圍神經向中樞神經系統移行。一旦出現臨床症狀，致死率接近 100%。但暴露後及時接種疫苗和免疫球蛋白可有效預防發病。",
+      "englishName" : "Rabies Virus",
+      "family" : "桿狀病毒科 (Rhabdoviridae)",
+      "id" : "rabies",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/8341\/8341_lores.jpg",
+      "name" : "狂犬病病毒",
+      "prevention" : [
+        "避免接觸野生動物及流浪動物",
+        "寵物定期接種狂犬病疫苗",
+        "被動物咬傷後立即清洗傷口並就醫",
+        "暴露後預防接種（PEP）"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣 2013 年在鼬獾中檢出狂犬病病毒，結束 50 年無狂犬病動物案例紀錄。目前野生動物狂犬病監測持續進行，人類病例仍極為罕見。山區活動需注意防範。",
+      "transmission" : [
+        "受感染動物咬傷",
+        "受感染動物抓傷",
+        "黏膜接觸受感染動物唾液"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "發燒",
+        "淋巴結腫大",
+        "皮疹（斑疹→丘疹→水泡→膿疱→結痂）",
+        "頭痛",
+        "肌肉痠痛",
+        "肛門生殖器病灶"
+      ],
+      "description" : "猴痘病毒屬於正痘病毒屬，與天花病毒為近親。2022 年起在全球非流行區爆發大規模疫情，主要透過密切接觸傳播。分為 Clade I 和 Clade II 兩大分支，2022 年全球流行以 Clade IIb 為主，2024 年非洲出現 Clade Ib 新變異株。",
+      "englishName" : "Mpox Virus (MPXV)",
+      "family" : "痘病毒科 (Poxviridae)",
+      "id" : "mpox",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/22664\/22664_lores.jpg",
+      "name" : "猴痘病毒",
+      "prevention" : [
+        "避免與感染者密切皮膚接觸",
+        "猴痘疫苗（MVA-BN \/ JYNNEOS）",
+        "安全性行為",
+        "接觸後預防接種"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣 2022 年起陸續出現境外移入及本土病例。JYNNEOS 疫苗已引進台灣，提供高風險族群接種。2024 年因全球 Clade Ib 疫情，台灣加強邊境監測。",
+      "transmission" : [
+        "密切皮膚接觸",
+        "性行為傳染",
+        "接觸受汙染物品（床單、衣物）",
+        "飛沫傳染（長時間面對面）",
+        "垂直傳染（母嬰）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "高燒（突發）",
+        "頭痛",
+        "後眼窩痛",
+        "肌肉痠痛",
+        "關節痛",
+        "皮疹",
+        "出血傾向（重症）"
+      ],
+      "description" : "登革病毒經由埃及斑蚊和白線斑蚊傳播，分為四種血清型。初次感染通常為典型登革熱，但二次感染不同血清型時，因抗體依賴性增強效應（ADE），可能發展為登革出血熱或登革休克症候群等嚴重併發症。",
+      "englishName" : "Dengue Virus",
+      "family" : "黃病毒科 (Flaviviridae)",
+      "id" : "dengue",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/12493\/12493_lores.jpg",
+      "name" : "登革病毒",
+      "prevention" : [
+        "清除積水容器",
+        "使用防蚊液",
+        "穿著長袖長褲",
+        "裝設紗窗紗門",
+        "社區病媒蚊防治"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "第一型登革病毒"
+          ],
+          "description" : "台灣南部最常見的流行型別之一",
+          "id" : "denv_1",
+          "name" : "DENV-1"
+        },
+        {
+          "aliases" : [
+            "第二型登革病毒"
+          ],
+          "description" : "與重症登革熱關聯性較高的型別",
+          "id" : "denv_2",
+          "name" : "DENV-2"
+        },
+        {
+          "aliases" : [
+            "第三型登革病毒"
+          ],
+          "description" : "近年台灣境外移入案例中常見",
+          "id" : "denv_3",
+          "name" : "DENV-3"
+        },
+        {
+          "aliases" : [
+            "第四型登革病毒"
+          ],
+          "description" : "台灣相對少見的型別，偶有境外移入",
+          "id" : "denv_4",
+          "name" : "DENV-4"
+        }
+      ],
+      "taiwanRelevance" : "台灣南部（台南、高雄）為主要流行區域，每年 6-11 月為流行季。2015 年台南大流行逾 4 萬例。2023 年全台病例數亦突破 2 萬例。",
+      "transmission" : [
+        "病媒蚊叮咬（埃及斑蚊、白線斑蚊）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "腮腺腫脹（單側或雙側）",
+        "發燒",
+        "頭痛",
+        "肌肉痠痛",
+        "食慾不振",
+        "咀嚼時疼痛"
+      ],
+      "description" : "腮腺炎病毒主要感染唾液腺，引起腮腺腫脹疼痛。併發症包括睪丸炎（青春期後男性）、卵巢炎、胰臟炎及無菌性腦膜炎。疫苗普及後發生率大幅下降，但大學校園偶有群聚事件。",
+      "englishName" : "Mumps Virus",
+      "family" : "副黏液病毒科 (Paramyxoviridae)",
+      "id" : "mumps",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/1874\/1874_lores.jpg",
+      "name" : "腮腺炎病毒",
+      "prevention" : [
+        "MMR 疫苗接種（公費常規接種兩劑）",
+        "避免與感染者密切接觸",
+        "勤洗手"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣 MMR 疫苗自 1992 年起納入公費接種。近年偶有大學及軍營群聚事件，多為疫苗保護力隨年齡衰退所致。",
+      "transmission" : [
+        "飛沫傳染",
+        "接觸受汙染的唾液"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "發燒",
+        "口腔潰瘍",
+        "手足水泡",
+        "喉嚨痛",
+        "食慾不振",
+        "嗜睡（重症警訊）",
+        "肌躍型抽搐（重症警訊）"
+      ],
+      "description" : "腸病毒為一群病毒的總稱，包含多種血清型，主要感染嬰幼兒及兒童。多數感染症狀輕微，但特定型別可引起手足口病、疱疹性咽峽炎，嚴重者可導致腦幹腦炎、心肌炎等致命併發症。台灣每年夏季為流行高峰。",
+      "englishName" : "Enterovirus",
+      "family" : "小RNA病毒科 (Picornaviridae)",
+      "id" : "enterovirus",
+      "name" : "腸病毒",
+      "prevention" : [
+        "勤洗手",
+        "環境消毒（使用漂白水）",
+        "避免與感染者密切接觸",
+        "EV-A71 疫苗（2024 年上市）",
+        "注意重症前兆徵象"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "EV-A71",
+            "71型腸病毒"
+          ],
+          "description" : "最具神經毒性的型別，可引起腦幹腦炎及肺水腫，為台灣腸病毒重症及死亡的主因",
+          "id" : "ev_a71",
+          "name" : "腸病毒A71型"
+        },
+        {
+          "aliases" : [
+            "CVA6",
+            "克沙奇病毒A6"
+          ],
+          "description" : "近年手足口病的主要致病株，皮疹範圍較傳統型廣泛，可能伴隨脫甲症",
+          "id" : "cva6",
+          "name" : "克沙奇A6型"
+        },
+        {
+          "aliases" : [
+            "CVA16",
+            "克沙奇病毒A16"
+          ],
+          "description" : "傳統手足口病的經典病原，症狀通常較輕微",
+          "id" : "cva16",
+          "name" : "克沙奇A16型"
+        },
+        {
+          "aliases" : [
+            "EV-D68"
+          ],
+          "description" : "以呼吸道症狀為主，可引起急性弛緩性脊髓炎（AFM），臨床表現類似小兒麻痺",
+          "id" : "ev_d68",
+          "name" : "腸病毒D68型"
+        }
+      ],
+      "taiwanRelevance" : "台灣每年 4-9 月為腸病毒流行期，5 歲以下幼兒為重症高危險群。1998 年大流行造成 78 人死亡。EV-A71 疫苗已於 2024 年在台灣上市，為自費接種。",
+      "transmission" : [
+        "糞口傳染",
+        "飛沫傳染",
+        "接觸傳染",
+        "接觸受汙染的物體表面"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "發燒",
+        "咳嗽",
+        "喉嚨痛",
+        "結膜炎",
+        "腹瀉",
+        "腹痛"
+      ],
+      "description" : "人類腺病毒有超過 50 種血清型，可引起呼吸道感染、結膜炎、腸胃炎及泌尿道感染等多種疾病。不同血清型具有不同的組織嗜性，臨床表現差異大。腺病毒在環境中穩定性高，容易造成群聚感染。",
+      "englishName" : "Adenovirus",
+      "family" : "腺病毒科 (Adenoviridae)",
+      "id" : "adenovirus",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/10010\/10010_lores.jpg",
+      "name" : "腺病毒",
+      "prevention" : [
+        "勤洗手",
+        "避免共用毛巾",
+        "游泳池水質管理",
+        "隔離感染者"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "Ad3"
+          ],
+          "description" : "呼吸道型，常引起咽結膜熱（游泳池熱），好發於兒童",
+          "id" : "adv_3",
+          "name" : "第3型"
+        },
+        {
+          "aliases" : [
+            "Ad4"
+          ],
+          "description" : "呼吸道型，常見於軍營等密集場所的群聚感染",
+          "id" : "adv_4",
+          "name" : "第4型"
+        },
+        {
+          "aliases" : [
+            "Ad7"
+          ],
+          "description" : "呼吸道型，致病力最強，可引起嚴重肺炎，致死率較高",
+          "id" : "adv_7",
+          "name" : "第7型"
+        },
+        {
+          "aliases" : [
+            "Ad14"
+          ],
+          "description" : "呼吸道型，新興高致病性株，可導致成人嚴重肺炎",
+          "id" : "adv_14",
+          "name" : "第14型"
+        },
+        {
+          "aliases" : [
+            "Ad40",
+            "Ad41",
+            "腸道腺病毒"
+          ],
+          "description" : "腸道型，是幼兒病毒性腸胃炎的重要病因",
+          "id" : "adv_40_41",
+          "name" : "第40\/41型"
+        }
+      ],
+      "taiwanRelevance" : "台灣全年皆有病例，春夏季略多。第3型和第7型為主要流行型別，托幼機構群聚事件頻繁。",
+      "transmission" : [
+        "飛沫傳染",
+        "糞口傳染",
+        "接觸傳染",
+        "水源傳染（游泳池）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "噁心",
+        "嘔吐",
+        "水樣腹瀉",
+        "腹痛",
+        "輕微發燒",
+        "肌肉痠痛"
+      ],
+      "description" : "諾羅病毒是全球急性病毒性腸胃炎最主要的病因，傳染力極強，僅需極少量病毒顆粒即可致病。病毒變異快速，無法產生持久免疫力，因此可反覆感染。常造成學校、安養機構及餐廳的群聚事件。",
+      "englishName" : "Norovirus",
+      "family" : "杯狀病毒科 (Caliciviridae)",
+      "id" : "norovirus",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/21348\/21348_lores.jpg",
+      "name" : "諾羅病毒",
+      "prevention" : [
+        "勤洗手（酒精消毒效果有限，建議肥皂洗手）",
+        "食物充分加熱",
+        "貝類徹底煮熟",
+        "環境使用漂白水消毒",
+        "感染者避免處理食物"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "第一基因群"
+          ],
+          "description" : "含 9 種基因型，常與水源汙染相關的群聚事件有關",
+          "id" : "noro_gi",
+          "name" : "GI 基因群"
+        },
+        {
+          "aliases" : [
+            "第二基因群"
+          ],
+          "description" : "含超過 20 種基因型，GII.4 為全球最常見的流行株，佔所有諾羅病毒感染的 70-80%",
+          "id" : "noro_gii",
+          "name" : "GII 基因群"
+        }
+      ],
+      "taiwanRelevance" : "台灣每年 11 月至隔年 3 月為高峰期，校園與團膳群聚事件頻繁。GII.4 為主要流行基因型。",
+      "transmission" : [
+        "糞口傳染",
+        "食物傳染（受汙染的貝類）",
+        "水源傳染",
+        "接觸傳染",
+        "氣溶膠傳染（嘔吐物）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "水樣腹瀉",
+        "嘔吐",
+        "發燒",
+        "腹痛",
+        "脫水"
+      ],
+      "description" : "輪狀病毒是 5 歲以下嬰幼兒嚴重腹瀉的最主要病因，幾乎所有兒童在 5 歲前都會感染至少一次。病毒在環境中極為穩定，傳染力強。自輪狀病毒疫苗普及後，住院率與死亡率已大幅下降。",
+      "englishName" : "Rotavirus",
+      "family" : "呼腸病毒科 (Reoviridae)",
+      "id" : "rotavirus",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/5620\/5620_lores.jpg",
+      "name" : "輪狀病毒",
+      "prevention" : [
+        "口服輪狀病毒疫苗（出生後 2-6 個月內接種）",
+        "勤洗手",
+        "環境消毒",
+        "注意飲食衛生"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+
+          ],
+          "description" : "全球最常見的血清型組合，佔 A 群輪狀病毒感染的 30-40%",
+          "id" : "rota_g1p8",
+          "name" : "G1P[8]"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "第二常見型別，與較嚴重的臨床症狀相關",
+          "id" : "rota_g2p4",
+          "name" : "G2P[4]"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "近年全球快速增加的新興型別",
+          "id" : "rota_g9p8",
+          "name" : "G9P[8]"
+        }
+      ],
+      "taiwanRelevance" : "台灣輪狀病毒疫苗為自費接種，涵蓋率約 50-60%。每年冬春季為流行高峰，5 歲以下兒童腹瀉住院主因之一。",
+      "transmission" : [
+        "糞口傳染",
+        "接觸傳染",
+        "接觸受汙染的物體表面"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "高燒",
+        "咳嗽",
+        "鼻炎",
+        "結膜炎",
+        "柯氏斑（口腔黏膜白點）",
+        "全身性斑丘疹（從臉部向下蔓延）"
+      ],
+      "description" : "麻疹病毒傳染力極強（R0 = 12-18），為已知傳染力最高的病毒之一。感染後可引起嚴重併發症包括肺炎、腦炎，以及罕見但致命的亞急性硬化性全腦炎（SSPE）。疫苗可有效預防，但疫苗覆蓋率下降時容易爆發疫情。",
+      "englishName" : "Measles Virus",
+      "family" : "副黏液病毒科 (Paramyxoviridae)",
+      "id" : "measles",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/10707\/10707_lores.jpg",
+      "name" : "麻疹病毒",
+      "prevention" : [
+        "MMR 疫苗接種（公費常規接種兩劑）",
+        "疫情時追加疫苗",
+        "接觸後 72 小時內緊急接種"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣已達麻疹消除目標，每年本土病例極少。但境外移入個案持續發生，2024 年曾有醫院群聚事件。1981 年後出生者多已接種疫苗。",
+      "transmission" : [
+        "空氣傳染",
+        "飛沫傳染",
+        "接觸傳染"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "流鼻水",
+        "鼻塞",
+        "打噴嚏",
+        "喉嚨痛",
+        "輕微咳嗽",
+        "輕微發燒"
+      ],
+      "description" : "鼻病毒是普通感冒最常見的病原體，已知超過 160 種血清型。雖然多數感染症狀輕微，但在氣喘患者及免疫低下族群可誘發急性惡化或下呼吸道感染。鼻病毒全年流行，無季節性明顯高峰。",
+      "englishName" : "Rhinovirus",
+      "family" : "小RNA病毒科 (Picornaviridae)",
+      "id" : "rhinovirus",
+      "name" : "鼻病毒",
+      "prevention" : [
+        "勤洗手",
+        "避免觸摸眼鼻口",
+        "咳嗽禮節",
+        "保持環境清潔"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "A種鼻病毒"
+          ],
+          "description" : "最常見的種類，約含 80 種血清型，臨床症狀從輕度到中度",
+          "id" : "rv_a",
+          "name" : "RV-A"
+        },
+        {
+          "aliases" : [
+            "B種鼻病毒"
+          ],
+          "description" : "約含 30 種血清型，致病力通常最輕微",
+          "id" : "rv_b",
+          "name" : "RV-B"
+        },
+        {
+          "aliases" : [
+            "C種鼻病毒"
+          ],
+          "description" : "2006 年新發現的種類，與兒童氣喘急性發作及嚴重下呼吸道感染關聯性最高",
+          "id" : "rv_c",
+          "name" : "RV-C"
+        }
+      ],
+      "taiwanRelevance" : "台灣全年流行，為門診上呼吸道感染就診的最主要病因。RV-C 型與兒童氣喘急性發作密切相關。",
+      "transmission" : [
+        "飛沫傳染",
+        "接觸傳染",
+        "接觸受汙染的物體表面"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "喉嚨痛",
+        "發燒",
+        "吞嚥困難",
+        "扁桃腺腫大化膿",
+        "皮疹"
+      ],
+      "description" : "A群β-溶血性鏈球菌是人類最重要的病原性鏈球菌，可引起咽喉炎、猩紅熱、蜂窩性組織炎，嚴重時可導致壞死性筋膜炎和鏈球菌中毒性休克症候群。反覆感染可能引發風濕熱和腎絲球腎炎等免疫併發症。",
+      "englishName" : "Streptococcus pyogenes (GAS)",
+      "family" : "鏈球菌科 (Streptococcaceae)",
+      "id" : "strep_pyogenes",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/22884\/22884_lores.jpg",
+      "name" : "A群鏈球菌",
+      "prevention" : [
+        "勤洗手",
+        "避免共用餐具",
+        "喉嚨痛及早就醫",
+        "完成抗生素療程"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "鏈球菌性咽喉炎"
+          ],
+          "description" : "最常見的感染型態，佔兒童咽喉炎 20-30%",
+          "id" : "gas_pharyngitis",
+          "name" : "咽喉炎型"
+        },
+        {
+          "aliases" : [
+            "猩紅熱"
+          ],
+          "description" : "產生紅疹毒素的菌株引起，好發於兒童",
+          "id" : "gas_scarlet",
+          "name" : "猩紅熱型"
+        },
+        {
+          "aliases" : [
+            "食肉菌感染"
+          ],
+          "description" : "壞死性筋膜炎、鏈球菌中毒性休克，致死率高",
+          "id" : "gas_invasive",
+          "name" : "侵襲性感染"
+        }
+      ],
+      "taiwanRelevance" : "台灣全年可見，冬春季好發。近年侵襲性感染通報數有增加趨勢。",
+      "transmission" : [
+        "飛沫傳染",
+        "直接接觸",
+        "傷口感染"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "發燒",
+        "咳嗽膿痰",
+        "右上腹痛（肝膿瘍）",
+        "視力模糊（眼內炎）",
+        "排尿不適"
+      ],
+      "description" : "克雷伯氏肺炎桿菌為重要的伺機性感染菌和院內感染病原，具有厚莢膜。在台灣特別值得注意的是高毒性菌株（hypervirulent K. pneumoniae），可在健康成人引起肝膿瘍、眼內炎和腦膜炎等侵襲性感染。",
+      "englishName" : "Klebsiella pneumoniae",
+      "family" : "腸桿菌科 (Enterobacteriaceae)",
+      "id" : "klebsiella_pneumoniae",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/18170\/18170_lores.jpg",
+      "name" : "克雷伯氏肺炎桿菌",
+      "prevention" : [
+        "控制糖尿病",
+        "醫療機構落實感染管制",
+        "減少不必要的侵入性醫療行為"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+
+          ],
+          "description" : "主要造成院內感染如肺炎、泌尿道感染和菌血症",
+          "id" : "kp_classic",
+          "name" : "傳統型 (Classic)"
+        },
+        {
+          "aliases" : [
+            "高毒力克雷伯氏菌"
+          ],
+          "description" : "台灣盛行的 K1\/K2 血清型，可引起社區性化膿性肝膿瘍，常見於糖尿病患",
+          "id" : "kp_hypervirulent",
+          "name" : "高毒性型 (Hypervirulent)"
+        }
+      ],
+      "taiwanRelevance" : "台灣為全球高毒性克雷伯氏肺炎桿菌肝膿瘍最高發生率的國家，與糖尿病高盛行率相關。碳青黴烯類抗藥性（CRKP）監測為重要公衛議題。",
+      "transmission" : [
+        "醫療器材相關感染",
+        "糞口傳染",
+        "內源性感染（腸道菌叢）"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "水樣腹瀉",
+        "腹痛腹脹",
+        "發燒",
+        "白血球升高",
+        "使用抗生素後症狀出現"
+      ],
+      "description" : "困難梭菌是抗生素相關腹瀉和偽膜性腸炎最重要的病因。使用廣效抗生素後腸道菌叢失衡，困難梭菌伺機過度增殖並產生毒素 A 和毒素 B，導致腸黏膜損傷。嚴重者可併發中毒性巨結腸。",
+      "englishName" : "Clostridioides difficile",
+      "family" : "消化鏈球菌科 (Peptostreptococcaceae)",
+      "id" : "clostridioides_difficile",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/6260\/6260_lores.jpg",
+      "name" : "困難梭菌",
+      "prevention" : [
+        "合理使用抗生素",
+        "接觸隔離措施",
+        "肥皂洗手（酒精無法殺滅孢子）",
+        "環境漂白水消毒"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣住院病患困難梭菌感染發生率約 5-10\/萬住院日，與廣效抗生素使用相關。糞便微生物移植（FMT）已於 2024 年納入常規治療選項。",
+      "transmission" : [
+        "糞口傳染（孢子形式）",
+        "接觸汙染環境表面",
+        "醫療機構內傳播"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "腹瀉",
+        "腹痛",
+        "噁心嘔吐",
+        "血便（EHEC）",
+        "頻尿（UPEC）",
+        "排尿疼痛（UPEC）"
+      ],
+      "description" : "大腸桿菌是人類腸道正常菌叢的一員，但某些致病性菌株可引起腸胃炎、泌尿道感染、新生兒腦膜炎等疾病。依致病機轉可分為多種病理型，其中產志賀毒素型（STEC）可導致溶血性尿毒症候群。",
+      "englishName" : "Escherichia coli",
+      "family" : "腸桿菌科 (Enterobacteriaceae)",
+      "id" : "e_coli",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/10068\/10068_lores.jpg",
+      "name" : "大腸桿菌",
+      "prevention" : [
+        "食物充分加熱",
+        "飲用安全水源",
+        "如廁後洗手",
+        "生熟食分開處理"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "出血性大腸桿菌",
+            "O157"
+          ],
+          "description" : "腸出血性大腸桿菌，產生志賀毒素，可導致出血性腸炎和溶血性尿毒症候群（HUS）",
+          "id" : "ehec_o157h7",
+          "name" : "EHEC O157:H7"
+        },
+        {
+          "aliases" : [
+            "腸致病性大腸桿菌"
+          ],
+          "description" : "腸致病性大腸桿菌，嬰幼兒水樣腹瀉的重要病因",
+          "id" : "epec",
+          "name" : "EPEC"
+        },
+        {
+          "aliases" : [
+            "泌尿道致病大腸桿菌"
+          ],
+          "description" : "泌尿道致病性大腸桿菌，社區性泌尿道感染最常見的病原，佔 80% 以上",
+          "id" : "upec",
+          "name" : "UPEC"
+        },
+        {
+          "aliases" : [
+            "旅行者腹瀉大腸桿菌"
+          ],
+          "description" : "產毒性大腸桿菌，旅行者腹瀉最常見的細菌性病因",
+          "id" : "etec",
+          "name" : "ETEC"
+        }
+      ],
+      "taiwanRelevance" : "UPEC 為台灣社區性泌尿道感染首要病因。EHEC O157:H7 偶有散發個案。台灣亦面臨產超廣效β-內醯胺酶（ESBL）大腸桿菌抗藥性上升問題。",
+      "transmission" : [
+        "糞口傳染",
+        "受汙染食物或飲水",
+        "接觸感染動物"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "上腹疼痛",
+        "腹脹",
+        "噁心",
+        "食慾不振",
+        "黑便（潰瘍出血時）"
+      ],
+      "description" : "幽門螺旋桿菌是胃黏膜的慢性感染細菌，全球約半數人口帶菌。感染後可引起慢性胃炎、消化性潰瘍，長期感染為胃癌和胃黏膜相關淋巴組織淋巴瘤（MALT lymphoma）的重要危險因子。WHO 將其列為第一類致癌物。",
+      "englishName" : "Helicobacter pylori",
+      "family" : "螺旋桿菌科 (Helicobacteraceae)",
+      "id" : "h_pylori",
+      "name" : "幽門螺旋桿菌",
+      "prevention" : [
+        "避免共用餐具",
+        "注意飲食衛生",
+        "家庭成員同步篩檢",
+        "感染者應完成除菌治療"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣成人盛行率約 30-40%，隨公衛改善已逐年下降。除菌治療以鉍劑四合療法或序列療法為主，克拉黴素抗藥性約 15-20%。",
+      "transmission" : [
+        "糞口傳染",
+        "口口傳染（共用餐具）",
+        "家庭內密切接觸"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "無痛性硬性下疳（一期）",
+        "全身性皮疹（二期）",
+        "手掌和腳掌紅疹",
+        "淋巴結腫大",
+        "神經症狀（三期）"
+      ],
+      "description" : "梅毒螺旋體是梅毒的致病菌，經由皮膚或黏膜微小傷口侵入人體。梅毒分為一期（硬性下疳）、二期（全身皮疹）、潛伏期和三期（神經梅毒、心血管梅毒），若未治療可持續數十年逐步破壞組織。",
+      "englishName" : "Treponema pallidum",
+      "family" : "螺旋體科 (Spirochaetaceae)",
+      "id" : "treponema_pallidum",
+      "name" : "梅毒螺旋體",
+      "prevention" : [
+        "安全性行為（使用保險套）",
+        "定期性病篩檢",
+        "孕婦產前梅毒篩檢",
+        "性伴侶通知與治療"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣梅毒通報數近年顯著上升，以 25-44 歲男性為主。先天性梅毒個案偶有通報，強調孕婦產前篩檢的重要性。",
+      "transmission" : [
+        "性接觸",
+        "母嬰垂直傳染（先天性梅毒）",
+        "血液傳染（罕見）"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "腹瀉",
+        "腹痛",
+        "發燒",
+        "噁心嘔吐",
+        "持續高燒（傷寒型）"
+      ],
+      "description" : "沙門氏菌為重要的食源性病原菌，可分為傷寒型和非傷寒型。非傷寒型沙門氏菌主要引起急性腸胃炎，傷寒型則造成全身性感染（傷寒或副傷寒）。台灣以非傷寒型沙門氏菌腸炎最為常見。",
+      "englishName" : "Salmonella",
+      "family" : "腸桿菌科 (Enterobacteriaceae)",
+      "id" : "salmonella",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/16877\/16877_lores.jpg",
+      "name" : "沙門氏菌",
+      "prevention" : [
+        "蛋和肉類充分煮熟",
+        "注意食物保存溫度",
+        "如廁後及處理食物前洗手",
+        "接觸寵物後洗手"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "傷寒桿菌"
+          ],
+          "description" : "引起傷寒，以持續高燒、相對脈搏緩慢、玫瑰疹為特徵，為法定傳染病",
+          "id" : "s_typhi",
+          "name" : "傷寒沙門氏菌 (S. Typhi)"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "非傷寒型沙門氏菌中最常見的血清型，常與蛋製品和家禽相關",
+          "id" : "s_enteritidis",
+          "name" : "腸炎沙門氏菌 (S. Enteritidis)"
+        }
+      ],
+      "taiwanRelevance" : "非傷寒型沙門氏菌為台灣夏季食物中毒主因之一，5-10 月為高峰期。傷寒主要為境外移入個案，但仍有零星本土個案。",
+      "transmission" : [
+        "食用受汙染的食物（蛋、禽肉）",
+        "糞口傳染",
+        "接觸帶菌動物（爬蟲類）"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "尿道膿性分泌物",
+        "排尿灼熱疼痛",
+        "女性可能無症狀",
+        "直腸疼痛和分泌物",
+        "咽喉炎"
+      ],
+      "description" : "淋病雙球菌是淋病的致病菌，為第二常見的細菌性性傳染病。可感染泌尿生殖道、直腸、咽喉和眼結膜。未治療的淋病可導致骨盆腔炎、副睪炎和不孕。近年全球面臨嚴重的抗藥性危機。",
+      "englishName" : "Neisseria gonorrhoeae",
+      "family" : "奈瑟菌科 (Neisseriaceae)",
+      "id" : "neisseria_gonorrhoeae",
+      "name" : "淋病雙球菌",
+      "prevention" : [
+        "安全性行為（使用保險套）",
+        "定期性病篩檢",
+        "性伴侶同步治療",
+        "新生兒眼藥預防"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣淋病通報數逐年上升，以 20-39 歲男性為主。頭孢曲松抗藥性雖尚低但已有零星報告，CDC 持續監測。",
+      "transmission" : [
+        "性接觸（陰道、肛門、口腔）",
+        "分娩時母嬰傳染"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "陣發性痙攣咳嗽",
+        "咳嗽後吸氣性哮聲",
+        "咳嗽後嘔吐",
+        "初期類似感冒",
+        "新生兒可表現為呼吸暫停"
+      ],
+      "description" : "百日咳桿菌引起高傳染性的百日咳，以陣發性痙攣性咳嗽為特徵。嬰幼兒感染可能致命，為公衛重點防治疾病。疫苗保護力隨時間衰退，青少年和成人可成為傳染源感染未接種的嬰兒。",
+      "englishName" : "Bordetella pertussis",
+      "family" : "產鹼菌科 (Alcaligenaceae)",
+      "id" : "bordetella_pertussis",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/22874\/22874_lores.jpg",
+      "name" : "百日咳桿菌",
+      "prevention" : [
+        "嬰幼兒按時接種 DTaP 疫苗",
+        "孕婦每胎接種 Tdap",
+        "青少年和成人追加 Tdap",
+        "接觸嬰幼兒的照護者接種"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣常規疫苗接種使百日咳大幅減少，但每年仍有 100-200 例通報，以未完成接種的嬰兒為主。孕婦公費 Tdap 疫苗自 2024 年全面推動。",
+      "transmission" : [
+        "飛沫傳染",
+        "直接接觸呼吸道分泌物"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "常無症狀",
+        "異常分泌物",
+        "排尿疼痛",
+        "下腹痛（骨盆腔炎）",
+        "不規則出血"
+      ],
+      "description" : "砂眼披衣菌是全球最常見的細菌性性傳染病病原，也是新生兒結膜炎和肺炎的病因。感染常無明顯症狀，但未治療可導致骨盆腔炎、輸卵管損傷和不孕。不同血清型可引起泌尿生殖道感染、砂眼或花柳性淋巴肉芽腫。",
+      "englishName" : "Chlamydia trachomatis",
+      "family" : "披衣菌科 (Chlamydiaceae)",
+      "id" : "chlamydia_trachomatis",
+      "name" : "砂眼披衣菌",
+      "prevention" : [
+        "安全性行為（使用保險套）",
+        "定期篩檢高風險族群",
+        "性伴侶同步治療",
+        "孕婦產前篩檢"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+
+          ],
+          "description" : "最常見型別，引起子宮頸炎、尿道炎和副睪炎",
+          "id" : "ct_genital",
+          "name" : "泌尿生殖道型 (D-K)"
+        },
+        {
+          "aliases" : [
+            "LGV"
+          ],
+          "description" : "引起腹股溝淋巴結病變，常見於男男性行為者",
+          "id" : "ct_lgv",
+          "name" : "花柳性淋巴肉芽腫型 (L1-L3)"
+        },
+        {
+          "aliases" : [
+            "砂眼"
+          ],
+          "description" : "引起慢性結膜炎，反覆感染可致失明，台灣已罕見",
+          "id" : "ct_trachoma",
+          "name" : "砂眼型 (A-C)"
+        }
+      ],
+      "taiwanRelevance" : "台灣披衣菌感染為常見性傳染病，由於多數感染無症狀，實際盛行率可能被低估。年輕女性常規篩檢的推廣仍有待加強。",
+      "transmission" : [
+        "性接觸",
+        "分娩時母嬰傳染",
+        "眼部接觸感染（砂眼型）"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "腹瀉（可能帶血）",
+        "腹部絞痛",
+        "發燒",
+        "噁心",
+        "頭痛"
+      ],
+      "description" : "空腸彎曲桿菌是全球最常見的細菌性腸胃炎病因之一，主要經由受汙染的禽肉和生乳傳播。感染通常自限性，但少數患者感染後可能併發乖乖-巴瑞症候群（Guillain-Barré syndrome），導致急性神經病變。",
+      "englishName" : "Campylobacter jejuni",
+      "family" : "彎曲桿菌科 (Campylobacteraceae)",
+      "id" : "campylobacter_jejuni",
+      "name" : "空腸彎曲桿菌",
+      "prevention" : [
+        "禽肉充分加熱",
+        "避免生乳和生水",
+        "處理生肉後洗手",
+        "生熟食砧板分開"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣食物中毒病因菌統計中常見，夏秋季為高峰期。雞肉汙染率高，與夜市及傳統市場禽肉處理方式有關。",
+      "transmission" : [
+        "食用未煮熟的禽肉",
+        "飲用未消毒的生乳或水",
+        "接觸帶菌家禽"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "突發高燒",
+        "頭痛",
+        "焦痂（恙蟲病特徵）",
+        "淋巴結腫大",
+        "皮疹",
+        "肌肉痠痛"
+      ],
+      "description" : "立克次體為專性細胞內寄生的革蘭氏陰性菌，需藉由節肢動物（蜱、蟎、蝨、蚤）叮咬傳播給人類。感染後可引起斑疹傷寒群、斑點熱群等疾病。台灣以恙蟲病（叢林型斑疹傷寒）最為重要。",
+      "englishName" : "Rickettsia",
+      "family" : "立克次體科 (Rickettsiaceae)",
+      "id" : "rickettsia",
+      "name" : "立克次體",
+      "prevention" : [
+        "野外活動穿著長袖長褲",
+        "使用含 DEET 的防蟲液",
+        "避免坐臥草叢",
+        "返家後檢查身體並沐浴更衣"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "恙蟲病",
+            "叢林型斑疹傷寒"
+          ],
+          "description" : "由恙蟎幼蟲叮咬傳播，為台灣最常見的立克次體感染",
+          "id" : "orientia_tsutsugamushi",
+          "name" : "恙蟲病立克次體 (Orientia tsutsugamushi)"
+        }
+      ],
+      "taiwanRelevance" : "恙蟲病為台灣最常見的立克次體感染，每年通報約 300-500 例，以花東、澎湖和金馬地區較多。4-10 月為高峰期。",
+      "transmission" : [
+        "恙蟎幼蟲叮咬（恙蟲病）",
+        "蝨叮咬（流行性斑疹傷寒）",
+        "蜱叮咬（斑點熱）"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "慢性咳嗽（超過兩週）",
+        "咳血",
+        "午後微燒",
+        "夜間盜汗",
+        "體重減輕"
+      ],
+      "description" : "結核分枝桿菌是結核病的病原體，為一種生長緩慢的抗酸性桿菌。全球約四分之一人口有潛伏性結核感染，其中 5-10% 終生會進展為活動性結核。肺結核為最常見的型態，但也可侵犯骨骼、腎臟、腦膜等器官。",
+      "englishName" : "Mycobacterium tuberculosis",
+      "family" : "分枝桿菌科 (Mycobacteriaceae)",
+      "id" : "m_tuberculosis",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/9997\/9997_lores.jpg",
+      "name" : "結核分枝桿菌",
+      "prevention" : [
+        "新生兒接種卡介苗（BCG）",
+        "潛伏感染者預防性治療",
+        "通風良好",
+        "及早發現及早治療"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "結核病為台灣第三類法定傳染病，每年約八千例新發個案。台灣自 2005 年實施都治計畫（DOTS），發生率持續下降但仍為中度負擔國家。",
+      "transmission" : [
+        "空氣傳染（飛沫核）",
+        "長時間密閉空間暴露"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "發燒",
+        "呼吸困難",
+        "膿性痰液",
+        "傷口感染化膿（綠色分泌物）",
+        "外耳炎"
+      ],
+      "description" : "綠膿桿菌是一種環境中廣泛存在的革蘭氏陰性桿菌，因其固有抗藥性和生物膜形成能力，為院內感染最棘手的病原之一。常感染免疫低下者、燒傷病患和長期使用呼吸器的患者。",
+      "englishName" : "Pseudomonas aeruginosa",
+      "family" : "假單胞菌科 (Pseudomonadaceae)",
+      "id" : "pseudomonas_aeruginosa",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/16876\/16876_lores.jpg",
+      "name" : "綠膿桿菌",
+      "prevention" : [
+        "醫療機構環境清消",
+        "減少不必要的抗生素使用",
+        "呼吸器套組定期更換",
+        "游泳池水質管理"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "為台灣 ICU 院內感染第二常見的革蘭氏陰性菌。多重抗藥性綠膿桿菌（MDRPA）盛行率居高不下，對碳青黴烯類抗藥性約 15-20%。",
+      "transmission" : [
+        "醫療器材相關（呼吸器、導管）",
+        "接觸汙染水源",
+        "傷口接觸感染"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "高燒",
+        "咳嗽",
+        "胸痛",
+        "呼吸急促",
+        "頭痛",
+        "頸部僵硬（腦膜炎時）"
+      ],
+      "description" : "肺炎鏈球菌是社區性肺炎最常見的病因，也是細菌性腦膜炎和中耳炎的重要致病菌。其莢膜多醣體可分為超過 100 種血清型，是疫苗設計的主要標靶。幼兒和老年人為高風險族群。",
+      "englishName" : "Streptococcus pneumoniae",
+      "family" : "鏈球菌科 (Streptococcaceae)",
+      "id" : "strep_pneumoniae",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/263\/263_lores.jpg",
+      "name" : "肺炎鏈球菌",
+      "prevention" : [
+        "接種肺炎鏈球菌疫苗（PCV15\/PCV20）",
+        "勤洗手",
+        "流行期間戴口罩",
+        "老幼族群加強保護"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+
+          ],
+          "description" : "台灣侵襲性肺炎鏈球菌感染中最常見的血清型之一，對多種抗生素具抗藥性",
+          "id" : "spn_serotype_19a",
+          "name" : "血清型 19A"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "莢膜特別厚，致病力強，PCV13 涵蓋但保護效果相對有限",
+          "id" : "spn_serotype_3",
+          "name" : "血清型 3"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "兒童侵襲性感染常見型別，PCV13 疫苗可有效預防",
+          "id" : "spn_serotype_14",
+          "name" : "血清型 14"
+        }
+      ],
+      "taiwanRelevance" : "台灣自 2015 年起全面公費施打 PCV13，侵襲性感染發生率顯著下降，但非疫苗涵蓋血清型有增加趨勢。65 歲以上長者可公費接種 PCV15 或 PCV20。",
+      "transmission" : [
+        "飛沫傳染",
+        "直接接觸呼吸道分泌物"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "持續性乾咳",
+        "低度發燒",
+        "頭痛",
+        "全身倦怠",
+        "喉嚨痛",
+        "皮疹（少數）"
+      ],
+      "description" : "肺炎黴漿菌是最小的自由生活細菌之一，無細胞壁，因此對β-內醯胺類抗生素天然抗藥。為社區性非典型肺炎最常見的病因，好發於學齡兒童和青壯年。感染通常輕微，但可引起嚴重肺炎和肺外併發症。",
+      "englishName" : "Mycoplasma pneumoniae",
+      "family" : "黴漿菌科 (Mycoplasmataceae)",
+      "id" : "mycoplasma_pneumoniae",
+      "name" : "肺炎黴漿菌",
+      "prevention" : [
+        "咳嗽禮節",
+        "勤洗手",
+        "教室和宿舍保持通風",
+        "避免帶病上學"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣每 3-5 年有一次大流行，2023-2024 年出現大規模流行。巨環類抗生素抗藥性在亞洲高達 80-90%，治療以氟喹諾酮類或四環素類為主。",
+      "transmission" : [
+        "飛沫傳染",
+        "密切接觸傳播（家庭、學校）"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "突發高燒",
+        "劇烈頭痛",
+        "頸部僵硬",
+        "瘀斑（紫斑症）",
+        "意識改變",
+        "噁心嘔吐"
+      ],
+      "description" : "腦膜炎雙球菌可引起流行性腦脊髓膜炎和敗血症，病程進展極快，24 小時內可致命。依莢膜多醣體分為多種血清群，其中 A、B、C、W、Y 群為主要致病群。青少年和密集生活族群（軍營、宿舍）為高風險。",
+      "englishName" : "Neisseria meningitidis",
+      "family" : "奈瑟菌科 (Neisseriaceae)",
+      "id" : "neisseria_meningitidis",
+      "name" : "腦膜炎雙球菌",
+      "prevention" : [
+        "接種腦膜炎球菌疫苗（MenACWY、MenB）",
+        "避免密閉空間群聚",
+        "密切接觸者預防性投藥"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+
+          ],
+          "description" : "非洲腦膜炎帶常見型別，疫苗可預防",
+          "id" : "nm_serogroup_a",
+          "name" : "血清群 A"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "歐美嬰幼兒腦膜炎主要型別，需使用蛋白質疫苗（MenB）",
+          "id" : "nm_serogroup_b",
+          "name" : "血清群 B"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "可引起校園和軍營群聚感染",
+          "id" : "nm_serogroup_c",
+          "name" : "血清群 C"
+        },
+        {
+          "aliases" : [
+            "W135"
+          ],
+          "description" : "近年全球流行趨勢上升",
+          "id" : "nm_serogroup_w",
+          "name" : "血清群 W"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "北美較常見的型別",
+          "id" : "nm_serogroup_y",
+          "name" : "血清群 Y"
+        }
+      ],
+      "taiwanRelevance" : "台灣為低流行區，每年通報個案數不多，以血清群 B 和 W 為主。自費 MenACWY 疫苗可於旅遊門診接種。",
+      "transmission" : [
+        "飛沫傳染",
+        "直接接觸呼吸道分泌物",
+        "密閉空間長時間暴露"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "水樣腹瀉",
+        "腹部絞痛",
+        "噁心嘔吐",
+        "發燒",
+        "頭痛"
+      ],
+      "description" : "腸炎弧菌是嗜鹽性革蘭氏陰性桿菌，廣泛存在於海水和海產中。為台灣食物中毒最常見的病因菌，主要因食用未充分烹煮的海鮮或交叉汙染引起急性腸胃炎。感染通常自限性，但免疫低下者可能併發敗血症。",
+      "englishName" : "Vibrio parahaemolyticus",
+      "family" : "弧菌科 (Vibrionaceae)",
+      "id" : "vibrio_parahaemolyticus",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/7819\/7819_lores.jpg",
+      "name" : "腸炎弧菌",
+      "prevention" : [
+        "海鮮充分加熱",
+        "生熟食分開處理",
+        "海鮮低溫保存",
+        "避免海水傷口暴露"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "長年蟬聯台灣食物中毒病因菌第一名，5-10 月為高峰期。與台灣飲食文化中生食海鮮的習慣密切相關。",
+      "transmission" : [
+        "食用未煮熟的海鮮（生魚片、生蠔）",
+        "海鮮交叉汙染其他食物",
+        "海水傷口感染"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "高燒",
+        "乾咳",
+        "呼吸困難",
+        "肌肉痠痛",
+        "腹瀉",
+        "意識混亂"
+      ],
+      "description" : "退伍軍人桿菌存在於自然水體和人工水系統中，可在冷卻水塔、溫泉和大樓供水系統中增殖。吸入含菌的氣溶膠可引起退伍軍人症（重症肺炎）或龐提亞克熱（輕症）。老年人、吸菸者和免疫低下者為高風險族群。",
+      "englishName" : "Legionella pneumophila",
+      "family" : "退伍軍人桿菌科 (Legionellaceae)",
+      "id" : "legionella_pneumophila",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/11150\/11150_lores.jpg",
+      "name" : "退伍軍人桿菌",
+      "prevention" : [
+        "冷卻水塔定期清消",
+        "大樓水系統溫度管理",
+        "溫泉設施水質監測",
+        "高風險區域定期檢測"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣每年通報約 300-400 例退伍軍人症，以散發個案為主。溫泉設施和大樓冷卻水塔為重要感染源，衛福部定期執行環境監測。",
+      "transmission" : [
+        "吸入受汙染的水氣溶膠",
+        "冷卻水塔排放",
+        "淋浴蓮蓬頭",
+        "溫泉設施"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "皮膚膿瘍",
+        "蜂窩性組織炎",
+        "傷口感染化膿",
+        "發燒",
+        "菌血症"
+      ],
+      "description" : "金黃色葡萄球菌是人類皮膚和鼻腔常見的共生菌，約 30% 健康人為無症狀帶菌者。它能產生多種毒素和酵素，引起從皮膚膿瘍到菌血症、心內膜炎等嚴重感染。抗甲氧西林金黃色葡萄球菌（MRSA）是全球最重要的抗藥性細菌之一。",
+      "englishName" : "Staphylococcus aureus",
+      "family" : "葡萄球菌科 (Staphylococcaceae)",
+      "id" : "staph_aureus",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/11157\/11157_lores.jpg",
+      "name" : "金黃色葡萄球菌",
+      "prevention" : [
+        "勤洗手",
+        "傷口妥善覆蓋",
+        "不共用個人物品",
+        "醫療機構落實接觸隔離"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "甲氧西林敏感金黃色葡萄球菌"
+          ],
+          "description" : "甲氧西林敏感型，對多數β-內醯胺類抗生素有效",
+          "id" : "mssa",
+          "name" : "MSSA"
+        },
+        {
+          "aliases" : [
+            "超級細菌",
+            "抗藥性金黃色葡萄球菌"
+          ],
+          "description" : "甲氧西林抗藥型，需使用萬古黴素等替代藥物治療，分為院內型（HA-MRSA）和社區型（CA-MRSA）",
+          "id" : "mrsa",
+          "name" : "MRSA"
+        }
+      ],
+      "taiwanRelevance" : "台灣 MRSA 盛行率在亞洲名列前茅，社區型 CA-MRSA 感染逐年增加，為院內感染監測重點項目。",
+      "transmission" : [
+        "直接接觸傷口或分泌物",
+        "間接接觸污染物品",
+        "醫療器材相關感染"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "突發高燒",
+        "嚴重頭痛",
+        "肌肉痠痛（尤其小腿）",
+        "結膜充血",
+        "黃疸（嚴重時）"
+      ],
+      "description" : "鉤端螺旋體為螺旋狀細菌，可感染多種哺乳動物。人類經由接觸受感染動物的尿液或受汙染的水源與土壤而感染。輕症表現為類流感症狀，嚴重時可引起魏爾氏病（Weil's disease），併發肝腎衰竭和肺出血。",
+      "englishName" : "Leptospira",
+      "family" : "鉤端螺旋體科 (Leptospiraceae)",
+      "id" : "leptospira",
+      "name" : "鉤端螺旋體",
+      "prevention" : [
+        "避免接觸洪水和汙水",
+        "做好防護再接觸動物",
+        "鼠害防治",
+        "高風險者可預防性投藥"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣每年約 30-50 例通報，常見於颱風洪水後。農民、養殖業者和下水道工人為高風險族群，花東和南部較多個案。",
+      "transmission" : [
+        "接觸受汙染的水源（洪水、溝渠）",
+        "接觸受感染動物尿液",
+        "皮膚傷口或黏膜侵入"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "頭痛",
+        "發燒",
+        "頸部僵硬",
+        "意識改變",
+        "咳嗽",
+        "視力模糊"
+      ],
+      "description" : "新型隱球菌為具有厚莢膜的酵母菌，廣泛存在於土壤和鴿糞中。吸入後可引起肺部感染，具有嗜神經性，易經血行散布至中樞神經系統造成隱球菌性腦膜炎。HIV\/AIDS 患者和其他免疫低下者為高風險族群。",
+      "englishName" : "Cryptococcus neoformans",
+      "family" : "隱球菌科 (Cryptococcaceae)",
+      "id" : "cryptococcus_neoformans",
+      "name" : "新型隱球菌",
+      "prevention" : [
+        "HIV 患者維持抗病毒治療",
+        "避免大量接觸鴿糞",
+        "免疫低下者環境防護"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣每年約有數十例侵襲性隱球菌感染通報，以 HIV\/AIDS 患者和器官移植受者為主。隨著 HIV 治療普及，發生率有下降趨勢。",
+      "transmission" : [
+        "吸入環境中的隱球菌（鴿糞、土壤）"
+      ],
+      "type" : "fungus"
+    },
+    {
+      "commonSymptoms" : [
+        "口腔白斑",
+        "陰部搔癢",
+        "皮膚紅疹",
+        "吞嚥困難"
+      ],
+      "description" : "白色念珠菌是人體最常見的伺機性真菌，正常存在於口腔、腸道和陰道。當免疫力下降、長期使用抗生素或荷爾蒙變化時，可過度增殖引起感染。從淺層的鵝口瘡到深層的念珠菌血症都可能發生。",
+      "englishName" : "Candida albicans",
+      "family" : "念珠菌科 (Saccharomycetaceae)",
+      "id" : "candida_albicans",
+      "name" : "白色念珠菌",
+      "prevention" : [
+        "維持免疫力",
+        "避免不必要的抗生素使用",
+        "控制血糖",
+        "保持皮膚乾燥"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "鵝口瘡"
+          ],
+          "description" : "又稱鵝口瘡，常見於嬰兒、老人和免疫低下者",
+          "id" : "oral_candidiasis",
+          "name" : "口腔念珠菌症"
+        },
+        {
+          "aliases" : [
+            "陰道酵母菌感染"
+          ],
+          "description" : "約 75% 女性一生至少感染一次",
+          "id" : "vaginal_candidiasis",
+          "name" : "陰道念珠菌症"
+        },
+        {
+          "aliases" : [
+            "念珠菌血症"
+          ],
+          "description" : "念珠菌血症，ICU 病患常見的院內感染，致死率 30-50%",
+          "id" : "invasive_candidiasis",
+          "name" : "侵襲性念珠菌症"
+        }
+      ],
+      "taiwanRelevance" : "台灣潮濕氣候有利真菌生長，念珠菌為院內真菌感染首位。抗藥性念珠菌（C. auris）近年受到關注。",
+      "transmission" : [
+        "內源性感染（自體菌叢失衡）",
+        "醫療器材相關（導管）",
+        "母嬰垂直傳染"
+      ],
+      "type" : "fungus"
+    },
+    {
+      "commonSymptoms" : [
+        "環狀紅疹伴隨脫屑",
+        "搔癢",
+        "皮膚龜裂（足癬）",
+        "指甲增厚變色（甲癬）",
+        "頭皮脫屑掉髮（頭癬）"
+      ],
+      "description" : "皮癬菌是一群以角蛋白為營養的淺層真菌，可感染皮膚、毛髮和指甲。依感染部位分為頭癬、體癬、股癬、足癬（香港腳）和甲癬（灰指甲）。為全球最常見的真菌感染，幾乎所有人一生中都會感染。",
+      "englishName" : "Dermatophytes",
+      "family" : "節皮菌科 (Arthrodermataceae)",
+      "id" : "dermatophytes",
+      "name" : "皮癬菌",
+      "prevention" : [
+        "保持皮膚乾燥",
+        "不共用毛巾和拖鞋",
+        "公共浴室穿拖鞋",
+        "寵物定期檢查治療"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "髮癬菌"
+          ],
+          "description" : "最常見的皮癬菌，T. rubrum 為足癬和甲癬的主要病原",
+          "id" : "trichophyton",
+          "name" : "毛癬菌屬 (Trichophyton)"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "M. canis 為兒童頭癬常見病因，常由貓狗傳染",
+          "id" : "microsporum",
+          "name" : "小孢子菌屬 (Microsporum)"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "E. floccosum 主要引起股癬和足癬",
+          "id" : "epidermophyton",
+          "name" : "表皮癬菌屬 (Epidermophyton)"
+        }
+      ],
+      "taiwanRelevance" : "台灣高溫高濕的氣候使足癬和甲癬極為普遍，估計成人足癬盛行率超過 20%。夏季為好發期，皮膚科門診量大增。",
+      "transmission" : [
+        "直接接觸感染者皮膚",
+        "接觸汙染物品（毛巾、拖鞋）",
+        "接觸帶菌動物",
+        "公共場所地板（游泳池、浴室）"
+      ],
+      "type" : "fungus"
+    },
+    {
+      "commonSymptoms" : [
+        "漸進性呼吸困難",
+        "乾咳",
+        "低度發燒",
+        "活動時喘",
+        "低血氧"
+      ],
+      "description" : "肺囊蟲為非典型真菌，無法在體外培養。主要引起肺囊蟲肺炎（PJP），為 HIV\/AIDS 最具指標性的伺機性感染之一。也見於器官移植受者和長期使用免疫抑制劑的患者。未治療的 PJP 致死率極高。",
+      "englishName" : "Pneumocystis jirovecii",
+      "family" : "肺囊蟲科 (Pneumocystidaceae)",
+      "id" : "pneumocystis_jirovecii",
+      "name" : "肺囊蟲",
+      "prevention" : [
+        "HIV 患者 CD4<200 時預防性使用 TMP-SMX",
+        "器官移植受者預防性投藥",
+        "維持 HIV 抗病毒治療"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣 HIV\/AIDS 患者中 PJP 仍為最常見的伺機性感染。非 HIV 免疫低下患者的 PJP 發生率隨免疫抑制劑使用增加而上升。",
+      "transmission" : [
+        "空氣傳染（人傳人）",
+        "可能經由免疫低下者間傳播"
+      ],
+      "type" : "fungus"
+    },
+    {
+      "commonSymptoms" : [
+        "皮膚色素變化（白斑或褐斑）",
+        "輕微脫屑",
+        "頭皮屑增多",
+        "毛囊性丘疹",
+        "搔癢"
+      ],
+      "description" : "馬拉色菌為人體皮膚正常菌叢的一員，嗜脂性酵母菌，好發於皮脂腺豐富的部位。當環境潮濕悶熱或免疫狀態改變時可引起汗斑（變色糠疹）、脂漏性皮膚炎和毛囊炎。在新生兒加護病房可經由脂肪乳劑引起菌血症。",
+      "englishName" : "Malassezia",
+      "family" : "馬拉色菌科 (Malasseziaceae)",
+      "id" : "malassezia",
+      "name" : "馬拉色菌",
+      "prevention" : [
+        "保持皮膚乾爽透氣",
+        "避免長時間處於悶熱環境",
+        "使用含抗黴菌成分的沐浴乳",
+        "運動後盡快淋浴更衣"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣炎熱潮濕氣候使汗斑和脂漏性皮膚炎極為常見，夏季皮膚科門診中佔相當比例。年輕男性和戶外工作者發生率較高。",
+      "transmission" : [
+        "內源性感染（自體皮膚菌叢失衡）",
+        "高溫潮濕環境誘發"
+      ],
+      "type" : "fungus"
+    },
+    {
+      "commonSymptoms" : [
+        "咳嗽",
+        "咳血",
+        "發燒對抗生素無反應",
+        "胸痛",
+        "呼吸困難",
+        "鼻竇疼痛"
+      ],
+      "description" : "麴菌廣泛存在於環境中，孢子經由吸入進入呼吸道。在免疫正常者可引起過敏性支氣管肺麴菌症（ABPA），在免疫低下者（如器官移植、長期使用類固醇、血液惡性腫瘤）可引起致死率極高的侵襲性麴菌症。",
+      "englishName" : "Aspergillus",
+      "family" : "麴菌科 (Aspergillaceae)",
+      "id" : "aspergillus",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/23077\/23077_lores.jpg",
+      "name" : "麴菌",
+      "prevention" : [
+        "免疫低下者避免施工區域",
+        "醫院 HEPA 空氣過濾",
+        "高風險病患預防性抗黴菌藥物",
+        "食品避免黃麴毒素汙染"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+
+          ],
+          "description" : "最常見的致病種，侵襲性麴菌症的主要病因，佔 90% 以上",
+          "id" : "a_fumigatus",
+          "name" : "煙麴菌 (A. fumigatus)"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "外耳道黴菌感染最常見的病原，也可引起肺麴菌球",
+          "id" : "a_niger",
+          "name" : "黑麴菌 (A. niger)"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "產生黃麴毒素，為肝癌危險因子，也可引起鼻竇和肺部感染",
+          "id" : "a_flavus",
+          "name" : "黃麴菌 (A. flavus)"
+        }
+      ],
+      "taiwanRelevance" : "台灣溫暖潮濕的氣候有利麴菌生長。侵襲性麴菌症為血液腫瘤和器官移植患者重要死因。黃麴毒素與台灣肝癌高發生率有關聯。",
+      "transmission" : [
+        "吸入環境中的麴菌孢子",
+        "建築施工揚塵暴露",
+        "院內空調系統汙染"
+      ],
+      "type" : "fungus"
+    },
+    {
+      "commonSymptoms" : [
+        "多數無症狀",
+        "淋巴結腫大",
+        "發燒",
+        "肌肉痠痛",
+        "腦炎（免疫低下者）",
+        "視網膜脈絡膜炎"
+      ],
+      "description" : "弓形蟲為專性細胞內寄生原蟲，貓科動物為終宿主。感染在免疫正常者通常無症狀或僅輕微淋巴結腫大，但孕婦初次感染可經胎盤傳給胎兒造成先天性弓形蟲症。免疫低下者（如 AIDS）可引起致死性腦炎。",
+      "englishName" : "Toxoplasma gondii",
+      "family" : "弓形蟲科 (Sarcocystidae)",
+      "id" : "toxoplasma_gondii",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/14380\/14380_lores.jpg",
+      "name" : "弓形蟲",
+      "prevention" : [
+        "肉類充分煮熟",
+        "處理貓砂後洗手",
+        "孕婦避免清理貓砂",
+        "蔬果食用前清洗乾淨"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣成人弓形蟲血清陽性率約 10-20%，低於歐美但隨寵物飼養增加而受關注。孕婦產前篩檢目前非常規項目，但醫師建議高風險者主動檢查。",
+      "transmission" : [
+        "食用含包囊的未熟肉品",
+        "接觸貓糞中的卵囊",
+        "母嬰垂直傳染",
+        "器官移植"
+      ],
+      "type" : "parasite"
+    },
+    {
+      "commonSymptoms" : [
+        "腹瀉（脂肪痢）",
+        "腹脹",
+        "腹部絞痛",
+        "噁心",
+        "體重減輕",
+        "糞便惡臭"
+      ],
+      "description" : "梨形鞭毛蟲為腸道寄生原蟲，寄生於十二指腸和空腸，以囊體形式經糞口途徑傳播。感染後症狀從無症狀帶蟲到脂肪痢和吸收不良不等，為旅行者腹瀉的重要原蟲性病因。全球每年約兩億人感染。",
+      "englishName" : "Giardia lamblia",
+      "family" : "六鞭毛蟲科 (Hexamitidae)",
+      "id" : "giardia_lamblia",
+      "name" : "梨形鞭毛蟲",
+      "prevention" : [
+        "飲用安全水源",
+        "如廁後及餐前洗手",
+        "野外水源需煮沸或過濾",
+        "照護者注意手部衛生"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣本土感染率已低，主要見於山區飲用未處理水源或境外移入個案。托兒所和安養機構偶有群聚通報。",
+      "transmission" : [
+        "飲用受汙染的水源",
+        "糞口傳染",
+        "人與人直接接觸（托兒所）",
+        "食用受汙染的食物"
+      ],
+      "type" : "parasite"
+    },
+    {
+      "commonSymptoms" : [
+        "食後數小時劇烈上腹痛",
+        "噁心嘔吐",
+        "過敏反應（蕁麻疹）",
+        "腸阻塞症狀（小腸型）"
+      ],
+      "description" : "海獸胃線蟲幼蟲寄生於海魚和烏賊等海產的內臟和肌肉中，人類因食用生鮮或未充分加熱的海產而感染。幼蟲鑽入胃腸壁引起劇烈腹痛，也可引起過敏反應。人類為其偶然宿主，幼蟲無法在人體內發育成熟。",
+      "englishName" : "Anisakis",
+      "family" : "蛔蟲科 (Anisakidae)",
+      "id" : "anisakis",
+      "name" : "海獸胃線蟲",
+      "prevention" : [
+        "生魚片在 -20°C 冷凍 24 小時以上",
+        "海產充分加熱至 60°C 以上",
+        "選擇信譽良好的生食餐廳",
+        "釣獲魚類儘速去除內臟"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣生食海鮮文化盛行（生魚片、壽司），海獸胃線蟲感染個案時有所聞。以胃型為主，內視鏡夾除蟲體為主要治療方式。",
+      "transmission" : [
+        "食用含幼蟲的生魚片",
+        "食用未充分加熱的海產",
+        "醃漬或煙燻不足以殺死幼蟲"
+      ],
+      "type" : "parasite"
+    },
+    {
+      "commonSymptoms" : [
+        "週期性寒顫高燒",
+        "大量出汗",
+        "頭痛",
+        "肌肉痠痛",
+        "貧血",
+        "脾臟腫大"
+      ],
+      "description" : "瘧原蟲為經瘧蚊（Anopheles）叮咬傳播的血液寄生蟲，引起瘧疾。全球每年仍有超過兩億人感染、六十萬人死亡。依蟲種不同，臨床表現從規則性發燒到致死性腦型瘧疾不等。",
+      "englishName" : "Plasmodium",
+      "family" : "瘧原蟲科 (Plasmodiidae)",
+      "id" : "plasmodium",
+      "name" : "瘧原蟲",
+      "prevention" : [
+        "前往瘧疾流行區前預防性投藥",
+        "使用蚊帳和防蚊液",
+        "穿著長袖長褲",
+        "避免黃昏至黎明外出"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "惡性瘧"
+          ],
+          "description" : "最危險的蟲種，可引起腦型瘧疾、嚴重貧血和多器官衰竭，致死率最高",
+          "id" : "p_falciparum",
+          "name" : "惡性瘧原蟲 (P. falciparum)"
+        },
+        {
+          "aliases" : [
+            "間日瘧"
+          ],
+          "description" : "可在肝臟形成休眠體，導致復發，需使用 primaquine 根治",
+          "id" : "p_vivax",
+          "name" : "間日瘧原蟲 (P. vivax)"
+        },
+        {
+          "aliases" : [
+            "三日瘧"
+          ],
+          "description" : "引起三日瘧，症狀較輕但可持續數十年的低度寄生蟲血症",
+          "id" : "p_malariae",
+          "name" : "三日瘧原蟲 (P. malariae)"
+        },
+        {
+          "aliases" : [
+            "卵形瘧"
+          ],
+          "description" : "與間日瘧類似，也有肝臟休眠體，主要流行於西非",
+          "id" : "p_ovale",
+          "name" : "卵形瘧原蟲 (P. ovale)"
+        }
+      ],
+      "taiwanRelevance" : "台灣於 1965 年根除本土瘧疾，現為境外移入個案，每年約 20-30 例，以自非洲和東南亞返台者為主。疾管署旅遊醫學門診提供預防用藥。",
+      "transmission" : [
+        "瘧蚊（Anopheles）叮咬",
+        "輸血傳染",
+        "母嬰垂直傳染"
+      ],
+      "type" : "parasite"
+    },
+    {
+      "commonSymptoms" : [
+        "肛門周圍搔癢（夜間加劇）",
+        "睡眠不安",
+        "煩躁不安",
+        "肛門紅腫",
+        "偶見腹痛"
+      ],
+      "description" : "蟯蟲是全球最常見的腸道寄生蟲之一，好發於學齡前和學齡兒童。成蟲寄生於大腸和盲腸，雌蟲於夜間移至肛門周圍產卵，引起劇烈搔癢。經由手指汙染造成自體再感染和家庭內傳播。",
+      "englishName" : "Enterobius vermicularis",
+      "family" : "蟯蟲科 (Oxyuridae)",
+      "id" : "enterobius_vermicularis",
+      "name" : "蟯蟲",
+      "prevention" : [
+        "養成飯前便後洗手習慣",
+        "保持指甲短潔",
+        "每日更換內褲",
+        "寢具定期清洗和曝曬",
+        "全家同步治療"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣學齡兒童蟯蟲感染率雖已大幅下降，但仍為國小學童健康檢查常規項目。團體生活環境（幼兒園、安親班）為主要傳播場所。",
+      "transmission" : [
+        "糞口傳染",
+        "手指接觸蟲卵後再觸碰口鼻",
+        "吸入飄散的蟲卵",
+        "汙染的寢具和衣物"
+      ],
+      "type" : "parasite"
+    },
+    {
+      "commonSymptoms" : [
+        "發燒",
+        "手足水泡",
+        "口腔潰瘍",
+        "喉嚨痛",
+        "食慾下降",
+        "肌躍型抽搐（重症警訊）"
+      ],
+      "description" : "克沙其病毒屬於腸病毒的一種，分為 A 群和 B 群。A 群主要引起手足口病和疱疹性咽峽炎，B 群則可導致心肌炎和胸膜炎。主要透過糞口途徑傳播，好發於夏秋季節，以 5 歲以下兒童為主。",
+      "englishName" : "Coxsackievirus",
+      "family" : "小RNA病毒科 (Picornaviridae)",
+      "id" : "coxsackievirus",
+      "name" : "克沙其病毒",
+      "prevention" : [
+        "勤洗手",
+        "避免與感染者密切接觸",
+        "環境消毒（含氯漂白水）",
+        "注意兒童活動力變化"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "CA16",
+            "CA6",
+            "CA10"
+          ],
+          "description" : "A16 型為手足口病最常見病原，A6 型近年流行增加，可引起較嚴重皮疹",
+          "id" : "coxsackie_a",
+          "name" : "A群克沙其病毒"
+        },
+        {
+          "aliases" : [
+            "CB1-CB6"
+          ],
+          "description" : "可引起心肌炎、心包膜炎、胸膜炎，偶見無菌性腦膜炎",
+          "id" : "coxsackie_b",
+          "name" : "B群克沙其病毒"
+        }
+      ],
+      "taiwanRelevance" : "台灣每年 4-9 月為腸病毒流行季，克沙其 A6、A16 為手足口病主要型別。托嬰中心和幼兒園為高風險場所。",
+      "transmission" : [
+        "糞口傳染",
+        "飛沫傳染",
+        "接觸傳染（水泡液）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "咳嗽",
+        "喘鳴",
+        "聲音沙啞",
+        "發燒",
+        "鼻炎"
+      ],
+      "description" : "副流行感冒病毒有 4 型（PIV 1-4），是兒童哮吼（急性喉氣管支氣管炎）最主要的病原。成人感染多為輕微上呼吸道症狀，但免疫低下者可能發展為嚴重下呼吸道感染。",
+      "englishName" : "Parainfluenza virus (PIV)",
+      "family" : "副黏液病毒科 (Paramyxoviridae)",
+      "id" : "parainfluenza",
+      "name" : "副流行感冒病毒",
+      "prevention" : [
+        "勤洗手",
+        "咳嗽禮節",
+        "避免接觸呼吸道感染患者"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+
+          ],
+          "description" : "兒童哮吼最常見原因，秋季流行",
+          "id" : "piv1",
+          "name" : "PIV-1"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "可引起細支氣管炎和肺炎，全年可見",
+          "id" : "piv3",
+          "name" : "PIV-3"
+        }
+      ],
+      "taiwanRelevance" : "台灣全年可見散發病例，秋冬為高峰期。PIV-3 為嬰幼兒肺炎重要病原之一。",
+      "transmission" : [
+        "飛沫傳染",
+        "接觸傳染"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "咳嗽",
+        "喘鳴",
+        "呼吸急促",
+        "發燒",
+        "鼻塞",
+        "食慾下降"
+      ],
+      "description" : "RSV 是嬰幼兒細支氣管炎和肺炎最主要的病原，幾乎所有兒童在 2 歲前都會感染至少一次。感染後不會產生持久免疫力，可反覆感染。老年人和免疫低下者感染也可能嚴重。",
+      "englishName" : "Respiratory Syncytial Virus (RSV)",
+      "family" : "肺病毒科 (Pneumoviridae)",
+      "id" : "rsv",
+      "name" : "呼吸道融合病毒",
+      "prevention" : [
+        "勤洗手",
+        "高風險嬰兒可施打單株抗體（Palivizumab）",
+        "避免帶嬰兒出入擁擠場所",
+        "2024年起有成人RSV疫苗可用"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+
+          ],
+          "description" : "較常見，通常引起較嚴重的疾病",
+          "id" : "rsv_a",
+          "name" : "RSV-A"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "與 RSV-A 交替流行",
+          "id" : "rsv_b",
+          "name" : "RSV-B"
+        }
+      ],
+      "taiwanRelevance" : "台灣秋冬為 RSV 流行季，為嬰幼兒住院的重要原因。早產兒、先天性心臟病嬰兒為高風險族群。",
+      "transmission" : [
+        "飛沫傳染",
+        "接觸傳染（手→眼鼻口）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "水痘：全身性水泡疹（搔癢）",
+        "帶狀疱疹：沿皮節分布的水泡",
+        "發燒",
+        "疼痛",
+        "神經痛"
+      ],
+      "description" : "初次感染引起水痘，病毒潛伏於背根神經節，免疫力下降時再活化引起帶狀疱疹（皮蛇）。水痘傳染力極強，帶狀疱疹則主要透過水泡液接觸傳染。",
+      "englishName" : "Varicella-Zoster Virus (VZV)",
+      "family" : "疱疹病毒科 (Herpesviridae)",
+      "id" : "vzv",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/5052\/5052_lores.jpg",
+      "name" : "水痘帶狀疱疹病毒",
+      "prevention" : [
+        "接種水痘疫苗（兒童常規）",
+        "50歲以上接種帶狀疱疹疫苗（Shingrix）",
+        "避免接觸水痘或帶狀疱疹患者的水泡"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣自 2004 年起將水痘疫苗納入公費常規接種。成人帶狀疱疹盛行率隨年齡增加，50 歲以上建議接種 Shingrix 疫苗。",
+      "transmission" : [
+        "空氣傳染",
+        "飛沫傳染",
+        "接觸水泡液"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "發燒",
+        "嚴重頭痛",
+        "嘔吐",
+        "意識改變",
+        "呼吸困難",
+        "嗜睡（重症警訊）"
+      ],
+      "description" : "立百病毒為高致死率人畜共通病毒，自然宿主為果蝠。可透過接觸受感染動物（豬）或其分泌物傳播，也有人傳人紀錄。致死率 40-75%，WHO 列為優先研究病原。",
+      "englishName" : "Nipah Virus (NiV)",
+      "family" : "副黏液病毒科 (Paramyxoviridae)",
+      "id" : "nipah",
+      "name" : "立百病毒",
+      "prevention" : [
+        "避免接觸果蝠及其排泄物",
+        "勿飲用未加工棕櫚汁",
+        "接觸疑似病例時穿戴防護裝備"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣目前無本土病例，但列為第五類法定傳染病。東南亞（孟加拉、印度）為主要流行區，旅遊時需注意。",
+      "transmission" : [
+        "接觸受感染動物",
+        "飲用受汙染的棕櫚汁",
+        "人傳人（密切接觸）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "發燒",
+        "疲倦",
+        "噁心嘔吐",
+        "腹痛",
+        "黃疸",
+        "茶色尿",
+        "食慾下降"
+      ],
+      "description" : "A型肝炎透過糞口途徑傳播，常因食用受汙染的水或食物（特別是生食貝類）而感染。多數兒童感染無症狀或輕微，成人感染則較嚴重。感染後可獲終身免疫。",
+      "englishName" : "Hepatitis A Virus (HAV)",
+      "family" : "小RNA病毒科 (Picornaviridae)",
+      "id" : "hav",
+      "name" : "A型肝炎病毒",
+      "prevention" : [
+        "接種A型肝炎疫苗",
+        "注意飲食衛生",
+        "避免生食貝類",
+        "前往流行區前接種疫苗"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣 2018 年起將 A 肝疫苗納入幼兒常規接種。偶有群聚事件，多與生食貝類有關。山地原住民鄉仍為相對高風險區。",
+      "transmission" : [
+        "糞口傳染",
+        "受汙染的食物或水",
+        "密切接觸"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "突發高燒",
+        "後眼窩痛",
+        "肌肉痠痛",
+        "關節痛",
+        "皮疹",
+        "出血傾向（重症）"
+      ],
+      "description" : "登革病毒有 4 種血清型（DENV 1-4），由埃及斑蚊和白線斑蚊傳播。初次感染後對該型產生終身免疫，但再次感染不同型別時，可能因抗體依賴增強（ADE）而發生重症登革熱。",
+      "englishName" : "Dengue Virus (DENV)",
+      "family" : "黃病毒科 (Flaviviridae)",
+      "id" : "dengue_virus",
+      "imageURL" : "https:\/\/phil.cdc.gov\/PHIL_Images\/10231\/10231_lores.jpg",
+      "name" : "登革病毒",
+      "prevention" : [
+        "清除積水容器（孳生源清除）",
+        "使用防蚊液",
+        "穿著長袖長褲",
+        "裝設紗窗紗門"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+
+          ],
+          "description" : "台灣最常見型別",
+          "id" : "denv1",
+          "name" : "DENV-1"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "與重症登革熱關聯性較高",
+          "id" : "denv2",
+          "name" : "DENV-2"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "近年境外移入增加",
+          "id" : "denv3",
+          "name" : "DENV-3"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "較少見",
+          "id" : "denv4",
+          "name" : "DENV-4"
+        }
+      ],
+      "taiwanRelevance" : "台灣南部（高雄、台南）為登革熱流行熱區，每年 7-11 月為高峰期。2015 年高雄大流行超過 4 萬例。2023 年台南也有大規模疫情。",
+      "transmission" : [
+        "病媒蚊叮咬（埃及斑蚊、白線斑蚊）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "皮疹（斑疹→丘疹→水泡→膿疱→結痂）",
+        "發燒",
+        "淋巴結腫大",
+        "肌肉痠痛",
+        "頭痛",
+        "肛門生殖器病灶"
+      ],
+      "description" : "猴痘病毒原為非洲人畜共通傳染病，2022 年起在全球多國爆發。目前流行的 Ib clade 傳播力較強。皮疹為特徵性表現，經歷斑疹→丘疹→水泡→膿疱→結痂過程。",
+      "englishName" : "Monkeypox Virus (Mpox)",
+      "family" : "痘病毒科 (Poxviridae)",
+      "id" : "monkeypox",
+      "name" : "猴痘病毒",
+      "prevention" : [
+        "避免與疑似感染者密切皮膚接觸",
+        "高風險族群接種 JYNNEOS 疫苗",
+        "接觸患者時穿戴防護裝備"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "Ib clade"
+          ],
+          "description" : "致病力較強，含 Ia 和 Ib 分支",
+          "id" : "mpox_clade_i",
+          "name" : "Clade I"
+        },
+        {
+          "aliases" : [
+            "Clade IIb"
+          ],
+          "description" : "2022 年全球流行株，致死率較低",
+          "id" : "mpox_clade_ii",
+          "name" : "Clade II"
+        }
+      ],
+      "taiwanRelevance" : "台灣 2022 年起出現境外移入及本土病例。疾管署提供高風險族群免費 JYNNEOS 疫苗接種。",
+      "transmission" : [
+        "密切接觸（皮膚對皮膚）",
+        "性接觸",
+        "接觸病灶分泌物",
+        "飛沫（長時間面對面）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "水泡群聚（口唇或生殖器）",
+        "疼痛",
+        "搔癢",
+        "發燒（初次感染）",
+        "淋巴結腫大"
+      ],
+      "description" : "單純疱疹病毒分為 HSV-1（主要感染口唇）和 HSV-2（主要感染生殖器），但兩型均可感染任一部位。初次感染後病毒潛伏於神經節，可反覆再發。全球約三分之二人口帶有 HSV-1。",
+      "englishName" : "Herpes Simplex Virus (HSV)",
+      "family" : "疱疹病毒科 (Herpesviridae)",
+      "id" : "hsv",
+      "name" : "單純疱疹病毒",
+      "prevention" : [
+        "避免與有活動性病灶者密切接觸",
+        "使用保險套（降低但無法完全防止傳播）",
+        "發作期間避免親密接觸"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "唇疱疹"
+          ],
+          "description" : "主要引起口唇疱疹（唇疱疹），也可引起疱疹性角膜炎和腦炎",
+          "id" : "hsv1",
+          "name" : "HSV-1"
+        },
+        {
+          "aliases" : [
+            "生殖器疱疹"
+          ],
+          "description" : "主要引起生殖器疱疹，透過性接觸傳播",
+          "id" : "hsv2",
+          "name" : "HSV-2"
+        }
+      ],
+      "taiwanRelevance" : "台灣成人 HSV-1 盛行率約 50-60%。新生兒疱疹雖罕見但可致命，產婦有生殖器疱疹活動性病灶時需考慮剖腹產。",
+      "transmission" : [
+        "直接接觸（口對口、性接觸）",
+        "接觸病灶分泌物",
+        "垂直傳染（母嬰）"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "發燒",
+        "皮疹（少數）",
+        "輕微咳嗽"
+      ],
+      "description" : "HHV-7 與 HHV-6 同為玫瑰疹的病原，感染後潛伏於 T 淋巴球。多數人在幼兒期感染，症狀輕微或無症狀。偶可引起腦炎或肝炎，免疫低下者可能再活化。",
+      "englishName" : "Human Herpesvirus 7 (HHV-7)",
+      "family" : "疱疹病毒科 (Herpesviridae)",
+      "id" : "hhv7",
+      "name" : "人類疱疹病毒第七型",
+      "prevention" : [
+        "無特異性預防方式",
+        "一般衛生措施"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣幼兒普遍感染，多數為輕微或無症狀。與 HHV-6 共同為嬰幼兒玫瑰疹的主要病因。",
+      "transmission" : [
+        "唾液接觸"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "結膜充血",
+        "眼睛紅",
+        "眼睛癢",
+        "流淚",
+        "輕微發燒"
+      ],
+      "description" : "腸病毒70型是急性出血性結膜炎的主要病原之一。透過接觸傳染，潛伏期極短（12-72小時），傳染力強，常引起大規模爆發。",
+      "englishName" : "Enterovirus 70 (EV-A70)",
+      "family" : "小RNA病毒科 (Picornaviridae)",
+      "id" : "enterovirus_70",
+      "name" : "腸病毒70型",
+      "prevention" : [
+        "勤洗手",
+        "避免揉眼睛",
+        "不共用毛巾和眼部用品"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣偶有校園或軍營群聚爆發，俗稱「紅眼症」流行時需注意。",
+      "transmission" : [
+        "接觸傳染（手→眼）",
+        "飛沫傳染"
+      ],
+      "type" : "virus"
+    },
+    {
+      "commonSymptoms" : [
+        "喉嚨痛",
+        "發燒",
+        "扁桃腺腫大化膿",
+        "皮膚紅疹",
+        "蜂窩性組織炎"
+      ],
+      "description" : "A型鏈球菌（化膿性鏈球菌）可引起從輕微的咽喉炎、猩紅熱到嚴重的壞死性筋膜炎和鏈球菌毒性休克症候群。感染後若未適當治療，可能引發風濕熱或急性腎絲球腎炎等免疫後遺症。",
+      "englishName" : "Group A Streptococcus (GAS)",
+      "family" : "鏈球菌科 (Streptococcaceae)",
+      "id" : "group_a_strep",
+      "name" : "A型鏈球菌",
+      "prevention" : [
+        "勤洗手",
+        "咳嗽禮節",
+        "傷口適當清潔包紮",
+        "完成抗生素療程（預防風濕熱）"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣常見兒童咽喉炎病原，冬春季為高峰。猩紅熱為法定傳染病。近年偶有侵襲性 GAS 感染報告。",
+      "transmission" : [
+        "飛沫傳染",
+        "接觸傳染（傷口）"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "陣發性痙攣咳嗽",
+        "咳嗽後吸氣性哮聲",
+        "咳嗽後嘔吐",
+        "持續性乾咳",
+        "新生兒可表現為呼吸暫停"
+      ],
+      "description" : "百日咳桿菌引起百日咳，特徵為陣發性痙攣咳嗽伴隨吸氣性哮聲（whoop）。嬰幼兒感染可能致命，成人和青少年症狀較不典型但為重要傳播源。疫苗保護力會隨時間減弱。",
+      "englishName" : "Bordetella pertussis",
+      "family" : "產鹼桿菌科 (Alcaligenaceae)",
+      "id" : "bordetella_pertussis",
+      "name" : "百日咳桿菌",
+      "prevention" : [
+        "接種百日咳疫苗（DTaP\/Tdap）",
+        "孕婦第三孕期追加 Tdap",
+        "嬰兒照顧者接種 Tdap"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣每年仍有散發病例，以 3 個月以下嬰兒為主。2019 年起建議孕婦接種 Tdap。",
+      "transmission" : [
+        "飛沫傳染（高度傳染性）"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "持續性乾咳",
+        "低度發燒",
+        "咽喉炎",
+        "聲音沙啞",
+        "全身倦怠"
+      ],
+      "description" : "肺炎披衣菌為非典型肺炎的常見病原之一，感染通常為輕至中度，表現為持續性乾咳、低度發燒和咽喉炎。多數人在一生中會感染多次，再感染通常較輕微。",
+      "englishName" : "Chlamydophila pneumoniae",
+      "family" : "披衣菌科 (Chlamydiaceae)",
+      "id" : "chlamydophila_pneumoniae",
+      "name" : "肺炎披衣菌",
+      "prevention" : [
+        "一般呼吸道衛生措施",
+        "避免密閉空間群聚"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣社區型肺炎的重要病原之一，成人和學齡兒童均可感染。",
+      "transmission" : [
+        "飛沫傳染"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "持續性乾咳",
+        "低度發燒",
+        "頭痛",
+        "全身倦怠",
+        "喉嚨痛"
+      ],
+      "description" : "肺炎黴漿菌是最小的自由生活細菌之一，缺乏細胞壁因此對β-lactam類抗生素無效。主要引起「行走肺炎」（walking pneumonia），症狀較不嚴重但咳嗽可持續數週。好發於學齡兒童和年輕成人。",
+      "englishName" : "Mycoplasma pneumoniae",
+      "family" : "黴漿菌科 (Mycoplasmataceae)",
+      "id" : "mycoplasma_pneumoniae",
+      "name" : "肺炎黴漿菌",
+      "prevention" : [
+        "勤洗手",
+        "咳嗽禮節",
+        "通風良好的環境"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣全年可見，2023-2024 年出現大規模流行。對巨環類抗生素（macrolide）的抗藥性在亞洲地區偏高（約 50-80%）。",
+      "transmission" : [
+        "飛沫傳染",
+        "密切接觸"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "發燒",
+        "耳朵痛",
+        "鼻竇疼痛",
+        "咳嗽",
+        "頸部僵硬（腦膜炎時）"
+      ],
+      "description" : "流感嗜血桿菌名稱中有「流感」但與流感病毒無關。b 型（Hib）為最具侵襲性，可引起腦膜炎和會厭炎。非典型株（NTHi）則常引起中耳炎和鼻竇炎。Hib 疫苗普及後侵襲性感染大幅降低。",
+      "englishName" : "Haemophilus influenzae",
+      "family" : "巴斯德菌科 (Pasteurellaceae)",
+      "id" : "haemophilus_influenzae",
+      "name" : "流感嗜血桿菌",
+      "prevention" : [
+        "接種 Hib 疫苗（幼兒常規）",
+        "勤洗手"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "Hib"
+          ],
+          "description" : "有莢膜，侵襲性強，疫苗可預防",
+          "id" : "hib",
+          "name" : "b 型 (Hib)"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "無莢膜，常引起中耳炎和鼻竇炎",
+          "id" : "nthi",
+          "name" : "非典型株 (NTHi)"
+        }
+      ],
+      "taiwanRelevance" : "台灣自 2010 年起將 Hib 疫苗納入五合一常規接種，侵襲性 Hib 感染已大幅減少。NTHi 仍為兒童中耳炎常見病原。",
+      "transmission" : [
+        "飛沫傳染",
+        "接觸傳染"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "耳朵痛",
+        "鼻竇疼痛",
+        "咳嗽膿痰",
+        "發燒"
+      ],
+      "description" : "卡他莫拉菌為上呼吸道常見菌叢，在免疫力下降時可引起中耳炎、鼻竇炎和慢性阻塞性肺病急性發作。為兒童中耳炎第三常見病原（次於肺炎鏈球菌和流感嗜血桿菌）。",
+      "englishName" : "Moraxella catarrhalis",
+      "family" : "莫拉菌科 (Moraxellaceae)",
+      "id" : "moraxella_catarrhalis",
+      "name" : "卡他莫拉菌",
+      "prevention" : [
+        "一般呼吸道衛生措施"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣兒童中耳炎和鼻竇炎的常見致病菌之一。多數菌株產生β-lactamase，對安美汀（amoxicillin）有抗藥性。",
+      "transmission" : [
+        "飛沫傳染",
+        "接觸傳染"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "發燒",
+        "咳嗽膿痰",
+        "右上腹痛（肝膿瘍）",
+        "排尿疼痛",
+        "菌血症"
+      ],
+      "description" : "克雷伯氏菌為院內感染重要病原，可引起肺炎、泌尿道感染、菌血症和肝膿瘍。台灣特有的高毒力型（hypervirulent）克雷伯氏菌可在健康成人引起原發性肝膿瘍，為台灣特色疾病。",
+      "englishName" : "Klebsiella pneumoniae",
+      "family" : "腸桿菌科 (Enterobacteriaceae)",
+      "id" : "klebsiella",
+      "name" : "克雷伯氏菌",
+      "prevention" : [
+        "醫療機構落實手部衛生",
+        "適當使用抗生素",
+        "糖尿病患者控制血糖"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣為克雷伯氏菌肝膿瘍的高盛行區，糖尿病患者為高風險族群。碳青黴烯類抗藥性克雷伯氏菌（CRKP）為院內感染重要威脅。",
+      "transmission" : [
+        "接觸傳染（院內）",
+        "內源性感染（腸道菌叢）"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "腹瀉",
+        "腹痛",
+        "發燒",
+        "噁心嘔吐",
+        "持續高燒（傷寒型）"
+      ],
+      "description" : "沙門氏桿菌為常見食物中毒病原，存在於禽畜肉品、蛋類和乳製品中。非傷寒沙門氏菌主要引起腸胃炎，傷寒沙門氏菌引起傷寒。嬰幼兒和老年人感染可能較嚴重。",
+      "englishName" : "Salmonella",
+      "family" : "腸桿菌科 (Enterobacteriaceae)",
+      "id" : "salmonella",
+      "name" : "沙門氏桿菌",
+      "prevention" : [
+        "食物充分加熱",
+        "生熟食分開處理",
+        "蛋類充分煮熟",
+        "前往傷寒流行區可接種疫苗"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+
+          ],
+          "description" : "引起急性腸胃炎，為食物中毒最常見原因之一",
+          "id" : "nontyphoidal",
+          "name" : "非傷寒沙門氏菌"
+        },
+        {
+          "aliases" : [
+            "Salmonella typhi"
+          ],
+          "description" : "引起傷寒，持續高燒、相對性心搏過緩",
+          "id" : "typhi",
+          "name" : "傷寒沙門氏菌"
+        }
+      ],
+      "taiwanRelevance" : "台灣每年約有數千例沙門氏菌腸胃炎通報。夏季為高峰期，與食物保存不當有關。",
+      "transmission" : [
+        "食用受汙染食物（禽畜肉、蛋）",
+        "糞口傳染"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "水樣腹瀉",
+        "嘔吐",
+        "脫水",
+        "腹部絞痛"
+      ],
+      "description" : "霍亂弧菌引起霍亂，特徵為大量水樣腹瀉（米湯樣），可在數小時內導致嚴重脫水和死亡。O1 和 O139 血清群可引起流行。適當補充水分和電解質為治療關鍵。",
+      "englishName" : "Vibrio cholerae",
+      "family" : "弧菌科 (Vibrionaceae)",
+      "id" : "vibrio_cholerae",
+      "name" : "霍亂弧菌",
+      "prevention" : [
+        "飲用安全的水",
+        "食物充分加熱",
+        "注意衛生",
+        "口服霍亂疫苗（前往流行區）"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣為非流行區，偶有境外移入病例。為第二類法定傳染病。",
+      "transmission" : [
+        "受汙染的水和食物",
+        "糞口傳染"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "毛囊性丘疹",
+        "膿性痰液",
+        "皮膚紅疹"
+      ],
+      "description" : "痤瘡丙酸桿菌為皮膚常駐菌，在毛囊皮脂腺阻塞時大量增殖引起發炎反應，為青春痘（痤瘡）的主要致病因子。也可能引起植入物相關感染和術後感染。",
+      "englishName" : "Cutibacterium acnes",
+      "family" : "丙酸桿菌科 (Propionibacteriaceae)",
+      "id" : "cutibacterium_acnes",
+      "name" : "痤瘡丙酸桿菌",
+      "prevention" : [
+        "適當清潔皮膚",
+        "避免過度擠壓粉刺",
+        "使用合適的保養品"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣青少年痤瘡盛行率約 80%。環境溫溼度高使台灣痤瘡問題相對嚴重。",
+      "transmission" : [
+        "內源性感染（皮膚常駐菌）"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "喉嚨痛",
+        "吞嚥困難",
+        "頸部淋巴結腫大",
+        "口咽部病變",
+        "發燒"
+      ],
+      "description" : "白喉桿菌產生的外毒素可造成咽喉偽膜形成，嚴重時阻塞呼吸道。毒素也會影響心臟和神經系統。疫苗普及後白喉已極為罕見，但疫苗接種率下降的地區仍有風險。",
+      "englishName" : "Corynebacterium diphtheriae",
+      "family" : "棒狀桿菌科 (Corynebacteriaceae)",
+      "id" : "corynebacterium_diphtheriae",
+      "name" : "白喉桿菌",
+      "prevention" : [
+        "接種白喉疫苗（DTP\/Td 常規接種）",
+        "每 10 年追加 Td"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣自 1990 年代後幾乎無本土病例，歸功於高疫苗接種率。為第二類法定傳染病。",
+      "transmission" : [
+        "飛沫傳染",
+        "接觸傳染"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "女性可能無症狀",
+        "尿道膿性分泌物",
+        "排尿疼痛",
+        "下腹痛（骨盆腔炎）",
+        "異常分泌物"
+      ],
+      "description" : "披衣菌為全球最常見的細菌性性傳染病病原。女性感染多無症狀，但未治療可導致骨盆腔發炎和不孕。男性可引起尿道炎和副睾丸炎。部分血清型可引起砂眼（A-C型）和花柳性淋巴肉芽腫（L1-L3型）。",
+      "englishName" : "Chlamydia trachomatis",
+      "family" : "披衣菌科 (Chlamydiaceae)",
+      "id" : "chlamydia_trachomatis",
+      "name" : "披衣菌",
+      "prevention" : [
+        "安全性行為（使用保險套）",
+        "定期篩檢（有性行為之年輕女性）",
+        "性伴侶同步治療"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣年輕族群盛行率逐年上升，為重要公衛議題。非法定傳染病但建議有症狀者主動就醫篩檢。",
+      "transmission" : [
+        "性接觸",
+        "垂直傳染（母嬰）"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "排尿灼熱疼痛",
+        "頻尿（UPEC）",
+        "發燒",
+        "腰痛"
+      ],
+      "description" : "變形桿菌為泌尿道感染的常見病原，特別好發於長期留置導尿管的患者。其尿素酶活性可使尿液鹼化，促進磷酸銨鎂結石（鹿角結石）形成。",
+      "englishName" : "Proteus mirabilis",
+      "family" : "摩根菌科 (Morganellaceae)",
+      "id" : "proteus",
+      "name" : "變形桿菌",
+      "prevention" : [
+        "避免不必要的導尿管留置",
+        "充分攝取水分"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣院內泌尿道感染的常見菌種之一，導尿管相關泌尿道感染為重要院內感染議題。",
+      "transmission" : [
+        "內源性感染（腸道菌叢）",
+        "導尿管相關感染"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "排尿疼痛",
+        "發燒",
+        "菌血症",
+        "傷口感染化膿"
+      ],
+      "description" : "糞腸球菌為腸道常駐菌，在免疫低下或接受侵入性醫療處置時可引起泌尿道感染、菌血症和心內膜炎。萬古黴素抗藥性腸球菌（VRE）為重要院內感染問題。",
+      "englishName" : "Enterococcus faecalis",
+      "family" : "腸球菌科 (Enterococcaceae)",
+      "id" : "enterococcus_faecalis",
+      "name" : "糞腸球菌",
+      "prevention" : [
+        "醫療機構落實手部衛生",
+        "適當使用抗生素",
+        "接觸隔離（VRE 帶菌者）"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣 VRE 盛行率約 20-30%，為疾管署監測的重要抗藥性菌種。",
+      "transmission" : [
+        "內源性感染",
+        "接觸傳染（院內）"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "傷口感染化膿",
+        "發燒",
+        "植入物周圍疼痛"
+      ],
+      "description" : "表皮葡萄球菌為皮膚常駐菌，通常不致病。但其可在醫療植入物（人工關節、人工瓣膜、中心靜脈導管）表面形成生物膜，引起難以根除的慢性感染。",
+      "englishName" : "Staphylococcus epidermidis",
+      "family" : "葡萄球菌科 (Staphylococcaceae)",
+      "id" : "staph_epidermidis",
+      "name" : "表皮葡萄球菌",
+      "prevention" : [
+        "手術無菌技術",
+        "導管照護",
+        "減少不必要的植入物留置"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣院內感染常見菌種，多數菌株對甲氧西林有抗藥性（MRSE）。",
+      "transmission" : [
+        "內源性感染（皮膚菌叢）",
+        "醫療植入物相關"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "噁心嘔吐",
+        "腹瀉",
+        "腹痛",
+        "食後數小時劇烈上腹痛"
+      ],
+      "description" : "蠟樣芽孢桿菌為食物中毒常見原因，分為嘔吐型（耐熱毒素，與炒飯症候群相關）和腹瀉型（不耐熱腸毒素）。芽孢耐高溫，食物烹調後若在室溫放置過久，芽孢可萌發產毒。",
+      "englishName" : "Bacillus cereus",
+      "family" : "芽孢桿菌科 (Bacillaceae)",
+      "id" : "bacillus_cereus",
+      "name" : "蠟樣芽孢桿菌",
+      "prevention" : [
+        "食物烹調後儘速食用或冷藏",
+        "避免室溫放置超過 2 小時",
+        "隔餐米飯充分復熱"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣便當文化盛行，蠟樣芽孢桿菌食物中毒案例以米飯類製品為大宗，夏季尤為常見。",
+      "transmission" : [
+        "食用受汙染食物（米飯、義大利麵等澱粉類）"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "腹瀉（可能帶血）",
+        "腹痛",
+        "排尿疼痛（UPEC）",
+        "頻尿（UPEC）",
+        "血便（EHEC）"
+      ],
+      "description" : "大腸桿菌大多為腸道正常菌叢，但特定致病型可引起疾病。EHEC（腸出血性，如 O157:H7）可引起溶血性尿毒症候群；ETEC（產毒性）為旅行者腹瀉常見原因；UPEC（泌尿道致病型）為泌尿道感染最主要病原。",
+      "englishName" : "Pathogenic Escherichia coli",
+      "family" : "腸桿菌科 (Enterobacteriaceae)",
+      "id" : "pathogenic_ecoli",
+      "name" : "病原性大腸桿菌",
+      "prevention" : [
+        "食物充分加熱",
+        "飲用安全的水",
+        "充分攝取水分（預防 UTI）",
+        "排尿後正確擦拭方向（女性）"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "O157:H7"
+          ],
+          "description" : "產志賀毒素，可引起血便和溶血性尿毒症候群",
+          "id" : "ehec",
+          "name" : "EHEC (腸出血性)"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "旅行者腹瀉最常見原因",
+          "id" : "etec",
+          "name" : "ETEC (產毒性)"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "泌尿道感染最主要病原，佔社區型 UTI 約 80%",
+          "id" : "upec",
+          "name" : "UPEC (泌尿道致病型)"
+        }
+      ],
+      "taiwanRelevance" : "UPEC 為台灣社區型泌尿道感染最常見病原。EHEC O157:H7 在台灣少見但偶有散發病例。",
+      "transmission" : [
+        "受汙染的食物或水",
+        "糞口傳染",
+        "內源性感染（泌尿道）"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "傷口感染化膿（綠色分泌物）",
+        "腹痛",
+        "發燒",
+        "膿性痰液"
+      ],
+      "description" : "厭氧菌為無法在有氧環境生長的細菌總稱，包括脆弱擬桿菌、梭桿菌、消化鏈球菌等。常見於腹腔內感染、膿瘍、壞死性軟組織感染和吸入性肺炎。感染常有惡臭膿液為特徵。",
+      "englishName" : "Anaerobic Bacteria",
+      "family" : "多科（梭桿菌科、擬桿菌科等）",
+      "id" : "anaerobes",
+      "name" : "厭氧菌",
+      "prevention" : [
+        "傷口適當清潔",
+        "手術預防性抗生素",
+        "口腔衛生維護"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣腹腔內感染和膿瘍的常見致病菌。脆弱擬桿菌對 carbapenem 類抗生素抗藥性逐年上升。",
+      "transmission" : [
+        "內源性感染（口腔、腸道菌叢）",
+        "傷口汙染"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "陰部搔癢",
+        "異常分泌物",
+        "排尿不適"
+      ],
+      "description" : "陰道加德諾菌為細菌性陰道炎的主要相關菌種。正常陰道菌叢以乳酸桿菌為主，當菌叢失衡時加德諾菌過度增殖，產生特徵性的魚腥味分泌物。非性傳染病但與性行為有關。",
+      "englishName" : "Gardnerella vaginalis",
+      "family" : "放線菌門 (Bifidobacteriaceae)",
+      "id" : "gardnerella",
+      "name" : "陰道加德諾菌",
+      "prevention" : [
+        "避免過度沖洗陰道",
+        "穿著透氣棉質內褲",
+        "維持陰道酸鹼平衡"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣女性常見婦科問題，就診率逐年增加。台灣溫溼度高的環境增加發病風險。",
+      "transmission" : [
+        "陰道菌叢失衡",
+        "與性行為相關"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "排尿灼熱疼痛",
+        "頻尿（UPEC）",
+        "腹痛"
+      ],
+      "description" : "腐生葡萄球菌為年輕女性泌尿道感染的第二常見病原（僅次於大腸桿菌）。與性行為頻率有關，又稱「蜜月膀胱炎」相關菌種。",
+      "englishName" : "Staphylococcus saprophyticus",
+      "family" : "葡萄球菌科 (Staphylococcaceae)",
+      "id" : "staph_saprophyticus",
+      "name" : "腐生葡萄球菌",
+      "prevention" : [
+        "充分攝取水分",
+        "排尿後正確擦拭",
+        "性行為後排尿"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣年輕女性泌尿道感染的常見致病菌之一。",
+      "transmission" : [
+        "內源性感染"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "蜂窩性組織炎",
+        "皮膚紅疹",
+        "發燒",
+        "傷口感染化膿",
+        "喉嚨痛"
+      ],
+      "description" : "化膿性鏈球菌即 A 型鏈球菌（GAS），為蜂窩性組織炎、丹毒、壞死性筋膜炎的重要病原。嚴重感染可引起鏈球菌毒性休克症候群，致死率高。",
+      "englishName" : "Streptococcus pyogenes",
+      "family" : "鏈球菌科 (Streptococcaceae)",
+      "id" : "pyogenic_strep",
+      "name" : "化膿性鏈球菌",
+      "prevention" : [
+        "傷口適當清潔包紮",
+        "勤洗手",
+        "注意皮膚完整性"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣侵襲性 GAS 感染近年有增加趨勢，壞死性筋膜炎為外科急症。",
+      "transmission" : [
+        "接觸傳染（傷口）",
+        "飛沫傳染"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "牙齦發炎",
+        "牙齦出血",
+        "口臭",
+        "牙齒鬆動"
+      ],
+      "description" : "牙齦卟啉單胞菌為慢性牙周病最重要的致病菌，可破壞牙周組織和齒槽骨。近年研究發現其與心血管疾病、阿茲海默症和類風濕性關節炎可能有關聯。",
+      "englishName" : "Porphyromonas gingivalis",
+      "family" : "卟啉單胞菌科 (Porphyromonadaceae)",
+      "id" : "porphyromonas_gingivalis",
+      "name" : "牙齦卟啉單胞菌",
+      "prevention" : [
+        "正確刷牙和使用牙線",
+        "定期洗牙",
+        "戒菸"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣成人牙周病盛行率超過 80%，牙齦卟啉單胞菌為最主要致病菌。",
+      "transmission" : [
+        "口腔菌叢失衡"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "蛀牙",
+        "牙痛",
+        "牙齦發炎"
+      ],
+      "description" : "轉糖鏈球菌為齲齒（蛀牙）最主要的致病菌。利用蔗糖產生酸性代謝物侵蝕牙齒琺瑯質，並形成牙菌斑生物膜。可由母親傳給嬰幼兒（垂直傳播）。",
+      "englishName" : "Streptococcus mutans",
+      "family" : "鏈球菌科 (Streptococcaceae)",
+      "id" : "strep_mutans",
+      "name" : "轉糖鏈球菌",
+      "prevention" : [
+        "減少糖分攝取",
+        "正確刷牙",
+        "使用含氟牙膏",
+        "定期牙科檢查",
+        "避免與嬰幼兒共用餐具"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣兒童齲齒盛行率偏高，5 歲兒童齲齒率約 65%。衛福部推動含氟漱口水計畫降低齲齒率。",
+      "transmission" : [
+        "唾液接觸（親子間傳播）",
+        "共用餐具"
+      ],
+      "type" : "bacteria"
+    },
+    {
+      "commonSymptoms" : [
+        "環狀紅疹伴隨脫屑",
+        "搔癢",
+        "指甲增厚變色（甲癬）",
+        "皮膚龜裂（足癬）"
+      ],
+      "description" : "紅色毛癬菌為全球最常見的皮癬菌，可引起足癬（香港腳）、股癬、體癬和甲癬（灰指甲）。嗜角質蛋白，主要感染皮膚角質層、毛髮和指甲。溫暖潮濕環境有利其生長。",
+      "englishName" : "Trichophyton rubrum",
+      "family" : "節皮菌科 (Arthrodermataceae)",
+      "id" : "trichophyton_rubrum",
+      "name" : "紅色毛癬菌",
+      "prevention" : [
+        "保持足部乾燥",
+        "不共用拖鞋和毛巾",
+        "穿著透氣鞋襪",
+        "公共浴室穿拖鞋"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣溫暖潮濕的氣候為皮癬菌感染的溫床。足癬和灰指甲為最常見的皮膚科門診疾病之一。",
+      "transmission" : [
+        "直接接觸感染者",
+        "接觸受汙染物品（拖鞋、浴室地板）"
+      ],
+      "type" : "fungus"
+    },
+    {
+      "commonSymptoms" : [
+        "陰部搔癢",
+        "異常分泌物",
+        "排尿疼痛",
+        "直腸疼痛和分泌物"
+      ],
+      "description" : "陰道滴蟲為全球最常見的非病毒性性傳染病原。感染可引起泡沫狀黃綠色分泌物伴惡臭，但約半數感染者無症狀。男性感染多無症狀但為傳播源。增加 HIV 感染風險。",
+      "englishName" : "Trichomonas vaginalis",
+      "family" : "滴蟲科 (Trichomonadidae)",
+      "id" : "trichomonas",
+      "name" : "陰道滴蟲",
+      "prevention" : [
+        "安全性行為（使用保險套）",
+        "性伴侶同步治療",
+        "定期篩檢"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣盛行率約 1-3%，為婦科門診常見感染。Metronidazole 為首選治療藥物。",
+      "transmission" : [
+        "性接觸"
+      ],
+      "type" : "parasite"
+    },
+    {
+      "commonSymptoms" : [
+        "打噴嚏",
+        "鼻塞",
+        "流鼻水",
+        "眼睛癢",
+        "氣喘發作",
+        "皮膚癢（異位性皮膚炎惡化）"
+      ],
+      "description" : "塵蟎為最常見的室內過敏原，以人類脫落的皮屑為食。其排泄物中的蛋白酶（Der p 1、Der f 1）為主要致敏原，可引起過敏性鼻炎、氣喘和異位性皮膚炎。在溫暖潮濕環境中大量繁殖。",
+      "englishName" : "House Dust Mite (Dermatophagoides)",
+      "family" : "蟎科 (Pyroglyphidae)",
+      "id" : "dust_mite",
+      "name" : "塵蟎",
+      "prevention" : [
+        "使用防蟎寢具套",
+        "每週以 55°C 以上熱水清洗寢具",
+        "降低室內濕度至 50% 以下",
+        "移除地毯和絨毛玩具",
+        "使用 HEPA 濾網空氣清淨機"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "Dermatophagoides pteronyssinus"
+          ],
+          "description" : "全球最常見的過敏性塵蟎",
+          "id" : "d_pteronyssinus",
+          "name" : "歐洲室塵蟎"
+        },
+        {
+          "aliases" : [
+            "Dermatophagoides farinae"
+          ],
+          "description" : "偏好較乾燥環境",
+          "id" : "d_farinae",
+          "name" : "美洲室塵蟎"
+        }
+      ],
+      "taiwanRelevance" : "台灣約 90% 氣喘和過敏性鼻炎患者對塵蟎過敏。台灣溫暖潮濕的環境極有利塵蟎繁殖，為最重要的過敏原。",
+      "transmission" : [
+        "吸入蟎蟲排泄物和屍體碎片",
+        "皮膚接觸"
+      ],
+      "type" : "parasite"
+    },
+    {
+      "commonSymptoms" : [
+        "打噴嚏",
+        "流鼻水",
+        "鼻塞",
+        "眼睛癢",
+        "喉嚨癢"
+      ],
+      "description" : "花粉為植物繁殖的微粒，是季節性過敏性鼻炎（花粉症）的主要致敏原。不同植物的花粉季節不同，可引起眼、鼻、呼吸道過敏反應。嚴重者可誘發氣喘發作。",
+      "englishName" : "Pollen",
+      "family" : "過敏原",
+      "id" : "pollen",
+      "name" : "花粉",
+      "prevention" : [
+        "花粉季減少戶外活動",
+        "外出配戴口罩和護目鏡",
+        "回家後更衣洗澡",
+        "關閉窗戶使用空氣清淨機",
+        "減敏療法（免疫治療）"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣花粉症相對歐美少見，但仍有因禾本科、菊科植物花粉引起的過敏。部分患者對相思樹、木麻黃花粉過敏。",
+      "transmission" : [
+        "空氣傳播（吸入）"
+      ],
+      "type" : "parasite"
+    },
+    {
+      "commonSymptoms" : [
+        "打噴嚏",
+        "鼻塞",
+        "眼睛癢",
+        "皮膚癢",
+        "氣喘發作"
+      ],
+      "description" : "貓狗的皮屑、唾液和尿液中含有致敏蛋白。貓的主要過敏原為 Fel d 1（由皮脂腺分泌），狗的為 Can f 1。這些過敏原粒徑極小，可長時間懸浮在空氣中，即使移除寵物後仍可殘留數月。",
+      "englishName" : "Pet Dander (Fel d 1, Can f 1)",
+      "family" : "過敏原",
+      "id" : "pet_dander",
+      "name" : "貓狗毛屑",
+      "prevention" : [
+        "限制寵物進入臥室",
+        "使用 HEPA 空氣清淨機",
+        "定期清洗寵物",
+        "減敏療法"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣飼養寵物家庭逐年增加，貓狗過敏為過敏性鼻炎和氣喘的重要致敏原之一。",
+      "transmission" : [
+        "吸入懸浮過敏原",
+        "皮膚接觸"
+      ],
+      "type" : "parasite"
+    },
+    {
+      "commonSymptoms" : [
+        "打噴嚏",
+        "鼻塞",
+        "咳嗽",
+        "氣喘發作",
+        "皮膚癢",
+        "漸進性呼吸困難"
+      ],
+      "description" : "黴菌孢子廣泛存在於環境中，既是過敏原也可能引起感染。過敏性方面，吸入黴菌孢子可誘發過敏性鼻炎和氣喘。感染性方面，免疫低下者可能發生侵襲性麴菌症。潮濕環境有利黴菌生長。",
+      "englishName" : "Mold (Aspergillus, Alternaria, Cladosporium)",
+      "family" : "多科（麴菌科、鏈格孢科等）",
+      "id" : "mold",
+      "name" : "黴菌",
+      "prevention" : [
+        "降低室內濕度至 50% 以下",
+        "修繕漏水",
+        "使用除濕機",
+        "浴室保持通風",
+        "定期清潔冷氣濾網"
+      ],
+      "subtypes" : [
+        {
+          "aliases" : [
+            "Aspergillus fumigatus"
+          ],
+          "description" : "可引起過敏性支氣管肺麴菌症（ABPA）和侵襲性麴菌症",
+          "id" : "aspergillus",
+          "name" : "麴菌"
+        },
+        {
+          "aliases" : [
+
+          ],
+          "description" : "最常見的室外黴菌過敏原",
+          "id" : "alternaria",
+          "name" : "鏈格孢菌"
+        }
+      ],
+      "taiwanRelevance" : "台灣高溫多濕環境黴菌極易滋生。約 10-20% 過敏患者對黴菌過敏。梅雨季和颱風季為黴菌過敏高峰期。",
+      "transmission" : [
+        "吸入黴菌孢子",
+        "皮膚接觸（潮濕環境）"
+      ],
+      "type" : "fungus"
+    },
+    {
+      "commonSymptoms" : [
+        "打噴嚏",
+        "鼻塞",
+        "流鼻水",
+        "咳嗽",
+        "眼睛癢"
+      ],
+      "description" : "室內灰塵為多種過敏原的混合物，包含塵蟎排泄物、黴菌孢子、蟑螂碎屑、寵物皮屑、花粉等。灰塵本身的複合成分可刺激呼吸道，引發或加重過敏反應。",
+      "englishName" : "House Dust",
+      "family" : "過敏原",
+      "id" : "dust",
+      "name" : "灰塵",
+      "prevention" : [
+        "定期清潔居家環境",
+        "使用 HEPA 吸塵器",
+        "減少堆積雜物",
+        "使用空氣清淨機"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣室內灰塵過敏為常見問題，與塵蟎過敏高度相關。",
+      "transmission" : [
+        "吸入",
+        "皮膚接觸"
+      ],
+      "type" : "parasite"
+    },
+    {
+      "commonSymptoms" : [
+        "局部紅腫疼痛",
+        "過敏反應（蕁麻疹）",
+        "呼吸困難",
+        "意識障礙"
+      ],
+      "description" : "蜂毒含有磷脂酶 A2、蜂毒肽等多種蛋白質成分，可引起局部疼痛腫脹。對蜂毒過敏者被螫後可能發生全身性過敏反應（anaphylaxis），嚴重可致命。蜜蜂、胡蜂、虎頭蜂的毒液成分不同。",
+      "englishName" : "Bee Venom (Apitoxin)",
+      "family" : "過敏原",
+      "id" : "bee_venom",
+      "name" : "蜂毒",
+      "prevention" : [
+        "避免接近蜂巢",
+        "戶外穿著淺色衣物",
+        "避免使用香水",
+        "有過敏史者隨身攜帶腎上腺素自動注射器",
+        "蜂毒減敏療法"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣每年有多起虎頭蜂螫傷致死案例，以秋季登山活動最為危險。黑腹虎頭蜂為最常見肇事蜂種。",
+      "transmission" : [
+        "蜂螫"
+      ],
+      "type" : "parasite"
+    },
+    {
+      "commonSymptoms" : [
+        "皮膚癢",
+        "蕁麻疹",
+        "過敏反應（蕁麻疹）",
+        "呼吸困難"
+      ],
+      "description" : "天然乳膠中的蛋白質（Hev b 1-13）可引起 IgE 介導的即發型過敏反應。醫護人員和經常接觸乳膠製品者為高風險族群。乳膠過敏者可能對某些水果（香蕉、奇異果、酪梨）產生交叉過敏。",
+      "englishName" : "Natural Rubber Latex",
+      "family" : "過敏原",
+      "id" : "latex",
+      "name" : "乳膠",
+      "prevention" : [
+        "使用非乳膠手套（丁腈手套）",
+        "告知醫療人員乳膠過敏史",
+        "注意交叉過敏食物"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣醫護人員乳膠過敏盛行率約 5-10%。醫院已逐步推廣使用非乳膠手套。",
+      "transmission" : [
+        "皮膚接觸（手套、導管）",
+        "吸入乳膠微粒"
+      ],
+      "type" : "parasite"
+    },
+    {
+      "commonSymptoms" : [
+        "上腹疼痛",
+        "腹脹",
+        "噁心",
+        "食慾下降",
+        "黑便（潰瘍出血時）"
+      ],
+      "description" : "幽門螺旋桿菌可在胃的強酸環境中存活，是慢性胃炎、胃十二指腸潰瘍的主要病因，也是胃癌和胃淋巴瘤（MALT lymphoma）的危險因子。全球約半數人口感染，多數無症狀。根除治療可顯著降低潰瘍復發和胃癌風險。",
+      "englishName" : "Helicobacter pylori",
+      "family" : "螺旋桿菌科 (Helicobacteraceae)",
+      "id" : "h_pylori",
+      "name" : "胃幽門螺旋桿菌",
+      "prevention" : [
+        "注意飲食衛生",
+        "避免共用餐具（高風險家庭）",
+        "感染者接受根除治療"
+      ],
+      "subtypes" : [
+
+      ],
+      "taiwanRelevance" : "台灣成人幽門螺旋桿菌盛行率約 30-40%，較早期已大幅下降。衛福部推動高風險族群篩檢和根除治療以降低胃癌發生率。",
+      "transmission" : [
+        "糞口傳染",
+        "口口傳染（家庭內傳播）"
+      ],
+      "type" : "bacteria"
+    }
+  ],
+  "version" : "2.0"
+}
