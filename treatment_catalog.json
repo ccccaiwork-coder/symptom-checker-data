@@ -1,0 +1,14 @@
+{
+  "lastUpdated" : "2026-04-13T08:55:02Z",
+  "treatments" : [
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "發炎",
+      "id" : "9C7642E3-1F4D-4C8A-A5EB-6DE8346D38A8",
+      "name" : "發炎四"
+    }
+  ],
+  "version" : "1.0"
+}
