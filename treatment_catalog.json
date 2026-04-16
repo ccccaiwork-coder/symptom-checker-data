@@ -9,7 +9,7 @@
       ]
     }
   ],
-  "lastUpdated" : "2026-04-13T20:32:57Z",
+  "lastUpdated" : "2026-04-15T11:59:56Z",
   "treatments" : [
     {
       "applicableDiseases" : [
@@ -17,7 +17,7 @@
       ],
       "description" : "發炎",
       "id" : "9C7642E3-1F4D-4C8A-A5EB-6DE8346D38A8",
-      "name" : "發炎四"
+      "name" : "去發炎"
     },
     {
       "applicableDiseases" : [
@@ -26,6 +26,102 @@
       "description" : "治療咳嗽很有效",
       "id" : "AC38A3DB-AFBD-45F3-9848-B375B325F60D",
       "name" : "TQ"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "D493BB1C-E0F6-439E-AD3E-8119ED2B6387",
+      "name" : "ID"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "D1CC656B-D2C4-4964-94B6-9880C7A84651",
+      "name" : "ID+"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "C9AE1A32-2E2F-4782-81AD-05DC9F0B63AB",
+      "name" : "介素20"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "CCCF7E1D-764B-404D-96A9-DFFEEC3B8717",
+      "name" : "褪黑激素"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "47897280-C6E9-49EE-9FBE-76AB62340ABD",
+      "name" : "血清素"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "9DA882DF-D457-4FA9-A861-6948871125F9",
+      "name" : "DEXA"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "B0C2EBE3-61F2-4FED-B9C7-9994E9B1017E",
+      "name" : "愛滅炎"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "BBF37559-2A0A-4B93-BF37-B429CEB331C0",
+      "name" : "發炎激素"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "614036F9-84D8-4EF0-9DB4-AFAD7A6AA4EC",
+      "name" : "止痛藥"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "46F8D447-D220-4D20-B200-66DC2B2BD30E",
+      "name" : "SDE止痛藥"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "E9989C13-1E17-43B2-AB34-63BE1B2CD808",
+      "name" : "TPRV1"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "813A2BA1-CC0A-4B11-ABF7-EAFD0217CD19",
+      "name" : "TPRV3"
     }
   ],
   "version" : "1.0"
