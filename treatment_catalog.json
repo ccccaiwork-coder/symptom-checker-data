@@ -2,7 +2,7 @@
   "combos" : [
 
   ],
-  "lastUpdated" : "2026-04-16T06:52:57Z",
+  "lastUpdated" : "2026-04-16T06:54:46Z",
   "treatments" : [
     {
       "applicableDiseases" : [
@@ -35,6 +35,14 @@
       "description" : "",
       "id" : "8872ABAB-AD17-4EB1-9C90-E161BCF97B58",
       "name" : "愛滅炎"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "1FBBF0AF-7CE6-47EC-8872-FE8B498667B9",
+      "name" : "TQ"
     }
   ],
   "version" : "1.0"
