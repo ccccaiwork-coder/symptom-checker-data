@@ -2,7 +2,7 @@
   "combos" : [
 
   ],
-  "lastUpdated" : "2026-04-16T06:54:46Z",
+  "lastUpdated" : "2026-04-16T07:03:27Z",
   "treatments" : [
     {
       "applicableDiseases" : [
@@ -43,6 +43,22 @@
       "description" : "",
       "id" : "1FBBF0AF-7CE6-47EC-8872-FE8B498667B9",
       "name" : "TQ"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "DC7D5789-FEEB-4B83-A82A-3A5C7C45310C",
+      "name" : "ID"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "1204F21D-57EB-48AC-B377-04BE04674E10",
+      "name" : "ID+"
     }
   ],
   "version" : "1.0"
