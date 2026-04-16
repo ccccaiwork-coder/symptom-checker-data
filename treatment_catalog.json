@@ -2,7 +2,7 @@
   "combos" : [
 
   ],
-  "lastUpdated" : "2026-04-16T07:03:27Z",
+  "lastUpdated" : "2026-04-16T07:04:20Z",
   "treatments" : [
     {
       "applicableDiseases" : [
@@ -59,6 +59,14 @@
       "description" : "",
       "id" : "1204F21D-57EB-48AC-B377-04BE04674E10",
       "name" : "ID+"
+    },
+    {
+      "applicableDiseases" : [
+
+      ],
+      "description" : "",
+      "id" : "1009FE8B-BBCB-4B98-90CC-FA100100C276",
+      "name" : "介素20"
     }
   ],
   "version" : "1.0"
