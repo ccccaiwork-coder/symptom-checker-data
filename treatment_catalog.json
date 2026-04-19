@@ -1,73 +1,66 @@
 {
-  "combos" : [
-
-  ],
-  "lastUpdated" : "2026-04-16T07:04:20Z",
-  "treatments" : [
+  "combos": [],
+  "lastUpdated": "2026-04-19T03:04:00.324Z",
+  "treatments": [
     {
-      "applicableDiseases" : [
-
-      ],
-      "description" : "",
-      "id" : "C0997F32-E8FA-445A-BFBE-2857961D90B0",
-      "name" : "DEXA"
+      "applicableDiseases": [],
+      "description": "",
+      "id": "C0997F32-E8FA-445A-BFBE-2857961D90B0",
+      "name": "DEXA"
     },
     {
-      "applicableDiseases" : [
-
-      ],
-      "description" : "",
-      "id" : "40F1FA2F-B09F-47D8-A1BE-8CBEEB417067",
-      "name" : "發炎激素"
+      "applicableDiseases": [],
+      "description": "",
+      "id": "40F1FA2F-B09F-47D8-A1BE-8CBEEB417067",
+      "name": "發炎激素"
     },
     {
-      "applicableDiseases" : [
-
-      ],
-      "description" : "",
-      "id" : "A1BF6554-AB5B-4AED-9318-72A5E576629B",
-      "name" : "去發炎"
+      "applicableDiseases": [],
+      "description": "",
+      "id": "A1BF6554-AB5B-4AED-9318-72A5E576629B",
+      "name": "去發炎"
     },
     {
-      "applicableDiseases" : [
-
-      ],
-      "description" : "",
-      "id" : "8872ABAB-AD17-4EB1-9C90-E161BCF97B58",
-      "name" : "愛滅炎"
+      "applicableDiseases": [],
+      "description": "",
+      "id": "8872ABAB-AD17-4EB1-9C90-E161BCF97B58",
+      "name": "愛滅炎"
     },
     {
-      "applicableDiseases" : [
-
-      ],
-      "description" : "",
-      "id" : "1FBBF0AF-7CE6-47EC-8872-FE8B498667B9",
-      "name" : "TQ"
+      "applicableDiseases": [],
+      "description": "",
+      "id": "1FBBF0AF-7CE6-47EC-8872-FE8B498667B9",
+      "name": "TQ"
     },
     {
-      "applicableDiseases" : [
-
-      ],
-      "description" : "",
-      "id" : "DC7D5789-FEEB-4B83-A82A-3A5C7C45310C",
-      "name" : "ID"
+      "applicableDiseases": [],
+      "description": "",
+      "id": "DC7D5789-FEEB-4B83-A82A-3A5C7C45310C",
+      "name": "ID"
     },
     {
-      "applicableDiseases" : [
-
-      ],
-      "description" : "",
-      "id" : "1204F21D-57EB-48AC-B377-04BE04674E10",
-      "name" : "ID+"
+      "applicableDiseases": [],
+      "description": "",
+      "id": "1204F21D-57EB-48AC-B377-04BE04674E10",
+      "name": "ID+"
     },
     {
-      "applicableDiseases" : [
-
-      ],
-      "description" : "",
-      "id" : "1009FE8B-BBCB-4B98-90CC-FA100100C276",
-      "name" : "介素20"
+      "applicableDiseases": [],
+      "description": "",
+      "id": "1009FE8B-BBCB-4B98-90CC-FA100100C276",
+      "name": "介素20"
+    },
+    {
+      "id": "DB5EE756-CA93-4029-8EC5-AF41DE2DC8DD",
+      "name": "TEST_DELETE_ME",
+      "__draft": "upsert",
+      "imageURL": "",
+      "description": "xxxxx",
+      "applicableDiseases": [
+        "Flu A",
+        "flu C"
+      ]
     }
   ],
-  "version" : "1.0"
+  "version": "1.0"
 }
