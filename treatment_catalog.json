@@ -1,6 +1,6 @@
 {
   "combos": [],
-  "lastUpdated": "2026-04-19T03:04:00.324Z",
+  "lastUpdated": "2026-04-19T03:06:57.642Z",
   "treatments": [
     {
       "applicableDiseases": [],
@@ -49,17 +49,6 @@
       "description": "",
       "id": "1009FE8B-BBCB-4B98-90CC-FA100100C276",
       "name": "介素20"
-    },
-    {
-      "id": "DB5EE756-CA93-4029-8EC5-AF41DE2DC8DD",
-      "name": "TEST_DELETE_ME",
-      "__draft": "upsert",
-      "imageURL": "",
-      "description": "xxxxx",
-      "applicableDiseases": [
-        "Flu A",
-        "flu C"
-      ]
     }
   ],
   "version": "1.0"
