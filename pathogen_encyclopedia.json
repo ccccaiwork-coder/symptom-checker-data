@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T04:17:39Z",
+  "lastUpdated": "2026-05-18T10:43:58Z",
   "pathogens": [
     {
       "id": "influenza_a",
@@ -3469,7 +3469,6 @@
       "name": "C型流感病毒",
       "type": "virus",
       "family": "正黏液病毒科 (Orthomyxoviridae)",
-      "__draft": "upsert",
       "imageURL": "",
       "subtypes": [
         {
