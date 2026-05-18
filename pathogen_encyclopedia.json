@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T03:17:55.113Z",
+  "lastUpdated": "2026-05-18T03:40:40.332Z",
   "pathogens": [
     {
       "id": "influenza_a",
@@ -2117,35 +2117,68 @@
       "type": "fungus"
     },
     {
+      "id": "toxoplasma_gondii",
+      "name": "弓形蟲",
+      "type": "parasite",
+      "family": "肉孢子蟲科 (Sarcocystidae)",
+      "imageURL": "",
+      "subtypes": [
+        {
+          "id": "type_i",
+          "name": "第 I 型（Type I）",
+          "aliases": [
+            "Type I",
+            "T. gondii Type I"
+          ],
+          "description": "對小鼠及人類均具高毒力，常見於愛滋病患者。"
+        },
+        {
+          "id": "type_ii",
+          "name": "第 II 型（Type II）",
+          "aliases": [
+            "Type II",
+            "T. gondii Type II"
+          ],
+          "description": "對小鼠毒力低，對人類毒力高，為歐洲與北美洲最常見型別，亦常見於愛滋病患者。"
+        },
+        {
+          "id": "type_iii",
+          "name": "第 III 型（Type III）",
+          "aliases": [
+            "Type III",
+            "T. gondii Type III"
+          ],
+          "description": "對小鼠毒力低，主要對動物具毒力，人類感染較少見。"
+        }
+      ],
+      "prevention": [
+        "肉類加熱至 66°C 以上",
+        "避免生食肉品及內臟",
+        "清理貓砂時戴手套並洗手",
+        "孕婦避免接觸來路不明的貓",
+        "蔬果徹底清洗",
+        "避免生飲可能受污染的水"
+      ],
+      "description": "弓形蟲（Toxoplasma gondii）是一種細胞內寄生的原蟲，可感染幾乎所有溫血動物，但貓科動物是唯一已知的最終宿主，有性生殖僅在貓科動物小腸上皮細胞中進行。感染人類後，蟲體以速殖體（tachyzoite）或組織囊胞（tissue cyst）型態存於腦、肌肉、肝臟等組織，可能終身潛伏。免疫功能正常者通常無症狀，但孕婦初次感染可經胎盤傳染胎兒，免疫低下者則可能引發腦炎等重症。",
+      "englishName": "Toxoplasma gondii",
+      "transmission": [
+        "食入未煮熟受感染肉品",
+        "食入被貓糞卵囊污染的食物或水",
+        "母嬰垂直傳染（經胎盤）",
+        "輸血感染",
+        "器官移植"
+      ],
       "commonSymptoms": [
         "多數無症狀",
         "淋巴結腫大",
         "發燒",
+        "倦怠無力",
         "肌肉痠痛",
+        "視網膜脈絡炎",
         "腦炎（免疫低下者）",
-        "視網膜脈絡膜炎"
+        "先天性水腦症（新生兒）"
       ],
-      "description": "弓形蟲為專性細胞內寄生原蟲，貓科動物為終宿主。感染在免疫正常者通常無症狀或僅輕微淋巴結腫大，但孕婦初次感染可經胎盤傳給胎兒造成先天性弓形蟲症。免疫低下者（如 AIDS）可引起致死性腦炎。",
-      "englishName": "Toxoplasma gondii",
-      "family": "弓形蟲科 (Sarcocystidae)",
-      "id": "toxoplasma_gondii",
-      "imageURL": "https://phil.cdc.gov/PHIL_Images/14380/14380_lores.jpg",
-      "name": "弓形蟲",
-      "prevention": [
-        "肉類充分煮熟",
-        "處理貓砂後洗手",
-        "孕婦避免清理貓砂",
-        "蔬果食用前清洗乾淨"
-      ],
-      "subtypes": [],
-      "taiwanRelevance": "台灣成人弓形蟲血清陽性率約 10-20%，低於歐美但隨寵物飼養增加而受關注。孕婦產前篩檢目前非常規項目，但醫師建議高風險者主動檢查。",
-      "transmission": [
-        "食用含包囊的未熟肉品",
-        "接觸貓糞中的卵囊",
-        "母嬰垂直傳染",
-        "器官移植"
-      ],
-      "type": "parasite"
+      "taiwanRelevance": "弓形蟲感染症在台灣屬第四類法定傳染病（自 2007 年 10 月 15 日起列管）。台灣目前尚無大規模具代表性的盛行率研究，但血清抗體調查顯示國內懷孕年齡婦女感染率約為 10%。台灣每年通報確定病例數不多，個案多為散發性，並無明顯季節性流行。高風險族群包括孕婦、愛滋病患者及其他免疫功能低下者。衛福部疾管署建議民眾食用肉類須充分煮熟、孕婦避免接觸貓砂、飼主餵養寵物應使用熟食或商業飼料。目前無核准的人用疫苗。2023 年曾有孕婦及新生兒感染案例報告。"
     },
     {
       "commonSymptoms": [
