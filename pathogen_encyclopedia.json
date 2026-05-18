@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T10:43:58Z",
+  "lastUpdated": "2026-05-18T11:00:27Z",
   "pathogens": [
     {
       "id": "influenza_a",
@@ -3520,6 +3520,557 @@
         "肺炎（幼童較重症）"
       ],
       "taiwanRelevance": "台灣疾管署監測資料顯示，C型流感病毒在台灣並非季節性流行的主要型別；根據台灣CDC及臨床資料，台灣主要流行的季節性流感為A(H3N2)、A(H1N1)及B型，C型流感僅造成散發輕症案例，不被納入常規疫苗監測目標。現行台灣公費及自費流感疫苗（四價疫苗）均不含C型流感成分，亦無針對C型流感的專屬抗病毒藥物。C型流感在台灣以兒童散發感染為主，全年均可見零星案例，症狀多輕微，民眾及臨床端易低估其存在；疾管署建議民眾持續落實手部衛生與呼吸道禮節作為主要防護措施。"
+    },
+    {
+      "id": "cockroach",
+      "name": "蟑螂",
+      "englishName": "Cockroach (Blattella germanica)",
+      "type": "allergen",
+      "family": "室內過敏原",
+      "description": "蟑螂的排泄物、唾液和屍體碎片中含有多種致敏蛋白（Bla g 1、Bla g 2 等）。為都市環境中重要的室內過敏原，與氣喘的發生和惡化密切相關。",
+      "subtypes": [
+        {
+          "id": "german_cockroach",
+          "name": "德國蟑螂",
+          "description": "最常見的室內蟑螂，主要過敏原來源",
+          "aliases": [
+            "Blattella germanica"
+          ]
+        },
+        {
+          "id": "american_cockroach",
+          "name": "美洲蟑螂",
+          "description": "體型較大，常見於排水溝",
+          "aliases": [
+            "Periplaneta americana"
+          ]
+        }
+      ],
+      "transmission": [
+        "吸入蟑螂排泄物和屍體碎片",
+        "皮膚接觸"
+      ],
+      "commonSymptoms": [
+        "氣喘發作",
+        "鼻塞",
+        "打噴嚏",
+        "眼睛癢",
+        "皮膚癢"
+      ],
+      "prevention": [
+        "保持環境清潔乾燥",
+        "密封食物和垃圾",
+        "填補牆壁和管線縫隙",
+        "使用蟑螂餌劑而非噴霧殺蟲劑",
+        "定期清理廚房"
+      ],
+      "taiwanRelevance": "台灣溫暖潮濕環境有利蟑螂繁殖，蟑螂過敏在台灣都市兒童氣喘中為重要致病因子，僅次於塵蟎。",
+      "imageURL": null
+    },
+    {
+      "id": "egg",
+      "name": "雞蛋",
+      "englishName": "Egg (Hen's Egg)",
+      "type": "allergen",
+      "family": "食物過敏原",
+      "description": "雞蛋過敏是兒童最常見的食物過敏之一。蛋白中的卵白蛋白（ovalbumin）和卵類黏蛋白（ovomucoid）為主要致敏原。多數兒童在學齡前可自然耐受，但部分持續至成年。",
+      "subtypes": [
+        {
+          "id": "egg_white",
+          "name": "蛋白過敏",
+          "description": "較常見，含主要致敏蛋白",
+          "aliases": [
+            "Egg white allergy"
+          ]
+        },
+        {
+          "id": "egg_yolk",
+          "name": "蛋黃過敏",
+          "description": "較少見，可能與禽肉交叉反應",
+          "aliases": [
+            "Egg yolk allergy"
+          ]
+        }
+      ],
+      "transmission": [
+        "食入",
+        "皮膚接觸（少見）"
+      ],
+      "commonSymptoms": [
+        "蕁麻疹",
+        "嘔吐",
+        "腹瀉",
+        "濕疹惡化",
+        "鼻塞",
+        "呼吸困難"
+      ],
+      "prevention": [
+        "避免含蛋食品",
+        "閱讀食品成分標示",
+        "注意烘焙食品和加工食品中的蛋成分",
+        "部分疫苗含蛋成分需告知醫師"
+      ],
+      "taiwanRelevance": "台灣兒童食物過敏中，雞蛋過敏排名前三。許多台灣傳統食品如蛋糕、蛋餅、滷蛋等含蛋，過敏兒童飲食需格外注意。",
+      "imageURL": null
+    },
+    {
+      "id": "mango",
+      "name": "芒果",
+      "englishName": "Mango (Mangifera indica)",
+      "type": "allergen",
+      "family": "食物/接觸性過敏原",
+      "description": "芒果屬漆樹科，果皮含有漆酚類物質（urushiol），與毒漆藤的致敏成分相似。芒果過敏可分為接觸性皮膚炎（果皮接觸）和食物過敏（食入果肉）兩類。",
+      "subtypes": [],
+      "transmission": [
+        "皮膚接觸果皮",
+        "食入"
+      ],
+      "commonSymptoms": [
+        "嘴唇周圍紅腫",
+        "接觸性皮膚炎",
+        "蕁麻疹",
+        "口腔過敏症候群",
+        "腹痛"
+      ],
+      "prevention": [
+        "避免皮膚接觸芒果皮",
+        "請他人削皮後食用",
+        "嚴重者完全避免芒果",
+        "接觸後立即清洗"
+      ],
+      "taiwanRelevance": "芒果為台灣夏季盛產水果，芒果過敏在台灣相當常見。台南玉井、屏東為主要產區，芒果季（5-8月）門診過敏個案增加。",
+      "imageURL": null
+    },
+    {
+      "id": "milk_protein",
+      "name": "牛奶蛋白",
+      "englishName": "Cow's Milk Protein",
+      "type": "allergen",
+      "family": "食物過敏原",
+      "description": "牛奶蛋白過敏為嬰幼兒最常見的食物過敏。主要致敏蛋白包括酪蛋白（casein）和乳清蛋白（whey protein）。需與乳糖不耐症區分：前者為免疫反應，後者為酵素缺乏。",
+      "subtypes": [
+        {
+          "id": "casein_allergy",
+          "name": "酪蛋白過敏",
+          "description": "耐熱，加工後仍致敏",
+          "aliases": [
+            "Casein allergy"
+          ]
+        },
+        {
+          "id": "whey_allergy",
+          "name": "乳清蛋白過敏",
+          "description": "部分可被加熱破壞",
+          "aliases": [
+            "Whey allergy"
+          ]
+        }
+      ],
+      "transmission": [
+        "食入"
+      ],
+      "commonSymptoms": [
+        "蕁麻疹",
+        "嘔吐",
+        "腹瀉",
+        "腹脹",
+        "血便（嬰兒）",
+        "濕疹",
+        "生長遲緩"
+      ],
+      "prevention": [
+        "使用水解蛋白配方奶",
+        "避免牛奶及乳製品",
+        "注意食品中隱藏的奶成分",
+        "可嘗試羊奶或豆奶替代（但有交叉反應風險）"
+      ],
+      "taiwanRelevance": "台灣嬰幼兒牛奶蛋白過敏盛行率約 2-3%。多數在 3 歲前可自然耐受。台灣乳製品消費增加，需注意烘焙品、奶茶等隱藏乳成分。",
+      "imageURL": null
+    },
+    {
+      "id": "mold_spore",
+      "name": "黴菌孢子",
+      "englishName": "Mold Spores",
+      "type": "allergen",
+      "family": "室內外過敏原",
+      "description": "黴菌孢子為常見的吸入性過敏原。交鏈孢菌（Alternaria）和枝孢菌（Cladosporium）為最常見的致敏黴菌。在潮濕環境中大量繁殖，室內外均可存在。",
+      "subtypes": [
+        {
+          "id": "alternaria",
+          "name": "交鏈孢菌",
+          "description": "最重要的致敏黴菌，與嚴重氣喘相關",
+          "aliases": [
+            "Alternaria alternata"
+          ]
+        },
+        {
+          "id": "cladosporium",
+          "name": "枝孢菌",
+          "description": "空氣中最常見的黴菌",
+          "aliases": [
+            "Cladosporium"
+          ]
+        },
+        {
+          "id": "aspergillus_allergen",
+          "name": "麴菌（過敏型）",
+          "description": "可引起過敏性支氣管肺麴菌病",
+          "aliases": [
+            "Aspergillus fumigatus"
+          ]
+        }
+      ],
+      "transmission": [
+        "吸入黴菌孢子"
+      ],
+      "commonSymptoms": [
+        "鼻塞",
+        "打噴嚏",
+        "流鼻水",
+        "氣喘發作",
+        "眼睛癢",
+        "咳嗽"
+      ],
+      "prevention": [
+        "控制室內濕度在 50% 以下",
+        "修復漏水",
+        "浴室保持通風",
+        "定期清理冷氣濾網",
+        "避免在室內晾衣服"
+      ],
+      "taiwanRelevance": "台灣年均濕度高，黴菌滋生嚴重。梅雨季和颱風季後黴菌過敏門診量明顯增加。浴室、廚房、老屋為高風險區域。",
+      "imageURL": null
+    },
+    {
+      "id": "nickel",
+      "name": "鎳",
+      "englishName": "Nickel (Ni)",
+      "type": "allergen",
+      "family": "接觸性過敏原",
+      "description": "鎳為全球最常見的接觸性過敏原。存在於合金飾品、皮帶扣、手錶、眼鏡框、手機等金屬物品中。引起第四型（延遲型）過敏反應，即接觸性皮膚炎。",
+      "subtypes": [],
+      "transmission": [
+        "皮膚長時間接觸含鎳金屬"
+      ],
+      "commonSymptoms": [
+        "接觸部位紅疹",
+        "皮膚癢",
+        "水泡",
+        "脫皮",
+        "皮膚粗糙"
+      ],
+      "prevention": [
+        "避免配戴含鎳飾品",
+        "選擇不鏽鋼 316L、鈦或純金飾品",
+        "使用透明指甲油塗覆金屬接觸面",
+        "穿著覆蓋金屬扣的衣物"
+      ],
+      "taiwanRelevance": "台灣夜市和網購飾品多含鎳合金，年輕族群接觸性皮膚炎常見。歐盟已限制鎳釋放量，但台灣尚無強制規範。",
+      "imageURL": null
+    },
+    {
+      "id": "nsaid",
+      "name": "非類固醇消炎藥（NSAIDs）",
+      "englishName": "NSAIDs (Non-Steroidal Anti-Inflammatory Drugs)",
+      "type": "allergen",
+      "family": "藥物過敏原",
+      "description": "NSAIDs 過敏為第二常見的藥物過敏。可分為免疫介導型（對特定藥物）和非免疫介導型（與 COX-1 抑制相關，對多種 NSAIDs 交叉反應）。阿斯匹靈和布洛芬為最常見致敏藥物。",
+      "subtypes": [
+        {
+          "id": "aspirin",
+          "name": "阿斯匹靈",
+          "description": "最經典的 NSAIDs 過敏原",
+          "aliases": [
+            "Aspirin"
+          ]
+        },
+        {
+          "id": "ibuprofen",
+          "name": "布洛芬",
+          "description": "常見非處方止痛藥",
+          "aliases": [
+            "Ibuprofen"
+          ]
+        }
+      ],
+      "transmission": [
+        "口服藥物"
+      ],
+      "commonSymptoms": [
+        "蕁麻疹",
+        "血管性水腫",
+        "氣喘發作",
+        "鼻息肉",
+        "過敏性休克"
+      ],
+      "prevention": [
+        "避免使用 NSAIDs",
+        "改用 acetaminophen（普拿疼）",
+        "必要時可考慮 COX-2 選擇性抑制劑",
+        "告知醫師和藥師"
+      ],
+      "taiwanRelevance": "NSAIDs 在台灣藥局可自行購買，民眾自行服用止痛藥頻率高。阿斯匹靈加重型呼吸道疾病（AERD）在台灣氣喘患者中需注意。",
+      "imageURL": null
+    },
+    {
+      "id": "peanut",
+      "name": "花生",
+      "englishName": "Peanut (Arachis hypogaea)",
+      "type": "allergen",
+      "family": "食物過敏原",
+      "description": "花生過敏為全球最常引起致命性食物過敏的原因之一。主要致敏蛋白為 Ara h 1、Ara h 2、Ara h 3。花生過敏通常不會隨年齡消失，且微量即可引發嚴重反應。",
+      "subtypes": [],
+      "transmission": [
+        "食入",
+        "吸入花生粉塵",
+        "皮膚接觸（少見）"
+      ],
+      "commonSymptoms": [
+        "蕁麻疹",
+        "血管性水腫",
+        "嘔吐",
+        "腹痛",
+        "喉嚨緊縮",
+        "呼吸困難",
+        "過敏性休克"
+      ],
+      "prevention": [
+        "嚴格避免花生及花生製品",
+        "閱讀所有食品標示",
+        "隨身攜帶腎上腺素自動注射器",
+        "告知餐廳和學校",
+        "注意花生油和交叉污染"
+      ],
+      "taiwanRelevance": "台灣花生使用廣泛（花生醬、花生糖、花生粉、滷味），過敏者外食風險高。台灣目前已將花生列入食品過敏原強制標示。",
+      "imageURL": null
+    },
+    {
+      "id": "penicillin",
+      "name": "盤尼西林（青黴素）",
+      "englishName": "Penicillin",
+      "type": "allergen",
+      "family": "藥物過敏原",
+      "description": "盤尼西林類抗生素為最常見的藥物過敏原。過敏反應從輕微皮疹到致命性過敏性休克都可能發生。約 10% 自稱盤尼西林過敏者經皮膚測試確認為真正過敏。與頭孢菌素有低度交叉反應。",
+      "subtypes": [
+        {
+          "id": "amoxicillin",
+          "name": "阿莫西林",
+          "description": "最常處方的盤尼西林類藥物",
+          "aliases": [
+            "Amoxicillin"
+          ]
+        },
+        {
+          "id": "ampicillin",
+          "name": "安比西林",
+          "description": "廣效盤尼西林",
+          "aliases": [
+            "Ampicillin"
+          ]
+        }
+      ],
+      "transmission": [
+        "口服藥物",
+        "注射"
+      ],
+      "commonSymptoms": [
+        "藥物疹",
+        "蕁麻疹",
+        "血管性水腫",
+        "過敏性休克",
+        "發燒",
+        "關節痛"
+      ],
+      "prevention": [
+        "告知所有醫療人員藥物過敏史",
+        "配戴過敏警示手環",
+        "病歷註記過敏藥物",
+        "考慮盤尼西林皮膚測試以確認過敏"
+      ],
+      "taiwanRelevance": "台灣健保卡有藥物過敏登錄功能。盤尼西林過敏為台灣最常見的藥物過敏紀錄，但研究顯示許多為非真正過敏。",
+      "imageURL": null
+    },
+    {
+      "id": "shrimp_crab",
+      "name": "蝦蟹（甲殼類）",
+      "englishName": "Shellfish (Crustacea)",
+      "type": "allergen",
+      "family": "食物過敏原",
+      "description": "甲殼類海鮮為台灣最常見的食物過敏原之一。主要致敏蛋白為原肌球蛋白（tropomyosin），耐熱不易被烹調破壞。可引起輕微蕁麻疹到嚴重過敏性休克。",
+      "subtypes": [
+        {
+          "id": "shrimp",
+          "name": "蝦",
+          "description": "最常見的甲殼類過敏原",
+          "aliases": [
+            "Shrimp",
+            "Prawn"
+          ]
+        },
+        {
+          "id": "crab",
+          "name": "螃蟹",
+          "description": "與蝦高度交叉反應",
+          "aliases": [
+            "Crab"
+          ]
+        },
+        {
+          "id": "lobster",
+          "name": "龍蝦",
+          "description": "與蝦蟹交叉反應",
+          "aliases": [
+            "Lobster"
+          ]
+        }
+      ],
+      "transmission": [
+        "食入"
+      ],
+      "commonSymptoms": [
+        "蕁麻疹",
+        "皮膚癢",
+        "嘴唇腫脹",
+        "嘔吐",
+        "腹痛",
+        "呼吸困難",
+        "過敏性休克"
+      ],
+      "prevention": [
+        "避免食用甲殼類海鮮",
+        "閱讀食品標示",
+        "隨身攜帶腎上腺素自動注射器",
+        "注意交叉污染（如共用油鍋）"
+      ],
+      "taiwanRelevance": "台灣海鮮消費量高，蝦蟹過敏為最常見食物過敏之一。夜市、餐廳交叉污染風險高，過敏者需特別注意。",
+      "imageURL": null
+    },
+    {
+      "id": "soybean",
+      "name": "大豆",
+      "englishName": "Soybean (Glycine max)",
+      "type": "allergen",
+      "family": "食物過敏原",
+      "description": "大豆過敏在亞洲較為常見，主要致敏蛋白包括 Gly m 4、Gly m 5、Gly m 6。大豆過敏者多數可耐受高度加工的大豆油和大豆卵磷脂，但需個別評估。",
+      "subtypes": [],
+      "transmission": [
+        "食入"
+      ],
+      "commonSymptoms": [
+        "蕁麻疹",
+        "嘔吐",
+        "腹痛",
+        "腹瀉",
+        "口腔過敏症候群",
+        "氣喘"
+      ],
+      "prevention": [
+        "避免大豆及大豆製品",
+        "閱讀食品標示",
+        "注意醬油、味噌、豆腐等豆製品",
+        "高度加工品（大豆油）可能可耐受"
+      ],
+      "taiwanRelevance": "台灣飲食大量使用大豆製品（豆漿、豆腐、醬油、味噌），大豆過敏者飲食限制較大。食藥署已將大豆列為強制標示過敏原。",
+      "imageURL": null
+    },
+    {
+      "id": "tree_nuts",
+      "name": "堅果",
+      "englishName": "Tree Nuts",
+      "type": "allergen",
+      "family": "食物過敏原",
+      "description": "堅果過敏包括對核桃、腰果、杏仁、榛果、開心果等的過敏反應。與花生不同（花生為豆科），堅果間可能存在交叉反應。通常為終身過敏，微量即可致敏。",
+      "subtypes": [
+        {
+          "id": "walnut",
+          "name": "核桃",
+          "description": "最常見的堅果過敏原之一",
+          "aliases": [
+            "Walnut"
+          ]
+        },
+        {
+          "id": "cashew",
+          "name": "腰果",
+          "description": "可引起嚴重過敏反應",
+          "aliases": [
+            "Cashew"
+          ]
+        },
+        {
+          "id": "almond",
+          "name": "杏仁",
+          "description": "常見烘焙食品成分",
+          "aliases": [
+            "Almond"
+          ]
+        }
+      ],
+      "transmission": [
+        "食入"
+      ],
+      "commonSymptoms": [
+        "蕁麻疹",
+        "嘴唇腫脹",
+        "嘔吐",
+        "腹痛",
+        "呼吸困難",
+        "過敏性休克"
+      ],
+      "prevention": [
+        "避免所有堅果（除非經過敏測試確認安全的種類）",
+        "閱讀食品標示",
+        "注意烘焙食品和糕點",
+        "隨身攜帶腎上腺素自動注射器"
+      ],
+      "taiwanRelevance": "台灣堅果消費日增，常見於零食、烘焙品、養生飲品中。食藥署已將堅果列為強制標示過敏原。",
+      "imageURL": null
+    },
+    {
+      "id": "wheat_gluten",
+      "name": "小麥（麩質）",
+      "englishName": "Wheat / Gluten",
+      "type": "allergen",
+      "family": "食物過敏原",
+      "description": "小麥過敏為對小麥蛋白的免疫反應，需與乳糜瀉（celiac disease，自體免疫）和非乳糜瀉麩質敏感區分。主要致敏蛋白包括麩質蛋白（gluten）中的麥膠蛋白（gliadin）。",
+      "subtypes": [
+        {
+          "id": "wheat_allergy",
+          "name": "小麥過敏（IgE 介導）",
+          "description": "典型食物過敏，可引起速發型反應",
+          "aliases": [
+            "Wheat allergy"
+          ]
+        },
+        {
+          "id": "wdeia",
+          "name": "小麥依賴性運動誘發型過敏",
+          "description": "食入小麥後運動才發作",
+          "aliases": [
+            "WDEIA"
+          ]
+        }
+      ],
+      "transmission": [
+        "食入",
+        "吸入麵粉粉塵（麵包師氣喘）"
+      ],
+      "commonSymptoms": [
+        "蕁麻疹",
+        "腹痛",
+        "腹瀉",
+        "鼻塞",
+        "氣喘",
+        "過敏性休克（運動誘發型）"
+      ],
+      "prevention": [
+        "避免小麥製品",
+        "選擇無麩質替代品（米、玉米、蕎麥）",
+        "閱讀食品標示",
+        "運動誘發型需避免進食後 4 小時內劇烈運動"
+      ],
+      "taiwanRelevance": "台灣飲食中麵食比例高（麵包、麵條、水餃、蔥油餅），小麥過敏者飲食替代需依賴米食。食藥署已將小麥列為強制標示過敏原。",
+      "imageURL": null
     }
   ],
   "version": "2.0"
