@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T03:40:40.332Z",
+  "lastUpdated": "2026-05-18T04:17:39Z",
   "pathogens": [
     {
       "id": "influenza_a",
@@ -426,47 +426,90 @@
       "type": "virus"
     },
     {
-      "commonSymptoms": [
-        "咳嗽",
-        "喘鳴",
-        "呼吸急促",
-        "發燒",
-        "鼻塞",
-        "食慾下降"
-      ],
-      "description": "RSV 是嬰幼兒細支氣管炎和肺炎最主要的病原，幾乎所有兒童在 2 歲前都會感染至少一次。感染後不會產生持久免疫力，可反覆感染。老年人和免疫低下者感染也可能嚴重。",
-      "englishName": "Respiratory Syncytial Virus (RSV)",
-      "family": "肺病毒科 (Pneumoviridae)",
       "id": "rsv",
       "name": "呼吸道融合病毒",
-      "prevention": [
-        "勤洗手",
-        "高風險嬰兒可施打單株抗體（Palivizumab）",
-        "避免帶嬰兒出入擁擠場所",
-        "2024年起有成人RSV疫苗可用"
-      ],
+      "englishName": "Respiratory Syncytial Virus (RSV)",
+      "type": "virus",
+      "family": "肺病毒科 (Pneumoviridae)",
+      "description": "呼吸道融合病毒是嬰幼兒細支氣管炎與下呼吸道感染最常見的病原，幾乎所有兒童在 2 歲前都會感染至少一次。病毒透過融合宿主細胞膜形成多核巨細胞（合胞體）而得名，感染後不會產生持久免疫力，可反覆感染。老年人、免疫低下者及早產兒等高風險族群感染後可能發展為重症肺炎，全球每年造成大量住院及死亡案例。",
       "subtypes": [
         {
-          "aliases": [],
-          "description": "較常見，通常引起較嚴重的疾病",
           "id": "rsv_a",
-          "name": "RSV-A"
+          "name": "RSV-A",
+          "description": "致病力較強的亞型，通常造成較嚴重的臨床症狀，為多數流行季的優勢株",
+          "aliases": [
+            "A亞型"
+          ]
         },
         {
-          "aliases": [],
-          "description": "與 RSV-A 交替流行",
           "id": "rsv_b",
-          "name": "RSV-B"
+          "name": "RSV-B",
+          "description": "致病力相對較溫和，與 RSV-A 交替或共同流行",
+          "aliases": [
+            "B亞型"
+          ]
         }
       ],
-      "taiwanRelevance": "台灣秋冬為 RSV 流行季，為嬰幼兒住院的重要原因。早產兒、先天性心臟病嬰兒為高風險族群。",
       "transmission": [
         "飛沫傳染",
-        "接觸傳染（手→眼鼻口）"
+        "接觸傳染（手→眼鼻口）",
+        "接觸受汙染的物體表面"
       ],
-      "type": "virus"
+      "commonSymptoms": [
+        "咳嗽",
+        "流鼻水",
+        "鼻塞",
+        "發燒",
+        "喘鳴",
+        "呼吸急促",
+        "食慾下降"
+      ],
+      "prevention": [
+        "勤洗手",
+        "避免接觸呼吸道感染患者",
+        "避免帶嬰兒出入擁擠場所",
+        "Nirsevimab 單株抗體預防（嬰幼兒）",
+        "Palivizumab 單株抗體（高風險嬰兒）",
+        "RSV 疫苗（老年人及孕婦）",
+        "保持環境通風"
+      ],
+      "taiwanRelevance": "台灣全年可見，以秋冬季為主要流行期，為嬰幼兒住院的重要原因；早產兒、先天性心臟病嬰兒為高風險族群。2024 年起 Nirsevimab 納入嬰幼兒建議用藥，65 歲以上長者 RSV 疫苗亦已引進。"
     },
     {
+      "id": "hsv",
+      "name": "單純疱疹病毒",
+      "englishName": "Herpes Simplex Virus (HSV)",
+      "type": "virus",
+      "family": "疱疹病毒科 (Herpesviridae)",
+      "description": "單純疱疹病毒分為 HSV-1 和 HSV-2 兩型，HSV-1 主要引起口唇疱疹，HSV-2 主要引起生殖器疱疹，但兩型均可感染任何部位。初次感染後病毒終身潛伏於神經節中，可反覆活化再發。全球約三分之二人口帶有 HSV-1，新生兒疱疹為最嚴重的臨床表現，可致命。",
+      "subtypes": [
+        {
+          "id": "hsv_1",
+          "name": "HSV-1",
+          "description": "主要引起口唇疱疹（唇疱疹）及疱疹性齦口炎，亦可引起疱疹性角膜炎和腦炎",
+          "aliases": [
+            "第一型單純疱疹",
+            "口腔疱疹病毒",
+            "唇疱疹"
+          ]
+        },
+        {
+          "id": "hsv_2",
+          "name": "HSV-2",
+          "description": "主要引起生殖器疱疹，經由性行為傳染，復發率較 HSV-1 高",
+          "aliases": [
+            "第二型單純疱疹",
+            "生殖器疱疹病毒",
+            "生殖器疱疹"
+          ]
+        }
+      ],
+      "transmission": [
+        "直接接觸（皮膚黏膜、口對口、性接觸）",
+        "接觸病灶分泌物",
+        "性行為傳染",
+        "垂直傳染（生產過程／母嬰）"
+      ],
       "commonSymptoms": [
         "水泡群聚（口唇或生殖器）",
         "疼痛",
@@ -474,41 +517,14 @@
         "發燒（初次感染）",
         "淋巴結腫大"
       ],
-      "description": "單純疱疹病毒分為 HSV-1（主要感染口唇）和 HSV-2（主要感染生殖器），但兩型均可感染任一部位。初次感染後病毒潛伏於神經節，可反覆再發。全球約三分之二人口帶有 HSV-1。",
-      "englishName": "Herpes Simplex Virus (HSV)",
-      "family": "疱疹病毒科 (Herpesviridae)",
-      "id": "hsv",
-      "name": "單純疱疹病毒",
       "prevention": [
-        "避免與有活動性病灶者密切接觸",
+        "避免接觸活動性病灶",
+        "發作期間避免親密接觸",
         "使用保險套（降低但無法完全防止傳播）",
-        "發作期間避免親密接觸"
+        "產前評估及必要時剖腹產",
+        "抗病毒藥物抑制療法"
       ],
-      "subtypes": [
-        {
-          "aliases": [
-            "唇疱疹"
-          ],
-          "description": "主要引起口唇疱疹（唇疱疹），也可引起疱疹性角膜炎和腦炎",
-          "id": "hsv1",
-          "name": "HSV-1"
-        },
-        {
-          "aliases": [
-            "生殖器疱疹"
-          ],
-          "description": "主要引起生殖器疱疹，透過性接觸傳播",
-          "id": "hsv2",
-          "name": "HSV-2"
-        }
-      ],
-      "taiwanRelevance": "台灣成人 HSV-1 盛行率約 50-60%。新生兒疱疹雖罕見但可致命，產婦有生殖器疱疹活動性病灶時需考慮剖腹產。",
-      "transmission": [
-        "直接接觸（口對口、性接觸）",
-        "接觸病灶分泌物",
-        "垂直傳染（母嬰）"
-      ],
-      "type": "virus"
+      "taiwanRelevance": "台灣成人 HSV-1 血清陽性率約 50–60%（呈逐年下降趨勢），HSV-2 約 10–15%。新生兒疱疹為法定通報傳染病，雖罕見但可致命；產婦有生殖器疱疹活動性病灶時需考慮剖腹產。"
     },
     {
       "commonSymptoms": [
@@ -594,32 +610,32 @@
       "type": "virus"
     },
     {
+      "id": "vzv",
+      "name": "水痘帶狀疱疹病毒",
+      "englishName": "Varicella-Zoster Virus (VZV)",
+      "type": "virus",
+      "family": "疱疹病毒科 (Herpesviridae)",
+      "description": "水痘帶狀疱疹病毒（人類疱疹病毒第三型）初次感染引起水痘，傳染力極強，好發於兒童。病毒潛伏於背根神經節，免疫力下降時可再活化為帶狀疱疹（皮蛇），常見於 50 歲以上成人。帶狀疱疹主要透過水泡液接觸傳染，帶狀疱疹後神經痛為最常見且棘手的併發症。",
+      "subtypes": [],
+      "transmission": [
+        "飛沫傳染",
+        "空氣傳染",
+        "直接接觸水泡液"
+      ],
       "commonSymptoms": [
         "水痘：全身性水泡疹（搔癢）",
         "帶狀疱疹：沿皮節分布的水泡",
         "發燒",
+        "神經痛",
         "疼痛",
-        "神經痛"
+        "疲倦"
       ],
-      "description": "初次感染引起水痘，病毒潛伏於背根神經節，免疫力下降時再活化引起帶狀疱疹（皮蛇）。水痘傳染力極強，帶狀疱疹則主要透過水泡液接觸傳染。",
-      "englishName": "Varicella-Zoster Virus (VZV)",
-      "family": "疱疹病毒科 (Herpesviridae)",
-      "id": "vzv",
-      "imageURL": "https://phil.cdc.gov/PHIL_Images/5052/5052_lores.jpg",
-      "name": "水痘帶狀疱疹病毒",
       "prevention": [
-        "接種水痘疫苗（兒童常規）",
+        "水痘疫苗（公費常規接種）",
         "50歲以上接種帶狀疱疹疫苗（Shingrix）",
         "避免接觸水痘或帶狀疱疹患者的水泡"
       ],
-      "subtypes": [],
-      "taiwanRelevance": "台灣自 2004 年起將水痘疫苗納入公費常規接種。成人帶狀疱疹盛行率隨年齡增加，50 歲以上建議接種 Shingrix 疫苗。",
-      "transmission": [
-        "空氣傳染",
-        "飛沫傳染",
-        "接觸水泡液"
-      ],
-      "type": "virus"
+      "taiwanRelevance": "台灣自 2004 年起將水痘疫苗納入公費常規接種。帶狀疱疹盛行率隨年齡增加，50 歲以上建議接種重組佐劑疫苗 Shingrix（自費）。每年仍有約 5 萬人次因帶狀疱疹就醫。"
     },
     {
       "commonSymptoms": [
@@ -1319,30 +1335,32 @@
       "type": "bacteria"
     },
     {
+      "id": "h_pylori",
+      "name": "胃幽門螺旋桿菌",
+      "englishName": "Helicobacter pylori",
+      "type": "bacteria",
+      "family": "螺旋桿菌科 (Helicobacteraceae)",
+      "description": "幽門螺旋桿菌能在胃的強酸環境中存活，是慢性胃炎、消化性潰瘍及胃十二指腸潰瘍的主要病因，WHO 將其列為第一類致癌物。全球約半數人口感染，多數無症狀，長期感染為胃癌及胃黏膜相關淋巴組織淋巴瘤（MALT lymphoma）的重要危險因子。根除治療可顯著降低潰瘍復發與胃癌風險。",
+      "subtypes": [],
+      "transmission": [
+        "糞口傳染",
+        "口口傳染（共用餐具）",
+        "家庭內密切接觸"
+      ],
       "commonSymptoms": [
         "上腹疼痛",
         "腹脹",
         "噁心",
-        "食慾下降",
+        "食慾不振",
         "黑便（潰瘍出血時）"
       ],
-      "description": "幽門螺旋桿菌可在胃的強酸環境中存活，是慢性胃炎、胃十二指腸潰瘍的主要病因，也是胃癌和胃淋巴瘤（MALT lymphoma）的危險因子。全球約半數人口感染，多數無症狀。根除治療可顯著降低潰瘍復發和胃癌風險。",
-      "englishName": "Helicobacter pylori",
-      "family": "螺旋桿菌科 (Helicobacteraceae)",
-      "id": "h_pylori",
-      "name": "胃幽門螺旋桿菌",
       "prevention": [
+        "避免共用餐具",
         "注意飲食衛生",
-        "避免共用餐具（高風險家庭）",
-        "感染者接受根除治療"
+        "家庭成員同步篩檢",
+        "感染者應完成根除治療"
       ],
-      "subtypes": [],
-      "taiwanRelevance": "台灣成人幽門螺旋桿菌盛行率約 30-40%，較早期已大幅下降。衛福部推動高風險族群篩檢和根除治療以降低胃癌發生率。",
-      "transmission": [
-        "糞口傳染",
-        "口口傳染（家庭內傳播）"
-      ],
-      "type": "bacteria"
+      "taiwanRelevance": "台灣成人盛行率約 30–40%，隨公衛改善已較早期大幅下降。除菌治療以鉍劑四合療法或序列療法為主，克拉黴素抗藥性約 15–20%；衛福部亦積極推動高風險族群篩檢與根除治療，以降低胃癌發生率。"
     },
     {
       "commonSymptoms": [
@@ -1373,6 +1391,40 @@
       "type": "bacteria"
     },
     {
+      "id": "salmonella",
+      "name": "沙門氏菌",
+      "englishName": "Salmonella",
+      "type": "bacteria",
+      "family": "腸桿菌科 (Enterobacteriaceae)",
+      "description": "沙門氏菌為重要的食源性病原菌，廣泛存在於禽畜肉品、蛋類及乳製品中。可分為傷寒型與非傷寒型，前者引起全身性傷寒感染，後者主要造成急性腸胃炎。嬰幼兒、老年人及免疫功能較差者感染後症狀可能較為嚴重。台灣以非傷寒型沙門氏菌腸炎最為常見，傷寒則以境外移入個案為主。",
+      "subtypes": [
+        {
+          "id": "s_typhi",
+          "name": "傷寒沙門氏菌 (S. Typhi)",
+          "description": "引起傷寒，以持續高燒、相對脈搏緩慢（相對性心搏過緩）、玫瑰疹為特徵，為法定傳染病",
+          "aliases": [
+            "傷寒桿菌",
+            "Salmonella typhi"
+          ]
+        },
+        {
+          "id": "s_enteritidis",
+          "name": "腸炎沙門氏菌 (S. Enteritidis)",
+          "description": "非傷寒型沙門氏菌中最常見的血清型，常與蛋製品和家禽相關，為食物中毒常見原因之一",
+          "aliases": []
+        },
+        {
+          "id": "nontyphoidal",
+          "name": "非傷寒沙門氏菌",
+          "description": "引起急性腸胃炎，為食物中毒最常見原因之一",
+          "aliases": []
+        }
+      ],
+      "transmission": [
+        "食用受汙染的食物（蛋、禽畜肉）",
+        "糞口傳染",
+        "接觸帶菌動物（爬蟲類）"
+      ],
       "commonSymptoms": [
         "腹瀉",
         "腹痛",
@@ -1380,39 +1432,16 @@
         "噁心嘔吐",
         "持續高燒（傷寒型）"
       ],
-      "description": "沙門氏桿菌為常見食物中毒病原，存在於禽畜肉品、蛋類和乳製品中。非傷寒沙門氏菌主要引起腸胃炎，傷寒沙門氏菌引起傷寒。嬰幼兒和老年人感染可能較嚴重。",
-      "englishName": "Salmonella",
-      "family": "腸桿菌科 (Enterobacteriaceae)",
-      "id": "salmonella",
-      "name": "沙門氏桿菌",
       "prevention": [
+        "蛋和肉類充分煮熟",
         "食物充分加熱",
         "生熟食分開處理",
-        "蛋類充分煮熟",
+        "注意食物保存溫度",
+        "如廁後及處理食物前洗手",
+        "接觸寵物後洗手",
         "前往傷寒流行區可接種疫苗"
       ],
-      "subtypes": [
-        {
-          "aliases": [],
-          "description": "引起急性腸胃炎，為食物中毒最常見原因之一",
-          "id": "nontyphoidal",
-          "name": "非傷寒沙門氏菌"
-        },
-        {
-          "aliases": [
-            "Salmonella typhi"
-          ],
-          "description": "引起傷寒，持續高燒、相對性心搏過緩",
-          "id": "typhi",
-          "name": "傷寒沙門氏菌"
-        }
-      ],
-      "taiwanRelevance": "台灣每年約有數千例沙門氏菌腸胃炎通報。夏季為高峰期，與食物保存不當有關。",
-      "transmission": [
-        "食用受汙染食物（禽畜肉、蛋）",
-        "糞口傳染"
-      ],
-      "type": "bacteria"
+      "taiwanRelevance": "台灣每年約有數千例沙門氏菌腸胃炎通報，非傷寒型為夏季食物中毒主因之一，5–10 月為高峰期，與食物保存不當密切相關。傷寒主要為境外移入個案，但仍有零星本土個案。"
     },
     {
       "commonSymptoms": [
@@ -1442,55 +1471,87 @@
       "type": "bacteria"
     },
     {
+      "id": "bordetella_pertussis",
+      "name": "百日咳桿菌",
+      "englishName": "Bordetella pertussis",
+      "type": "bacteria",
+      "family": "產鹼桿菌科 (Alcaligenaceae)",
+      "description": "百日咳桿菌引起高傳染性的百日咳，特徵為陣發性痙攣咳嗽伴隨吸氣性哮聲（whoop）及咳後嘔吐。嬰幼兒感染可能致命，為公衛重點防治疾病。成人與青少年症狀較不典型，但因疫苗保護力隨時間衰退，可成為傳染源並感染未接種的嬰兒。",
+      "subtypes": [],
+      "transmission": [
+        "飛沫傳染（高度傳染性）",
+        "直接接觸呼吸道分泌物"
+      ],
       "commonSymptoms": [
         "陣發性痙攣咳嗽",
         "咳嗽後吸氣性哮聲",
         "咳嗽後嘔吐",
+        "初期類似感冒",
         "持續性乾咳",
         "新生兒可表現為呼吸暫停"
       ],
-      "description": "百日咳桿菌引起百日咳，特徵為陣發性痙攣咳嗽伴隨吸氣性哮聲（whoop）。嬰幼兒感染可能致命，成人和青少年症狀較不典型但為重要傳播源。疫苗保護力會隨時間減弱。",
-      "englishName": "Bordetella pertussis",
-      "family": "產鹼桿菌科 (Alcaligenaceae)",
-      "id": "bordetella_pertussis",
-      "name": "百日咳桿菌",
       "prevention": [
-        "接種百日咳疫苗（DTaP/Tdap）",
-        "孕婦第三孕期追加 Tdap",
-        "嬰兒照顧者接種 Tdap"
+        "嬰幼兒按時接種 DTaP 疫苗",
+        "孕婦第三孕期每胎接種 Tdap",
+        "青少年和成人追加 Tdap",
+        "接觸嬰幼兒的照護者接種 Tdap"
       ],
-      "subtypes": [],
-      "taiwanRelevance": "台灣每年仍有散發病例，以 3 個月以下嬰兒為主。2019 年起建議孕婦接種 Tdap。",
-      "transmission": [
-        "飛沫傳染（高度傳染性）"
-      ],
-      "type": "bacteria"
+      "taiwanRelevance": "台灣常規疫苗接種使百日咳大幅減少，但每年仍有 100–200 例散發通報，以 3 個月以下未完成接種嬰兒為主。孕婦接種 Tdap 自 2019 年起建議推行，並於 2024 年全面推動公費接種。"
     },
     {
+      "id": "chlamydia_trachomatis",
+      "name": "砂眼披衣菌",
+      "englishName": "Chlamydia trachomatis",
+      "type": "bacteria",
+      "family": "披衣菌科 (Chlamydiaceae)",
+      "description": "砂眼披衣菌是全球最常見的細菌性性傳染病病原，也是新生兒結膜炎和肺炎的重要病因。感染常無明顯症狀，女性尤甚，但未治療可導致骨盆腔炎、輸卵管損傷和不孕；男性可引起尿道炎與副睪炎。不同血清型分別引起泌尿生殖道感染（D-K型）、砂眼（A-C型）或花柳性淋巴肉芽腫（L1-L3型）。台灣年輕族群盛行率逐年上升，為重要公共衛生議題。",
+      "subtypes": [
+        {
+          "id": "ct_genital",
+          "name": "泌尿生殖道型 (D-K)",
+          "description": "最常見型別，引起子宮頸炎、尿道炎和副睪炎",
+          "aliases": []
+        },
+        {
+          "id": "ct_lgv",
+          "name": "花柳性淋巴肉芽腫型 (L1-L3)",
+          "description": "引起腹股溝淋巴結病變，常見於男男性行為者",
+          "aliases": [
+            "LGV"
+          ]
+        },
+        {
+          "id": "ct_trachoma",
+          "name": "砂眼型 (A-C)",
+          "description": "引起慢性結膜炎，反覆感染可致失明，台灣已罕見",
+          "aliases": [
+            "砂眼"
+          ]
+        }
+      ],
+      "transmission": [
+        "性接觸",
+        "垂直傳染（母嬰）",
+        "分娩時母嬰傳染",
+        "眼部接觸感染（砂眼型）"
+      ],
       "commonSymptoms": [
-        "女性可能無症狀",
+        "常無症狀",
+        "女性感染多無症狀",
+        "異常分泌物",
         "尿道膿性分泌物",
         "排尿疼痛",
         "下腹痛（骨盆腔炎）",
-        "異常分泌物"
+        "不規則出血"
       ],
-      "description": "披衣菌為全球最常見的細菌性性傳染病病原。女性感染多無症狀，但未治療可導致骨盆腔發炎和不孕。男性可引起尿道炎和副睾丸炎。部分血清型可引起砂眼（A-C型）和花柳性淋巴肉芽腫（L1-L3型）。",
-      "englishName": "Chlamydia trachomatis",
-      "family": "披衣菌科 (Chlamydiaceae)",
-      "id": "chlamydia_trachomatis",
-      "name": "披衣菌",
       "prevention": [
         "安全性行為（使用保險套）",
+        "定期篩檢高風險族群",
         "定期篩檢（有性行為之年輕女性）",
-        "性伴侶同步治療"
+        "性伴侶同步治療",
+        "孕婦產前篩檢"
       ],
-      "subtypes": [],
-      "taiwanRelevance": "台灣年輕族群盛行率逐年上升，為重要公衛議題。非法定傳染病但建議有症狀者主動就醫篩檢。",
-      "transmission": [
-        "性接觸",
-        "垂直傳染（母嬰）"
-      ],
-      "type": "bacteria"
+      "taiwanRelevance": "台灣披衣菌感染為常見性傳染病，年輕族群盛行率逐年上升，為重要公衛議題。由於多數感染無症狀，實際盛行率可能被低估；目前非法定傳染病，但建議有症狀者及高風險族群主動就醫篩檢，年輕女性常規篩檢的推廣仍有待加強。"
     },
     {
       "commonSymptoms": [
@@ -1665,30 +1726,32 @@
       "type": "bacteria"
     },
     {
+      "id": "mycoplasma_pneumoniae",
+      "name": "肺炎黴漿菌",
+      "englishName": "Mycoplasma pneumoniae",
+      "type": "bacteria",
+      "family": "黴漿菌科 (Mycoplasmataceae)",
+      "description": "肺炎黴漿菌是最小的自由生活細菌之一，缺乏細胞壁，因此對β-內醯胺類（β-lactam）抗生素天然抗藥。為社區性非典型肺炎最常見的病因，俗稱「行走肺炎」（walking pneumonia），症狀相對輕微但咳嗽可持續數週。好發於學齡兒童和青壯年，少數可引起嚴重肺炎及肺外併發症。",
+      "subtypes": [],
+      "transmission": [
+        "飛沫傳染",
+        "密切接觸傳播（家庭、學校）"
+      ],
       "commonSymptoms": [
         "持續性乾咳",
         "低度發燒",
         "頭痛",
         "全身倦怠",
-        "喉嚨痛"
+        "喉嚨痛",
+        "皮疹（少數）"
       ],
-      "description": "肺炎黴漿菌是最小的自由生活細菌之一，缺乏細胞壁因此對β-lactam類抗生素無效。主要引起「行走肺炎」（walking pneumonia），症狀較不嚴重但咳嗽可持續數週。好發於學齡兒童和年輕成人。",
-      "englishName": "Mycoplasma pneumoniae",
-      "family": "黴漿菌科 (Mycoplasmataceae)",
-      "id": "mycoplasma_pneumoniae",
-      "name": "肺炎黴漿菌",
       "prevention": [
-        "勤洗手",
         "咳嗽禮節",
-        "通風良好的環境"
+        "勤洗手",
+        "教室和宿舍保持通風",
+        "避免帶病上學"
       ],
-      "subtypes": [],
-      "taiwanRelevance": "台灣全年可見，2023-2024 年出現大規模流行。對巨環類抗生素（macrolide）的抗藥性在亞洲地區偏高（約 50-80%）。",
-      "transmission": [
-        "飛沫傳染",
-        "密切接觸"
-      ],
-      "type": "bacteria"
+      "taiwanRelevance": "台灣全年可見，每 3–5 年有一次大流行，2023–2024 年出現大規模流行。巨環類抗生素（macrolide）抗藥性在亞洲地區偏高，約 50–90%，治療以氟喹諾酮類或四環素類抗生素為主。"
     },
     {
       "commonSymptoms": [
