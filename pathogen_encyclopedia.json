@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T13:32:35Z",
+  "lastUpdated": "2026-05-20T13:58:43.367Z",
   "pathogens": [
     {
       "id": "influenza_a",
@@ -71,6 +71,40 @@
       "taiwanRelevance": "每年 11 月至隔年 3 月為流行季，以 H3N2 和 H1N1 為主。2026 年出現首例本土 H7N7 禽傳人。"
     },
     {
+      "id": "influenza_b",
+      "name": "B型流感病毒",
+      "type": "virus",
+      "family": "正黏液病毒科 (Orthomyxoviridae)",
+      "imageURL": "",
+      "subtypes": [
+        {
+          "id": "victoria",
+          "name": "Victoria 譜系",
+          "aliases": [
+            "B/Victoria"
+          ],
+          "description": "目前全球唯一流行的B型流感譜系"
+        },
+        {
+          "id": "yamagata",
+          "name": "Yamagata 譜系",
+          "aliases": [
+            "B/Yamagata"
+          ],
+          "description": "自 COVID-19 大流行後幾乎未再偵測到，WHO 已建議疫苗不再納入"
+        }
+      ],
+      "prevention": [
+        "每年接種流感疫苗",
+        "勤洗手",
+        "咳嗽禮節"
+      ],
+      "description": "B型流感僅感染人類，變異速度較A型慢，但仍可引起季節性流行。分為 Victoria 和 Yamagata 兩大譜系，其中 Yamagata 譜系自 2020 年後幾乎消失。",
+      "englishName": "Influenza B",
+      "transmission": [
+        "飛沫傳染",
+        "接觸傳染"
+      ],
       "commonSymptoms": [
         "發燒",
         "咳嗽",
@@ -78,40 +112,8 @@
         "肌肉痠痛",
         "腹瀉（兒童較常見）"
       ],
-      "description": "B型流感僅感染人類，變異速度較A型慢，但仍可引起季節性流行。分為 Victoria 和 Yamagata 兩大譜系，其中 Yamagata 譜系自 2020 年後幾乎消失。",
-      "englishName": "Influenza B",
-      "family": "正黏液病毒科 (Orthomyxoviridae)",
-      "id": "influenza_b",
-      "name": "B型流感病毒",
-      "prevention": [
-        "每年接種流感疫苗",
-        "勤洗手",
-        "咳嗽禮節"
-      ],
-      "subtypes": [
-        {
-          "aliases": [
-            "B/Victoria"
-          ],
-          "description": "目前全球唯一流行的B型流感譜系",
-          "id": "victoria",
-          "name": "Victoria 譜系"
-        },
-        {
-          "aliases": [
-            "B/Yamagata"
-          ],
-          "description": "自 COVID-19 大流行後幾乎未再偵測到，WHO 已建議疫苗不再納入",
-          "id": "yamagata",
-          "name": "Yamagata 譜系"
-        }
-      ],
       "taiwanRelevance": "與A型流感交替流行，近年以 Victoria 譜系為主。兒童感染比例較高。",
-      "transmission": [
-        "飛沫傳染",
-        "接觸傳染"
-      ],
-      "type": "virus"
+      "imageAttribution": "NIAID (CC BY 2.0) — via Wikimedia Commons | License: CC BY 2.0"
     },
     {
       "commonSymptoms": [
