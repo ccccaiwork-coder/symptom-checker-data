@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T13:58:43.367Z",
+  "lastUpdated": "2026-05-21T12:19:16.357Z",
   "pathogens": [
     {
       "id": "influenza_a",
@@ -75,7 +75,7 @@
       "name": "B型流感病毒",
       "type": "virus",
       "family": "正黏液病毒科 (Orthomyxoviridae)",
-      "imageURL": "",
+      "imageURL": "https://raw.githubusercontent.com/ccccaiwork-coder/symptom-checker-data/staging/images/influenza_b.jpg",
       "subtypes": [
         {
           "id": "victoria",
@@ -3471,7 +3471,7 @@
       "name": "C型流感病毒",
       "type": "virus",
       "family": "正黏液病毒科 (Orthomyxoviridae)",
-      "imageURL": "",
+      "imageURL": "https://raw.githubusercontent.com/ccccaiwork-coder/symptom-checker-data/staging/images/influenza_c.jpg",
       "subtypes": [
         {
           "id": "icv_taylor_1233",
@@ -3521,7 +3521,8 @@
         "支氣管炎（較重症）",
         "肺炎（幼童較重症）"
       ],
-      "taiwanRelevance": "台灣疾管署監測資料顯示，C型流感病毒在台灣並非季節性流行的主要型別；根據台灣CDC及臨床資料，台灣主要流行的季節性流感為A(H3N2)、A(H1N1)及B型，C型流感僅造成散發輕症案例，不被納入常規疫苗監測目標。現行台灣公費及自費流感疫苗（四價疫苗）均不含C型流感成分，亦無針對C型流感的專屬抗病毒藥物。C型流感在台灣以兒童散發感染為主，全年均可見零星案例，症狀多輕微，民眾及臨床端易低估其存在；疾管署建議民眾持續落實手部衛生與呼吸道禮節作為主要防護措施。"
+      "taiwanRelevance": "台灣疾管署監測資料顯示，C型流感病毒在台灣並非季節性流行的主要型別；根據台灣CDC及臨床資料，台灣主要流行的季節性流感為A(H3N2)、A(H1N1)及B型，C型流感僅造成散發輕症案例，不被納入常規疫苗監測目標。現行台灣公費及自費流感疫苗（四價疫苗）均不含C型流感成分，亦無針對C型流感的專屬抗病毒藥物。C型流感在台灣以兒童散發感染為主，全年均可見零星案例，症狀多輕微，民眾及臨床端易低估其存在；疾管署建議民眾持續落實手部衛生與呼吸道禮節作為主要防護措施。",
+      "imageAttribution": "Image from the RCSB PDB (www.rcsb.org) of PDB ID 3ZDP, by S. Chenavas, L. F. Estrozi, A. Slama-Schwok, B. Delmas, C. Di Primo, F. Baudin, X. Li, T. Crépin, R. W. Ruigrok: Monomeric nucleoprotein of influenza A virus. In: PLoS pathogens. Band 9, Nummer 3, März 2013, ISSN 1553-7374, S. e1003275, doi:10.1371/journal.ppat.1003275, PMID 23555270, PMC 3610751. (Public domain) — via Wikimedia Commons | License: Public domain"
     },
     {
       "id": "cockroach",
